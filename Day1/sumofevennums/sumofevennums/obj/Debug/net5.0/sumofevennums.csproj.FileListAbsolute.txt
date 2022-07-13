@@ -1,0 +1,15 @@
+C:\Users\gautam.nayak\Desktop\.NET\sumofevennums\sumofevennums\bin\Debug\net5.0\sumofevennums.exe
+C:\Users\gautam.nayak\Desktop\.NET\sumofevennums\sumofevennums\bin\Debug\net5.0\sumofevennums.deps.json
+C:\Users\gautam.nayak\Desktop\.NET\sumofevennums\sumofevennums\bin\Debug\net5.0\sumofevennums.runtimeconfig.json
+C:\Users\gautam.nayak\Desktop\.NET\sumofevennums\sumofevennums\bin\Debug\net5.0\sumofevennums.runtimeconfig.dev.json
+C:\Users\gautam.nayak\Desktop\.NET\sumofevennums\sumofevennums\bin\Debug\net5.0\sumofevennums.dll
+C:\Users\gautam.nayak\Desktop\.NET\sumofevennums\sumofevennums\bin\Debug\net5.0\ref\sumofevennums.dll
+C:\Users\gautam.nayak\Desktop\.NET\sumofevennums\sumofevennums\bin\Debug\net5.0\sumofevennums.pdb
+C:\Users\gautam.nayak\Desktop\.NET\sumofevennums\sumofevennums\obj\Debug\net5.0\sumofevennums.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gautam.nayak\Desktop\.NET\sumofevennums\sumofevennums\obj\Debug\net5.0\sumofevennums.AssemblyInfoInputs.cache
+C:\Users\gautam.nayak\Desktop\.NET\sumofevennums\sumofevennums\obj\Debug\net5.0\sumofevennums.AssemblyInfo.cs
+C:\Users\gautam.nayak\Desktop\.NET\sumofevennums\sumofevennums\obj\Debug\net5.0\sumofevennums.csproj.CoreCompileInputs.cache
+C:\Users\gautam.nayak\Desktop\.NET\sumofevennums\sumofevennums\obj\Debug\net5.0\sumofevennums.dll
+C:\Users\gautam.nayak\Desktop\.NET\sumofevennums\sumofevennums\obj\Debug\net5.0\ref\sumofevennums.dll
+C:\Users\gautam.nayak\Desktop\.NET\sumofevennums\sumofevennums\obj\Debug\net5.0\sumofevennums.pdb
+C:\Users\gautam.nayak\Desktop\.NET\sumofevennums\sumofevennums\obj\Debug\net5.0\sumofevennums.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+C:\Users\gautam.nayak\Desktop\.NET\enumpractice\enumpractice\bin\Debug\net5.0\enumpractice.exe
+C:\Users\gautam.nayak\Desktop\.NET\enumpractice\enumpractice\bin\Debug\net5.0\enumpractice.deps.json
+C:\Users\gautam.nayak\Desktop\.NET\enumpractice\enumpractice\bin\Debug\net5.0\enumpractice.runtimeconfig.json
+C:\Users\gautam.nayak\Desktop\.NET\enumpractice\enumpractice\bin\Debug\net5.0\enumpractice.runtimeconfig.dev.json
+C:\Users\gautam.nayak\Desktop\.NET\enumpractice\enumpractice\bin\Debug\net5.0\enumpractice.dll
+C:\Users\gautam.nayak\Desktop\.NET\enumpractice\enumpractice\bin\Debug\net5.0\ref\enumpractice.dll
+C:\Users\gautam.nayak\Desktop\.NET\enumpractice\enumpractice\bin\Debug\net5.0\enumpractice.pdb
+C:\Users\gautam.nayak\Desktop\.NET\enumpractice\enumpractice\obj\Debug\net5.0\enumpractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gautam.nayak\Desktop\.NET\enumpractice\enumpractice\obj\Debug\net5.0\enumpractice.AssemblyInfoInputs.cache
+C:\Users\gautam.nayak\Desktop\.NET\enumpractice\enumpractice\obj\Debug\net5.0\enumpractice.AssemblyInfo.cs
+C:\Users\gautam.nayak\Desktop\.NET\enumpractice\enumpractice\obj\Debug\net5.0\enumpractice.csproj.CoreCompileInputs.cache
+C:\Users\gautam.nayak\Desktop\.NET\enumpractice\enumpractice\obj\Debug\net5.0\enumpractice.dll
+C:\Users\gautam.nayak\Desktop\.NET\enumpractice\enumpractice\obj\Debug\net5.0\ref\enumpractice.dll
+C:\Users\gautam.nayak\Desktop\.NET\enumpractice\enumpractice\obj\Debug\net5.0\enumpractice.pdb
+C:\Users\gautam.nayak\Desktop\.NET\enumpractice\enumpractice\obj\Debug\net5.0\enumpractice.genruntimeconfig.cache

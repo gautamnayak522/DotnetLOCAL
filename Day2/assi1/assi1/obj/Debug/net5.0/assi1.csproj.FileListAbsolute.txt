@@ -1,0 +1,16 @@
+C:\Users\gautam.nayak\Desktop\Dotnet\Day2\assi1\assi1\bin\Debug\net5.0\assi1.exe
+C:\Users\gautam.nayak\Desktop\Dotnet\Day2\assi1\assi1\bin\Debug\net5.0\assi1.deps.json
+C:\Users\gautam.nayak\Desktop\Dotnet\Day2\assi1\assi1\bin\Debug\net5.0\assi1.runtimeconfig.json
+C:\Users\gautam.nayak\Desktop\Dotnet\Day2\assi1\assi1\bin\Debug\net5.0\assi1.runtimeconfig.dev.json
+C:\Users\gautam.nayak\Desktop\Dotnet\Day2\assi1\assi1\bin\Debug\net5.0\assi1.dll
+C:\Users\gautam.nayak\Desktop\Dotnet\Day2\assi1\assi1\bin\Debug\net5.0\ref\assi1.dll
+C:\Users\gautam.nayak\Desktop\Dotnet\Day2\assi1\assi1\bin\Debug\net5.0\assi1.pdb
+C:\Users\gautam.nayak\Desktop\Dotnet\Day2\assi1\assi1\obj\Debug\net5.0\assi1.csproj.AssemblyReference.cache
+C:\Users\gautam.nayak\Desktop\Dotnet\Day2\assi1\assi1\obj\Debug\net5.0\assi1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gautam.nayak\Desktop\Dotnet\Day2\assi1\assi1\obj\Debug\net5.0\assi1.AssemblyInfoInputs.cache
+C:\Users\gautam.nayak\Desktop\Dotnet\Day2\assi1\assi1\obj\Debug\net5.0\assi1.AssemblyInfo.cs
+C:\Users\gautam.nayak\Desktop\Dotnet\Day2\assi1\assi1\obj\Debug\net5.0\assi1.csproj.CoreCompileInputs.cache
+C:\Users\gautam.nayak\Desktop\Dotnet\Day2\assi1\assi1\obj\Debug\net5.0\assi1.dll
+C:\Users\gautam.nayak\Desktop\Dotnet\Day2\assi1\assi1\obj\Debug\net5.0\ref\assi1.dll
+C:\Users\gautam.nayak\Desktop\Dotnet\Day2\assi1\assi1\obj\Debug\net5.0\assi1.pdb
+C:\Users\gautam.nayak\Desktop\Dotnet\Day2\assi1\assi1\obj\Debug\net5.0\assi1.genruntimeconfig.cache

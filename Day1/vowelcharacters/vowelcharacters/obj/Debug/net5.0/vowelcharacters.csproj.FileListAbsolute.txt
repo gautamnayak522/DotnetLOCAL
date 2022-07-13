@@ -1,0 +1,16 @@
+C:\Users\gautam.nayak\Desktop\.NET\vowelcharacters\vowelcharacters\obj\Debug\net5.0\vowelcharacters.csproj.AssemblyReference.cache
+C:\Users\gautam.nayak\Desktop\.NET\vowelcharacters\vowelcharacters\obj\Debug\net5.0\vowelcharacters.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gautam.nayak\Desktop\.NET\vowelcharacters\vowelcharacters\obj\Debug\net5.0\vowelcharacters.AssemblyInfoInputs.cache
+C:\Users\gautam.nayak\Desktop\.NET\vowelcharacters\vowelcharacters\obj\Debug\net5.0\vowelcharacters.AssemblyInfo.cs
+C:\Users\gautam.nayak\Desktop\.NET\vowelcharacters\vowelcharacters\obj\Debug\net5.0\vowelcharacters.csproj.CoreCompileInputs.cache
+C:\Users\gautam.nayak\Desktop\.NET\vowelcharacters\vowelcharacters\bin\Debug\net5.0\vowelcharacters.exe
+C:\Users\gautam.nayak\Desktop\.NET\vowelcharacters\vowelcharacters\bin\Debug\net5.0\vowelcharacters.deps.json
+C:\Users\gautam.nayak\Desktop\.NET\vowelcharacters\vowelcharacters\bin\Debug\net5.0\vowelcharacters.runtimeconfig.json
+C:\Users\gautam.nayak\Desktop\.NET\vowelcharacters\vowelcharacters\bin\Debug\net5.0\vowelcharacters.runtimeconfig.dev.json
+C:\Users\gautam.nayak\Desktop\.NET\vowelcharacters\vowelcharacters\bin\Debug\net5.0\vowelcharacters.dll
+C:\Users\gautam.nayak\Desktop\.NET\vowelcharacters\vowelcharacters\bin\Debug\net5.0\ref\vowelcharacters.dll
+C:\Users\gautam.nayak\Desktop\.NET\vowelcharacters\vowelcharacters\bin\Debug\net5.0\vowelcharacters.pdb
+C:\Users\gautam.nayak\Desktop\.NET\vowelcharacters\vowelcharacters\obj\Debug\net5.0\vowelcharacters.dll
+C:\Users\gautam.nayak\Desktop\.NET\vowelcharacters\vowelcharacters\obj\Debug\net5.0\ref\vowelcharacters.dll
+C:\Users\gautam.nayak\Desktop\.NET\vowelcharacters\vowelcharacters\obj\Debug\net5.0\vowelcharacters.pdb
+C:\Users\gautam.nayak\Desktop\.NET\vowelcharacters\vowelcharacters\obj\Debug\net5.0\vowelcharacters.genruntimeconfig.cache

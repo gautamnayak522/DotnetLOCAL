@@ -1,0 +1,16 @@
+C:\Users\gautam.nayak\Desktop\.NET\studentsrecords\studentsrecords\bin\Debug\net5.0\studentsrecords.exe
+C:\Users\gautam.nayak\Desktop\.NET\studentsrecords\studentsrecords\bin\Debug\net5.0\studentsrecords.deps.json
+C:\Users\gautam.nayak\Desktop\.NET\studentsrecords\studentsrecords\bin\Debug\net5.0\studentsrecords.runtimeconfig.json
+C:\Users\gautam.nayak\Desktop\.NET\studentsrecords\studentsrecords\bin\Debug\net5.0\studentsrecords.runtimeconfig.dev.json
+C:\Users\gautam.nayak\Desktop\.NET\studentsrecords\studentsrecords\bin\Debug\net5.0\studentsrecords.dll
+C:\Users\gautam.nayak\Desktop\.NET\studentsrecords\studentsrecords\bin\Debug\net5.0\ref\studentsrecords.dll
+C:\Users\gautam.nayak\Desktop\.NET\studentsrecords\studentsrecords\bin\Debug\net5.0\studentsrecords.pdb
+C:\Users\gautam.nayak\Desktop\.NET\studentsrecords\studentsrecords\obj\Debug\net5.0\studentsrecords.csproj.AssemblyReference.cache
+C:\Users\gautam.nayak\Desktop\.NET\studentsrecords\studentsrecords\obj\Debug\net5.0\studentsrecords.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gautam.nayak\Desktop\.NET\studentsrecords\studentsrecords\obj\Debug\net5.0\studentsrecords.AssemblyInfoInputs.cache
+C:\Users\gautam.nayak\Desktop\.NET\studentsrecords\studentsrecords\obj\Debug\net5.0\studentsrecords.AssemblyInfo.cs
+C:\Users\gautam.nayak\Desktop\.NET\studentsrecords\studentsrecords\obj\Debug\net5.0\studentsrecords.csproj.CoreCompileInputs.cache
+C:\Users\gautam.nayak\Desktop\.NET\studentsrecords\studentsrecords\obj\Debug\net5.0\studentsrecords.dll
+C:\Users\gautam.nayak\Desktop\.NET\studentsrecords\studentsrecords\obj\Debug\net5.0\ref\studentsrecords.dll
+C:\Users\gautam.nayak\Desktop\.NET\studentsrecords\studentsrecords\obj\Debug\net5.0\studentsrecords.pdb
+C:\Users\gautam.nayak\Desktop\.NET\studentsrecords\studentsrecords\obj\Debug\net5.0\studentsrecords.genruntimeconfig.cache
