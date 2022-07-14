@@ -32,10 +32,13 @@ namespace assi1
                 persons[i] = p1;
             }
 
+            Console.WriteLine($"{"first_name",5}\t{"last_name",5}\t{"emailaddress",5}\t{"date_of_birth",5}\t{"Adult?",5}\t{"Birthday?",5}\t{"Sunsign",5}\t{"ChineseSign",5}\t{"Screen_name",5}");
+
             foreach (var person in persons)
             {
-                Console.WriteLine($"{person.first_name}\t{person.last_name}\t{person.emailaddress}\t{person.date_of_birth}\t{person.Adult}\t{person.bday}\t{person.Sunsign}\t{person.ChineseSign}");
+                Console.WriteLine($"{person.first_name,5}\t{person.last_name,5}\t{person.emailaddress,5}\t{person.date_of_birth.Date,5}\t{person.Adult,5}\t{person.bday,5}\t{person.Sunsign,5}\t{person.ChineseSign,5}\t{person.Screen_name,5}");
             }
+            
 
             //Console.WriteLine("Hello World!");
             //Person p1 = new Person("abcd", "aaa", "a@a.com","29-04-1998");

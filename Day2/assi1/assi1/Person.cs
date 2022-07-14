@@ -24,6 +24,8 @@ namespace assi1
         public string Sunsign { get { return FindSunSign(); }}
         public string ChineseSign { get { return FindChineseSign(); } }
 
+        public string Screen_name { get { return FindScreenName(); } }
+
         private string FindSunSign()
         {
             int day = date_of_birth.Day;
@@ -87,6 +89,10 @@ namespace assi1
             else if (code == 11)
                 return "Sheep";
             return "";
+        }
+        private string FindScreenName()
+        {
+            return $"{first_name + last_name+date_of_birth.Day+date_of_birth.Month+date_of_birth.Year}";
         }
     }
 }
