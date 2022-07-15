@@ -1,0 +1,13 @@
+C:\Users\Gautam Nayak\Desktop\DotnetLOCAL\Day3\pr1\pr1\bin\Debug\netcoreapp3.1\pr1.exe
+C:\Users\Gautam Nayak\Desktop\DotnetLOCAL\Day3\pr1\pr1\bin\Debug\netcoreapp3.1\pr1.deps.json
+C:\Users\Gautam Nayak\Desktop\DotnetLOCAL\Day3\pr1\pr1\bin\Debug\netcoreapp3.1\pr1.runtimeconfig.json
+C:\Users\Gautam Nayak\Desktop\DotnetLOCAL\Day3\pr1\pr1\bin\Debug\netcoreapp3.1\pr1.runtimeconfig.dev.json
+C:\Users\Gautam Nayak\Desktop\DotnetLOCAL\Day3\pr1\pr1\bin\Debug\netcoreapp3.1\pr1.dll
+C:\Users\Gautam Nayak\Desktop\DotnetLOCAL\Day3\pr1\pr1\bin\Debug\netcoreapp3.1\pr1.pdb
+C:\Users\Gautam Nayak\Desktop\DotnetLOCAL\Day3\pr1\pr1\obj\Debug\netcoreapp3.1\pr1.csproj.AssemblyReference.cache
+C:\Users\Gautam Nayak\Desktop\DotnetLOCAL\Day3\pr1\pr1\obj\Debug\netcoreapp3.1\pr1.AssemblyInfoInputs.cache
+C:\Users\Gautam Nayak\Desktop\DotnetLOCAL\Day3\pr1\pr1\obj\Debug\netcoreapp3.1\pr1.AssemblyInfo.cs
+C:\Users\Gautam Nayak\Desktop\DotnetLOCAL\Day3\pr1\pr1\obj\Debug\netcoreapp3.1\pr1.csproj.CoreCompileInputs.cache
+C:\Users\Gautam Nayak\Desktop\DotnetLOCAL\Day3\pr1\pr1\obj\Debug\netcoreapp3.1\pr1.dll
+C:\Users\Gautam Nayak\Desktop\DotnetLOCAL\Day3\pr1\pr1\obj\Debug\netcoreapp3.1\pr1.pdb
+C:\Users\Gautam Nayak\Desktop\DotnetLOCAL\Day3\pr1\pr1\obj\Debug\netcoreapp3.1\pr1.genruntimeconfig.cache

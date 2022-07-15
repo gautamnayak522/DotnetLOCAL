@@ -1,0 +1,13 @@
+C:\Users\Gautam Nayak\Desktop\DotnetLOCAL\Day3\pr2\pr2\bin\Debug\netcoreapp3.1\pr2.exe
+C:\Users\Gautam Nayak\Desktop\DotnetLOCAL\Day3\pr2\pr2\bin\Debug\netcoreapp3.1\pr2.deps.json
+C:\Users\Gautam Nayak\Desktop\DotnetLOCAL\Day3\pr2\pr2\bin\Debug\netcoreapp3.1\pr2.runtimeconfig.json
+C:\Users\Gautam Nayak\Desktop\DotnetLOCAL\Day3\pr2\pr2\bin\Debug\netcoreapp3.1\pr2.runtimeconfig.dev.json
+C:\Users\Gautam Nayak\Desktop\DotnetLOCAL\Day3\pr2\pr2\bin\Debug\netcoreapp3.1\pr2.dll
+C:\Users\Gautam Nayak\Desktop\DotnetLOCAL\Day3\pr2\pr2\bin\Debug\netcoreapp3.1\pr2.pdb
+C:\Users\Gautam Nayak\Desktop\DotnetLOCAL\Day3\pr2\pr2\obj\Debug\netcoreapp3.1\pr2.csproj.AssemblyReference.cache
+C:\Users\Gautam Nayak\Desktop\DotnetLOCAL\Day3\pr2\pr2\obj\Debug\netcoreapp3.1\pr2.AssemblyInfoInputs.cache
+C:\Users\Gautam Nayak\Desktop\DotnetLOCAL\Day3\pr2\pr2\obj\Debug\netcoreapp3.1\pr2.AssemblyInfo.cs
+C:\Users\Gautam Nayak\Desktop\DotnetLOCAL\Day3\pr2\pr2\obj\Debug\netcoreapp3.1\pr2.csproj.CoreCompileInputs.cache
+C:\Users\Gautam Nayak\Desktop\DotnetLOCAL\Day3\pr2\pr2\obj\Debug\netcoreapp3.1\pr2.dll
+C:\Users\Gautam Nayak\Desktop\DotnetLOCAL\Day3\pr2\pr2\obj\Debug\netcoreapp3.1\pr2.pdb
+C:\Users\Gautam Nayak\Desktop\DotnetLOCAL\Day3\pr2\pr2\obj\Debug\netcoreapp3.1\pr2.genruntimeconfig.cache
