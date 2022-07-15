@@ -11,6 +11,9 @@ namespace pr2
 
             Current acc2 = new Current(101, 101, "abcd", 5000, 25);
             Console.WriteLine($"{acc2.accID},{acc2.custID},{acc2.custName},{acc2.Balance},{acc2.chargeRate}");
+
+            Account acc3 = new Saving(104, 101, "abcd", 5000, 25);
+          
         }
     }
 }

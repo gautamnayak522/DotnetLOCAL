@@ -1,0 +1,16 @@
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day3\EmpPayroll\EmpPayroll\bin\Debug\net5.0\EmpPayroll.exe
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day3\EmpPayroll\EmpPayroll\bin\Debug\net5.0\EmpPayroll.deps.json
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day3\EmpPayroll\EmpPayroll\bin\Debug\net5.0\EmpPayroll.runtimeconfig.json
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day3\EmpPayroll\EmpPayroll\bin\Debug\net5.0\EmpPayroll.runtimeconfig.dev.json
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day3\EmpPayroll\EmpPayroll\bin\Debug\net5.0\EmpPayroll.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day3\EmpPayroll\EmpPayroll\bin\Debug\net5.0\ref\EmpPayroll.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day3\EmpPayroll\EmpPayroll\bin\Debug\net5.0\EmpPayroll.pdb
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day3\EmpPayroll\EmpPayroll\obj\Debug\net5.0\EmpPayroll.csproj.AssemblyReference.cache
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day3\EmpPayroll\EmpPayroll\obj\Debug\net5.0\EmpPayroll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day3\EmpPayroll\EmpPayroll\obj\Debug\net5.0\EmpPayroll.AssemblyInfoInputs.cache
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day3\EmpPayroll\EmpPayroll\obj\Debug\net5.0\EmpPayroll.AssemblyInfo.cs
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day3\EmpPayroll\EmpPayroll\obj\Debug\net5.0\EmpPayroll.csproj.CoreCompileInputs.cache
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day3\EmpPayroll\EmpPayroll\obj\Debug\net5.0\EmpPayroll.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day3\EmpPayroll\EmpPayroll\obj\Debug\net5.0\ref\EmpPayroll.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day3\EmpPayroll\EmpPayroll\obj\Debug\net5.0\EmpPayroll.pdb
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day3\EmpPayroll\EmpPayroll\obj\Debug\net5.0\EmpPayroll.genruntimeconfig.cache

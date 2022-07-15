@@ -1,0 +1,15 @@
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day4\Assi1\Assi1\bin\Debug\net5.0\Assi1.exe
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day4\Assi1\Assi1\bin\Debug\net5.0\Assi1.deps.json
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day4\Assi1\Assi1\bin\Debug\net5.0\Assi1.runtimeconfig.json
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day4\Assi1\Assi1\bin\Debug\net5.0\Assi1.runtimeconfig.dev.json
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day4\Assi1\Assi1\bin\Debug\net5.0\Assi1.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day4\Assi1\Assi1\bin\Debug\net5.0\ref\Assi1.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day4\Assi1\Assi1\bin\Debug\net5.0\Assi1.pdb
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day4\Assi1\Assi1\obj\Debug\net5.0\Assi1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day4\Assi1\Assi1\obj\Debug\net5.0\Assi1.AssemblyInfoInputs.cache
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day4\Assi1\Assi1\obj\Debug\net5.0\Assi1.AssemblyInfo.cs
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day4\Assi1\Assi1\obj\Debug\net5.0\Assi1.csproj.CoreCompileInputs.cache
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day4\Assi1\Assi1\obj\Debug\net5.0\Assi1.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day4\Assi1\Assi1\obj\Debug\net5.0\ref\Assi1.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day4\Assi1\Assi1\obj\Debug\net5.0\Assi1.pdb
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day4\Assi1\Assi1\obj\Debug\net5.0\Assi1.genruntimeconfig.cache
