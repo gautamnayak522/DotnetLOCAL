@@ -13,9 +13,10 @@ namespace Assi1
         }
         public static void validate(string name)
         {
-            if(name=="gautam")
+            bool result = name.All(Char.IsLetter);
+            if (!result)
             {
-                throw new NameException("This user is blocked");
+                throw new NameException("Name Should Contais Letters Only");
             }
         }
     }

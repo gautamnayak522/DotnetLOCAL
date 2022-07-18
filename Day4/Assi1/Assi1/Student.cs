@@ -13,44 +13,61 @@ namespace Assi1
         DateTime dob;
         public void get()
         {
-            try
-            {
-                Console.Write("Enter Id : ");
-                id = Convert.ToInt32(Console.ReadLine());
-                try
+              try
                 {
-                    Console.Write("Enter Name : ");
-                    name = Console.ReadLine();
-                    NameException.validate(name);
-                }
-                catch (NameException ne)
-                {
-                    Console.WriteLine(ne.Message);
-                }
-                while (true)
-                {
-                    try
+                    Console.Write("Enter Id : ");
+                    id = Convert.ToInt32(Console.ReadLine());
+                    
+                    while (true)
                     {
-                        Console.Write("Enter Age : ");
-                        Age = Convert.ToInt32(Console.ReadLine());
-                        AgeException.validate(Age);
-                        break;
+                        try
+                        {
+                            Console.Write("Enter Name : ");
+                            name = Console.ReadLine();
+                            NameException.validate(name);
+                            break;
+                        }
+                        catch (NameException ne)
+                        {
+                            Console.WriteLine(ne.Message);
+                        }
                     }
-                    catch (AgeException ae)
+                    while (true)
                     {
-                        Console.WriteLine(ae.Message);
+                        try
+                        {
+                            Console.Write("Enter Age : ");
+                            Age = Convert.ToInt32(Console.ReadLine());
+                            AgeException.validate(Age);
+                            break;
+                        }
+                        catch (AgeException ae)
+                        {
+                            Console.WriteLine(ae.Message); 
+                        }
+                    }
+
+                    while (true)
+                    {
+                        try
+                        {
+                            Console.Write("Enter DOB : ");
+                            dob = Convert.ToDateTime(Console.ReadLine());
+                            DateException.validate(dob);
+                            break;
+                        }
+                        catch (DateException dt)
+                        {
+                            Console.WriteLine(dt.Message);
+                        }
                     }
                 }
-
-                Console.Write("Enter DOB : ");
-                dob = Convert.ToDateTime(Console.ReadLine());
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
             }
-
-            catch(Exception e)
-            {
-                Console.WriteLine(e.Message);
-            }
-        }
+        
 
         public void Display()
         {

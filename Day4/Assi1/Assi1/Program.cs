@@ -6,7 +6,6 @@ namespace Assi1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
             Student s1 = new Student();
             s1.get();
             Console.WriteLine("----------------");
