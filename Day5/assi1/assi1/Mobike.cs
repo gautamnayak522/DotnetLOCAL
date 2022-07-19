@@ -8,21 +8,20 @@ namespace assi1
 {
     class Mobike
     {
-        string Name, bikeNumber;
-        int days, charge;
-        long mobileno;
+        public string Name, bikeNumber;
+        public int days;
+        public long mobileno;
 
         public void Input()
         {
-            Console.WriteLine("Enter Bike Number : ");
+            Console.Write("Enter Bike Number : ");
             bikeNumber = Console.ReadLine();
-            Console.WriteLine("Enter Customer Name : ");
+            Console.Write("Enter Customer Name : ");
             Name = Console.ReadLine();
-            Console.WriteLine("Enter Mobile Number : ");
+            Console.Write("Enter Mobile Number : ");
             mobileno = Convert.ToInt64(Console.ReadLine());
-            Console.WriteLine("Enter No. of Days : ");
+            Console.Write("Enter No. of Days : ");
             days = Convert.ToInt32(Console.ReadLine());
-            charge = Compute(days);
         }
 
         public int Compute(int days)
@@ -44,8 +43,9 @@ namespace assi1
         
         public void Display()
         {
-            Console.WriteLine($" Bike Number : {bikeNumber} \t Name : {Name} \t Phone No. : {mobileno} \t No. of Days : {days} \t Charge : {charge}");
+            Console.WriteLine($"\nBike Number : {bikeNumber} \nName : {Name} \nPhone No. : {mobileno} \nNo. of Days : {days} \nCharge : {Compute(days)} \n\n");
+            //Console.WriteLine($"|{bikeNumber,10}|{Name,10}|{mobileno,10}|{days,10}|{Compute(days),10}|");
         }
-     }
+    }
  }
 
