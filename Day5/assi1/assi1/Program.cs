@@ -57,7 +57,6 @@ namespace assi1
                                     record.Display();
                                     found = true;
                                 }
-                       
                             }
                             if(!found)
                             {
