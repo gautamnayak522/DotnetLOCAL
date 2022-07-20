@@ -1,0 +1,16 @@
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day7\LINQPractice\LINQPractice\bin\Debug\net5.0\LINQPractice.exe
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day7\LINQPractice\LINQPractice\bin\Debug\net5.0\LINQPractice.deps.json
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day7\LINQPractice\LINQPractice\bin\Debug\net5.0\LINQPractice.runtimeconfig.json
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day7\LINQPractice\LINQPractice\bin\Debug\net5.0\LINQPractice.runtimeconfig.dev.json
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day7\LINQPractice\LINQPractice\bin\Debug\net5.0\LINQPractice.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day7\LINQPractice\LINQPractice\bin\Debug\net5.0\ref\LINQPractice.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day7\LINQPractice\LINQPractice\bin\Debug\net5.0\LINQPractice.pdb
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day7\LINQPractice\LINQPractice\obj\Debug\net5.0\LINQPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day7\LINQPractice\LINQPractice\obj\Debug\net5.0\LINQPractice.AssemblyInfoInputs.cache
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day7\LINQPractice\LINQPractice\obj\Debug\net5.0\LINQPractice.AssemblyInfo.cs
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day7\LINQPractice\LINQPractice\obj\Debug\net5.0\LINQPractice.csproj.CoreCompileInputs.cache
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day7\LINQPractice\LINQPractice\obj\Debug\net5.0\LINQPractice.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day7\LINQPractice\LINQPractice\obj\Debug\net5.0\ref\LINQPractice.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day7\LINQPractice\LINQPractice\obj\Debug\net5.0\LINQPractice.pdb
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day7\LINQPractice\LINQPractice\obj\Debug\net5.0\LINQPractice.genruntimeconfig.cache
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day7\LINQPractice\LINQPractice\obj\Debug\net5.0\LINQPractice.csproj.AssemblyReference.cache

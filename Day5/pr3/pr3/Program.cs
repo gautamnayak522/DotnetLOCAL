@@ -22,6 +22,7 @@ namespace pr3
             Console.Write("Enter Product Name : ");
             string pr = Console.ReadLine();
 
+
             if (productInfo.TryGetValue(pr, out result))
             {
                 Console.WriteLine($"Price of {pr} is {result}");

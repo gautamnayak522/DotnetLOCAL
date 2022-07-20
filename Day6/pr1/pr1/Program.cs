@@ -3,6 +3,7 @@
 namespace pr1
 {
     public delegate void delegate1(string str);
+    public delegate void delegatecalc(int a, int b);
    
     class Program
     {
@@ -24,17 +25,28 @@ namespace pr1
 
             //delegete2
 
-            add(2, 3);
-            sub(2, 3);
-            mul(2, 3);
+            //delegatecalc calc = add;
+            //calc.Invoke(5,5);
+            //calc+=sub;
+            //calc += mul;
+            //calc.Invoke(2, 2);
 
-            Func<int, int, int> calc = new Func<int, int, int>;
-           
-            int result = calc(5,6);
+            Func<int, int> square = (x) => (x * x);
+            Console.WriteLine(square(5));
 
 
+            Func<int, int, string> calc = add;
+            Console.WriteLine(calc(5, 6));
+
+            calc = sub;
+            Console.WriteLine(calc(5, 6));
+            
+            calc = mul;
+            Console.WriteLine(calc(5, 6));
 
 
+            //int result = calc(5,6);
+            //Console.WriteLine(result);
         }
         static void Display(string str)
         {
@@ -44,17 +56,21 @@ namespace pr1
         {
             Console.WriteLine(str + " Have a Nice Day");
         }
-        static void add(int a, int b)
+        static string add(int a, int b)
         {
-            Console.WriteLine($"{a} + {b} = {a+b}");
+            return $"{a}+{b}={a + b}";
+            //return a + b;
+            //Console.WriteLine($"{a} + {b} = {a+b}");
         }
-        static void sub(int a, int b)
+        static string sub(int a, int b)
         {
-            Console.WriteLine($"{a} - {b} = {a-b}");
+            return $"{a}-{b}={a - b}";
+            //Console.WriteLine($"{a} - {b} = {a-b}");
         }
-        static void mul(int a, int b)
+        static string mul(int a, int b)
         {
-            Console.WriteLine($"{a} * {b} = {a * b}");
+            return $"{a}*{b}={a * b}";
+            //Console.WriteLine($"{a} * {b} = {a * b}");
         }
     }
 }

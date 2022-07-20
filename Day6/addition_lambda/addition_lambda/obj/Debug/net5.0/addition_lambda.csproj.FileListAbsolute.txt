@@ -1,0 +1,16 @@
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\addition_lambda\addition_lambda\bin\Debug\net5.0\addition_lambda.exe
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\addition_lambda\addition_lambda\bin\Debug\net5.0\addition_lambda.deps.json
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\addition_lambda\addition_lambda\bin\Debug\net5.0\addition_lambda.runtimeconfig.json
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\addition_lambda\addition_lambda\bin\Debug\net5.0\addition_lambda.runtimeconfig.dev.json
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\addition_lambda\addition_lambda\bin\Debug\net5.0\addition_lambda.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\addition_lambda\addition_lambda\bin\Debug\net5.0\ref\addition_lambda.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\addition_lambda\addition_lambda\bin\Debug\net5.0\addition_lambda.pdb
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\addition_lambda\addition_lambda\obj\Debug\net5.0\addition_lambda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\addition_lambda\addition_lambda\obj\Debug\net5.0\addition_lambda.AssemblyInfoInputs.cache
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\addition_lambda\addition_lambda\obj\Debug\net5.0\addition_lambda.AssemblyInfo.cs
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\addition_lambda\addition_lambda\obj\Debug\net5.0\addition_lambda.csproj.CoreCompileInputs.cache
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\addition_lambda\addition_lambda\obj\Debug\net5.0\addition_lambda.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\addition_lambda\addition_lambda\obj\Debug\net5.0\ref\addition_lambda.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\addition_lambda\addition_lambda\obj\Debug\net5.0\addition_lambda.pdb
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\addition_lambda\addition_lambda\obj\Debug\net5.0\addition_lambda.genruntimeconfig.cache
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\addition_lambda\addition_lambda\obj\Debug\net5.0\addition_lambda.csproj.AssemblyReference.cache

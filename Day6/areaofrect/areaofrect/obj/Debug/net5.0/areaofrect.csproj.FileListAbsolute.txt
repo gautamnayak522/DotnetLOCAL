@@ -1,0 +1,15 @@
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\areaofrect\areaofrect\bin\Debug\net5.0\areaofrect.exe
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\areaofrect\areaofrect\bin\Debug\net5.0\areaofrect.deps.json
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\areaofrect\areaofrect\bin\Debug\net5.0\areaofrect.runtimeconfig.json
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\areaofrect\areaofrect\bin\Debug\net5.0\areaofrect.runtimeconfig.dev.json
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\areaofrect\areaofrect\bin\Debug\net5.0\areaofrect.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\areaofrect\areaofrect\bin\Debug\net5.0\ref\areaofrect.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\areaofrect\areaofrect\bin\Debug\net5.0\areaofrect.pdb
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\areaofrect\areaofrect\obj\Debug\net5.0\areaofrect.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\areaofrect\areaofrect\obj\Debug\net5.0\areaofrect.AssemblyInfoInputs.cache
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\areaofrect\areaofrect\obj\Debug\net5.0\areaofrect.AssemblyInfo.cs
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\areaofrect\areaofrect\obj\Debug\net5.0\areaofrect.csproj.CoreCompileInputs.cache
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\areaofrect\areaofrect\obj\Debug\net5.0\areaofrect.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\areaofrect\areaofrect\obj\Debug\net5.0\ref\areaofrect.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\areaofrect\areaofrect\obj\Debug\net5.0\areaofrect.pdb
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day6\areaofrect\areaofrect\obj\Debug\net5.0\areaofrect.genruntimeconfig.cache
