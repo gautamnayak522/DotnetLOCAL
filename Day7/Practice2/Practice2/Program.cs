@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -37,6 +38,7 @@ namespace Practice2
 
 
             Console.WriteLine("p.Age > 5 && p.Age < 20 : LINQ QUERY");
+           
             PrintinLoop(teenagestudents);
 
             //linq method
@@ -50,10 +52,52 @@ namespace Practice2
 
             var desclist = personlist.OrderByDescending(p => p.Name).Where(p=>p.Age>10).ToList();
             PrintinLoop(desclist);
+
             //
 
 
+
+            var ageis9 = personlist.Where((p) => p.Age == 9).ToList();
             
+            PrintinLoop(ageis9);
+
+            var singleresult = personlist.Single((p) => p.ID == 101);
+            Console.WriteLine(singleresult);
+
+            var singledefresult = personlist.SingleOrDefault((p) => p.ID == 112);
+            Console.WriteLine(singledefresult);
+
+           
+            var filtersresult = personlist.Where(p => p.Name == "AAA");
+            PrintinLoop(filtersresult);
+
+
+            IList mixedlist = new ArrayList();
+            mixedlist.Add(1);
+            mixedlist.Add("One");
+            mixedlist.Add('C');
+            mixedlist.Add(true);
+            mixedlist.Add(2);
+            mixedlist.Add("two");
+
+            //OfType
+            Console.WriteLine(mixedlist);
+            foreach (var item in mixedlist.OfType<string>())
+            {
+                Console.WriteLine(item);
+            }
+
+
+
+            //Console.WriteLine(personlist.Where);
+
+            foreach (var item in personlist.OrderBy(p=>p.Age))
+            {
+                Console.WriteLine(item);
+            }
+
+
+
 
 
 
