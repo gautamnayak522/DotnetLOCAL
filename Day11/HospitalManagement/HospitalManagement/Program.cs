@@ -10,8 +10,6 @@ namespace HospitalManagement
             DataOPS data = new DataOPS();
             while (true)
             {
-
-
                 Console.WriteLine("---------Hospital Management--------------");
                 Console.WriteLine("1. - Enter Doctor Details");
                 Console.WriteLine("2. - Update Doctor Details");

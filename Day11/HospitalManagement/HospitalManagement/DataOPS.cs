@@ -64,8 +64,9 @@ namespace HospitalManagement
             DBContext.Remove(doctor);
             DBContext.SaveChanges();
             Console.WriteLine("Doctor Details Removed");
-
         }
+
+
 
 
     }
