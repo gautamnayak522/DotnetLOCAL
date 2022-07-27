@@ -1,4 +1,5 @@
 ﻿using HospitalManagement.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -66,8 +67,48 @@ namespace HospitalManagement
             Console.WriteLine("Doctor Details Removed");
         }
 
+        public void PrintReport1()
+        {
+            Console.WriteLine("Enter DoctorID to find Assigned Patients :  ");
+            int doctID = Convert.ToInt32(Console.ReadLine());
 
+            var patientsunserdr = DBContext.Patients.Include("Assistant").Where(p => p.DoctorId == doctID).ToList();
 
+            foreach (var item in patientsunserdr)
+            {
+                Console.WriteLine($"{item.PatientId} \t {item.PatientName} \t {item.Gender} \t {item.Assistant.AssistantName}");
+            }
+        }
+        public void PrintReport2()
+        {
+            Console.WriteLine("Enter PatientID to find Assigned Patients :  ");
+            int patID = Convert.ToInt32(Console.ReadLine());
 
+            Console.WriteLine("Patient Name is : " + DBContext.Patients.Where(p=>p.PatientId==patID).Select(p=>p.PatientName).Single());
+            
+            Console.WriteLine("Drugs List");
+
+            var drugsofpatient = DBContext.DrugTimings.Include("Drug").Where(d => d.PatientId == patID).ToList();
+
+            foreach (var item in drugsofpatient)
+            {
+                Console.WriteLine($"{item.DrugId},{item.Drug.DrugName},{item.DrugTime}");
+            }
+        }
+
+        public void PrintReport3()
+        {
+            Console.WriteLine("Enter PatientID to find Report of Patient :  ");
+            int patID = Convert.ToInt32(Console.ReadLine());
+
+            
+            var patientSummary = DBContext.DrugTimings.Include(d=>d.Drug).Include(d=>d.Patient).ThenInclude(p => p.Doctor).ThenInclude(d => d.Dept)
+                                                .Where(p => p.PatientId == patID).ToList();
+
+            foreach (var item in patientSummary)
+            {
+                Console.WriteLine($"Patient ID : {item.PatientId} PatientName : {item.Patient.PatientName} Gender : {item.Patient.Gender} DoctorName : {item.Patient.Doctor.DoctorName} Department Name : {item.Patient.Doctor.Dept.DepatName} Drug : {item.Drug.DrugName} Time : {item.DrugTime} ");
+            }
+        }
     }
 }

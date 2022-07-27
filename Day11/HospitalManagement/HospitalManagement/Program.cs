@@ -10,7 +10,9 @@ namespace HospitalManagement
             DataOPS data = new DataOPS();
             while (true)
             {
-                Console.WriteLine("---------Hospital Management--------------");
+                Console.WriteLine("------------------------------------------");
+                Console.WriteLine("|---------Hospital Management------------|");
+                Console.WriteLine("------------------------------------------");
                 Console.WriteLine("1. - Enter Doctor Details");
                 Console.WriteLine("2. - Update Doctor Details");
                 Console.WriteLine("3. - Remove Doctor Details");
@@ -45,6 +47,21 @@ namespace HospitalManagement
                     case 4:
                         {
                             data.printDocorDetails();
+                            break;
+                        }
+                    case 5:
+                        {
+                            data.PrintReport1();
+                            break;
+                        }
+                    case 6:
+                        {
+                            data.PrintReport2();
+                            break;
+                        }
+                    case 7:
+                        {
+                            data.PrintReport3();
                             break;
                         }
                     case 8:
