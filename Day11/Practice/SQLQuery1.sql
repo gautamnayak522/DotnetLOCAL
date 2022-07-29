@@ -86,3 +86,28 @@ SELECT * FROM Orders
 SELECT * FROM Discount
 SELECT * FROM OrderItem
 
+
+---------------------------------------
+
+
+SELECT * from OrderItem OI JOIN Product P
+ON OI.ProductID = P.ProductID
+WHERE OrderID IN (SELECT OrderID FROM Orders WHERE UserID=1);
+
+
+--ORDERS OF USER1
+
+GO
+
+CREATE PROC ORDERSOFUSER1
+AS
+BEGIN
+SELECT OI.ProductID,P.Name,OI.Qty,P.Price,(OI.Qty*P.Price) AS TOTAL_PRICE 
+FROM OrderItem OI JOIN Product P
+ON OI.ProductID = P.ProductID
+WHERE OrderID IN (SELECT OrderID FROM Orders WHERE UserID=1)
+END
+
+
+EXEC ORDERSOFUSER1;
+

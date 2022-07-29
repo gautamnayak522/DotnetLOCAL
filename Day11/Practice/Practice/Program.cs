@@ -10,6 +10,10 @@ namespace Practice
         {
             DataHelper data = new DataHelper();
             data.PrintProducts();
+            Console.WriteLine("----------------");
+            data.OrdersofUser1();
+
+            data.PrintUsers();
         }
     }
 }

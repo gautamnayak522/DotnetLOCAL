@@ -1,4 +1,5 @@
-﻿using Practice.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using Practice.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,10 +18,30 @@ namespace Practice
 
         public void PrintProducts()
         {
-            var listofproducts = DBContext.Products.AsEnumerable().ToList();
+            var listofproducts = DBContext.Products.ToList();
             foreach (var item in listofproducts)
             {
                 Console.WriteLine($"{item.Name}");
+            }
+        }
+
+        public void OrdersofUser1()
+        {
+            var orderofu1 = DBContext.OrderDetailDTO.FromSqlRaw<OrderDetailDTO>("exec ORDERSOFUSER1").ToList();
+
+            foreach (var item in orderofu1)
+            {
+                Console.WriteLine($"{item.ProductID} {item.Name} {item.Qty} {item.Price} {item.TOTAL_PRICE}");
+            }
+        }
+
+        public void PrintUsers()
+        {
+            var listofusers = DBContext.Users.ToList();
+            Console.WriteLine("List Of Users");
+            foreach (var item in listofusers)
+            {
+                Console.WriteLine(item.UserName);
             }
         }
     }

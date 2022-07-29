@@ -1,0 +1,32 @@
+Ang-External
+QW5ndWxhcl9SZWFjdF9WdWUwMDctMjQ2OQ==
+
+
+Node Internal
+Node006
+Tm9kZTAwNi0yNDY5
+02:00 to 04:00 
+03:00 to 05:00
+03.30 yo 05.30
+
+Node External
+Node009
+10q-8m
+MCQ : 12.30 to 12.40
+
+Practical : 2.30 to 4.30
+Node0012
+Tm9kZTAwMTItMjQ2OQ==
+3q-90m
+
+npx express-generator
+
+
+SQL testing exe
+ZHVtbXlza2lsbDAwNC0yNDY5
+
+SQL-External(13/07/2022)
+
+MCQ : 3.15  SQL0015
+PR  : 4.15  SQL0014  U1FMMDAxNC0yNDY5
+
