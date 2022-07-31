@@ -1,0 +1,15 @@
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day10\FileOps\FileOps\bin\Debug\net5.0\FileOps.exe
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day10\FileOps\FileOps\bin\Debug\net5.0\FileOps.deps.json
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day10\FileOps\FileOps\bin\Debug\net5.0\FileOps.runtimeconfig.json
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day10\FileOps\FileOps\bin\Debug\net5.0\FileOps.runtimeconfig.dev.json
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day10\FileOps\FileOps\bin\Debug\net5.0\FileOps.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day10\FileOps\FileOps\bin\Debug\net5.0\ref\FileOps.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day10\FileOps\FileOps\bin\Debug\net5.0\FileOps.pdb
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day10\FileOps\FileOps\obj\Debug\net5.0\FileOps.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day10\FileOps\FileOps\obj\Debug\net5.0\FileOps.AssemblyInfoInputs.cache
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day10\FileOps\FileOps\obj\Debug\net5.0\FileOps.AssemblyInfo.cs
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day10\FileOps\FileOps\obj\Debug\net5.0\FileOps.csproj.CoreCompileInputs.cache
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day10\FileOps\FileOps\obj\Debug\net5.0\FileOps.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day10\FileOps\FileOps\obj\Debug\net5.0\ref\FileOps.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day10\FileOps\FileOps\obj\Debug\net5.0\FileOps.pdb
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day10\FileOps\FileOps\obj\Debug\net5.0\FileOps.genruntimeconfig.cache
