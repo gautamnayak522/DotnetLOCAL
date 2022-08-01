@@ -59,6 +59,7 @@ CREATE TABLE Orders
 	CONSTRAINT FK_Orders_AddID FOREIGN KEY(AddtoDeliever) REFERENCES Cust_Addresses(AddressID),
 	CONSTRAINT FK_AppScheme_SchemeID FOREIGN KEY(AppliedSchemeID) REFERENCES CompanySchems(SchemeID)
 )
+
 CREATE TABLE OrderedItems
 (
 	OrderItemID INT PRIMARY KEY IDENTITY(1,1),
@@ -118,11 +119,11 @@ INSERT INTO Cust_Addresses VALUES (2,'Junagadh','false');
 INSERT INTO Cust_Addresses VALUES (2,'Ahmedabad','true');
 INSERT INTO Cust_Addresses VALUES (5,'Porbandar','true');
 INSERT INTO Cust_Addresses VALUES (6,'Dhoraji','true');
-INSERT INTO Cust_Addresses VALUES (7,'Vapi','true');
+INSERT INTO Cust_Addresses VALUES (5,'Vapi','true');   
 
 --Orders
 INSERT INTO Orders VALUES (1,GETDATE(),1,2);
-INSERT INTO Orders VALUES (2,GETDATE(),2,3);
+INSERT INTO Orders VALUES (2,GETDATE(),2,2);      
 
 --OrderedItems
 
