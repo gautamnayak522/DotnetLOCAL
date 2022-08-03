@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = FileOps
-build_property.ProjectDir = C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day14\FileOps\FileOps\
+build_property.ProjectDir = C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day12\FileOps\FileOps\

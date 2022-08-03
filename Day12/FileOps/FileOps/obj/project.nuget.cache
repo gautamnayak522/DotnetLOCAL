@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T7eIgWpOn3lkJxcMDeuHR0pAfL0F5iJdZ1vND6jY111HAM1U6zARzisorz8vZz5YMojKlMBEXRhe0CCm5UmyAQ==",
+  "dgSpecHash": "i0P/qlzC0OccmIWnlYRFAzpMfI7M/O+mJ+JUSmQtU8MhNeBR/XVveFGnLvQI81cc2qJI4QU0xa2UR9Vsi19cwA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gautam.nayak\\Desktop\\DotnetLOCAL\\Day14\\FileOps\\FileOps\\FileOps.csproj",
+  "projectFilePath": "C:\\Users\\gautam.nayak\\Desktop\\DotnetLOCAL\\Day12\\FileOps\\FileOps\\FileOps.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gautam.nayak\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\gautam.nayak\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
