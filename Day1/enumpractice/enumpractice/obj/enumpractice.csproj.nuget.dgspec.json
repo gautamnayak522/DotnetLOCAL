@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gautam.nayak\\Desktop\\.NET\\enumpractice\\enumpractice\\enumpractice.csproj": {}
+    "C:\\Users\\gautam.nayak\\Desktop\\DotnetLOCAL\\Day1\\enumpractice\\enumpractice\\enumpractice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gautam.nayak\\Desktop\\.NET\\enumpractice\\enumpractice\\enumpractice.csproj": {
+    "C:\\Users\\gautam.nayak\\Desktop\\DotnetLOCAL\\Day1\\enumpractice\\enumpractice\\enumpractice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gautam.nayak\\Desktop\\.NET\\enumpractice\\enumpractice\\enumpractice.csproj",
+        "projectUniqueName": "C:\\Users\\gautam.nayak\\Desktop\\DotnetLOCAL\\Day1\\enumpractice\\enumpractice\\enumpractice.csproj",
         "projectName": "enumpractice",
-        "projectPath": "C:\\Users\\gautam.nayak\\Desktop\\.NET\\enumpractice\\enumpractice\\enumpractice.csproj",
+        "projectPath": "C:\\Users\\gautam.nayak\\Desktop\\DotnetLOCAL\\Day1\\enumpractice\\enumpractice\\enumpractice.csproj",
         "packagesPath": "C:\\Users\\gautam.nayak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gautam.nayak\\Desktop\\.NET\\enumpractice\\enumpractice\\obj\\",
+        "outputPath": "C:\\Users\\gautam.nayak\\Desktop\\DotnetLOCAL\\Day1\\enumpractice\\enumpractice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

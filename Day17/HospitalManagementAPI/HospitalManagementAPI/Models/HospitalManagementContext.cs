@@ -23,6 +23,7 @@ namespace HospitalManagementAPI.Models
         public virtual DbSet<Drug> Drugs { get; set; }
         public virtual DbSet<DrugTiming> DrugTimings { get; set; }
         public virtual DbSet<Patient> Patients { get; set; }
+        public virtual DbSet<User> Users { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -148,6 +149,32 @@ namespace HospitalManagementAPI.Models
                     .HasForeignKey(d => d.DoctorId)
                     .OnDelete(DeleteBehavior.SetNull)
                     .HasConstraintName("FKPatient_Doctor");
+            });
+
+            modelBuilder.Entity<User>(entity =>
+            {
+                entity.HasIndex(e => e.EmailAddress, "UQ__Users__49A147407DE307B8")
+                    .IsUnique();
+
+                entity.Property(e => e.UserId).HasColumnName("UserID");
+
+                entity.Property(e => e.EmailAddress)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Password)
+                    .IsRequired()
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.UserName)
+                    .IsRequired()
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.UserRole)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
             });
 
             OnModelCreatingPartial(modelBuilder);

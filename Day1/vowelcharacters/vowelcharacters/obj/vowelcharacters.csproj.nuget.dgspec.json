@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gautam.nayak\\Desktop\\.NET\\vowelcharacters\\vowelcharacters\\vowelcharacters.csproj": {}
+    "C:\\Users\\gautam.nayak\\Desktop\\DotnetLOCAL\\Day1\\vowelcharacters\\vowelcharacters\\vowelcharacters.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gautam.nayak\\Desktop\\.NET\\vowelcharacters\\vowelcharacters\\vowelcharacters.csproj": {
+    "C:\\Users\\gautam.nayak\\Desktop\\DotnetLOCAL\\Day1\\vowelcharacters\\vowelcharacters\\vowelcharacters.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gautam.nayak\\Desktop\\.NET\\vowelcharacters\\vowelcharacters\\vowelcharacters.csproj",
+        "projectUniqueName": "C:\\Users\\gautam.nayak\\Desktop\\DotnetLOCAL\\Day1\\vowelcharacters\\vowelcharacters\\vowelcharacters.csproj",
         "projectName": "vowelcharacters",
-        "projectPath": "C:\\Users\\gautam.nayak\\Desktop\\.NET\\vowelcharacters\\vowelcharacters\\vowelcharacters.csproj",
+        "projectPath": "C:\\Users\\gautam.nayak\\Desktop\\DotnetLOCAL\\Day1\\vowelcharacters\\vowelcharacters\\vowelcharacters.csproj",
         "packagesPath": "C:\\Users\\gautam.nayak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gautam.nayak\\Desktop\\.NET\\vowelcharacters\\vowelcharacters\\obj\\",
+        "outputPath": "C:\\Users\\gautam.nayak\\Desktop\\DotnetLOCAL\\Day1\\vowelcharacters\\vowelcharacters\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

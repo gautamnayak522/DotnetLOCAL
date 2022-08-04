@@ -21,7 +21,6 @@ C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day17\HospitalManagementAPI\HospitalMa
 C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day17\HospitalManagementAPI\HospitalManagementAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day17\HospitalManagementAPI\HospitalManagementAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day17\HospitalManagementAPI\HospitalManagementAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day17\HospitalManagementAPI\HospitalManagementAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day17\HospitalManagementAPI\HospitalManagementAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day17\HospitalManagementAPI\HospitalManagementAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day17\HospitalManagementAPI\HospitalManagementAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -57,3 +56,11 @@ C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day17\HospitalManagementAPI\HospitalMa
 C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day17\HospitalManagementAPI\HospitalManagementAPI\obj\Debug\net5.0\ref\HospitalManagementAPI.dll
 C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day17\HospitalManagementAPI\HospitalManagementAPI\obj\Debug\net5.0\HospitalManagementAPI.pdb
 C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day17\HospitalManagementAPI\HospitalManagementAPI\obj\Debug\net5.0\HospitalManagementAPI.genruntimeconfig.cache
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day17\HospitalManagementAPI\HospitalManagementAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day17\HospitalManagementAPI\HospitalManagementAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day17\HospitalManagementAPI\HospitalManagementAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day17\HospitalManagementAPI\HospitalManagementAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day17\HospitalManagementAPI\HospitalManagementAPI\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day17\HospitalManagementAPI\HospitalManagementAPI\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day17\HospitalManagementAPI\HospitalManagementAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day17\HospitalManagementAPI\HospitalManagementAPI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

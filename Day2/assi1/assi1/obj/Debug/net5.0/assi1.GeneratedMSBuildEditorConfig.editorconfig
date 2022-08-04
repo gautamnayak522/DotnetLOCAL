@@ -6,8 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
-<<<<<<< HEAD
 build_property.RootNamespace = assi1
 build_property.ProjectDir = C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day2\assi1\assi1\
-=======
->>>>>>> 9edc651ea88fc2bb6957b73ebf67372892a722a2

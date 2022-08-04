@@ -49,7 +49,5 @@ namespace HospitalManagementAPI.Controllers
             Patient d1 = patientservice.Get(id);
             return Ok(patientservice.Delete(d1));
         }
-
-
     }
 }

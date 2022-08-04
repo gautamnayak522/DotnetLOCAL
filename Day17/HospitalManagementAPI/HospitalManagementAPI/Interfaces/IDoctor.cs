@@ -8,5 +8,6 @@ namespace HospitalManagementAPI.Interfaces
 {
     public interface IDoctor:IRepository<Doctor>
     {
+        List<Patient> GetMyPatient(int id);
     }
 }

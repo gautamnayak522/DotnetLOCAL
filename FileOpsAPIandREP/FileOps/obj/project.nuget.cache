@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DfA4ERYD6Sj7r2CxH02fCTiFRibpaSP8b5FD2iwn1DQZOiiGA1H+uuqtqMVrjqaWTWFPm/4O+LBY4rRTSbhL0A==",
+  "dgSpecHash": "TCbC87MivB0q8ULpz7MbO48zs6Ce/BoUn5Yd4KbtvKLU4DvevbljYDVfq7sf9BCG0ArIKw71ECS+7KW4d6fTPg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gautam.nayak\\Desktop\\DotnetLOCAL\\Day10\\FileOps\\FileOps\\FileOps.csproj",
+  "projectFilePath": "C:\\Users\\gautam.nayak\\Desktop\\DotnetLOCAL\\FileOpsAPIandREP\\FileOps\\FileOps.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

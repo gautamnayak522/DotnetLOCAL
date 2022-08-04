@@ -1,5 +1,6 @@
 ﻿using HospitalManagementAPI.Interfaces;
 using HospitalManagementAPI.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -18,11 +19,14 @@ namespace HospitalManagementAPI.Controllers
         {
             doctorservice = service;
         }
+
         [HttpGet]
+        [Authorize(Roles = "Admin")]
         public IActionResult Get()
         {
             return Ok(doctorservice.Get());
         }
+
         [HttpGet ("{id}")]
         public IActionResult Get(int id)
         {
@@ -48,5 +52,15 @@ namespace HospitalManagementAPI.Controllers
             Doctor d1 = doctorservice.Get(id);
             return Ok(doctorservice.Delete(d1));
         }
+
+        [HttpGet]
+        [Route  ("{id}/my_patients")]
+
+        public IActionResult GetAllPatients(int id)
+        {
+            //var patientsunserdr = DBContext.Patients.Include("Assistant").Where(p => p.DoctorId == id).ToList();
+            return Ok(doctorservice.GetMyPatient(id)); 
+        }
+
     }
 }

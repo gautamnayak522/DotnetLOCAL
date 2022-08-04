@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gautam.nayak\\Desktop\\Dotnet\\Day2\\practice1\\practice1\\practice1.csproj": {}
+    "C:\\Users\\gautam.nayak\\Desktop\\DotnetLOCAL\\Day2\\practice1\\practice1\\practice1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gautam.nayak\\Desktop\\Dotnet\\Day2\\practice1\\practice1\\practice1.csproj": {
+    "C:\\Users\\gautam.nayak\\Desktop\\DotnetLOCAL\\Day2\\practice1\\practice1\\practice1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gautam.nayak\\Desktop\\Dotnet\\Day2\\practice1\\practice1\\practice1.csproj",
+        "projectUniqueName": "C:\\Users\\gautam.nayak\\Desktop\\DotnetLOCAL\\Day2\\practice1\\practice1\\practice1.csproj",
         "projectName": "practice1",
-        "projectPath": "C:\\Users\\gautam.nayak\\Desktop\\Dotnet\\Day2\\practice1\\practice1\\practice1.csproj",
+        "projectPath": "C:\\Users\\gautam.nayak\\Desktop\\DotnetLOCAL\\Day2\\practice1\\practice1\\practice1.csproj",
         "packagesPath": "C:\\Users\\gautam.nayak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gautam.nayak\\Desktop\\Dotnet\\Day2\\practice1\\practice1\\obj\\",
+        "outputPath": "C:\\Users\\gautam.nayak\\Desktop\\DotnetLOCAL\\Day2\\practice1\\practice1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
