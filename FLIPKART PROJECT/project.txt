@@ -1,0 +1,43 @@
+FlipKart 
+
+Flipkart is an Indian e-commerce company, headquartered in Bangalore, and incorporated in Singapore as a private limited company. 
+The company initially focused on online book sales before expanding into other product categories such as consumer electronics, fashion, 
+home essentials, groceries, and lifestyle products.  
+
+The service competes primarily with Amazon's Indian subsidiary and domestic rival Snapdeal.[5][6] As of March 2017, 
+Flipkart held a 39.5% market share of India's e-commerce industry.[7] 
+Flipkart has a dominant position in the apparel segment, bolstered by its acquisition of Myntra, and was described as being "neck and neck" 
+with Amazon in the sale of electronics and mobile phones.[8] 
+Flipkart also owns PhonePe, a mobile payments service based on the UPI. 
+
+In August 2018, U.S.-based retail chain Walmart acquired a 77% controlling stake in Flipkart for US$16 Billion, valuing Flipkart at around $20 Billion. 
+
+----------------------------------------------------------------
+
+Technology need to be used in the project 
+
+Frontend: Angular 
+
+Backend: DotnetCore 
+
+Database: SQL Server 
+
+
+Following features need to be developed. 
+
+Anonymous User: Can search a product based on category and sub category,name and brand of the product.
+Product Display should have zoom functionality. 
+
+There are multiple filters available color,size,brand,price,rating 
+
+Add to cart feature is available to anonymous user 
+
+Logged in User: Can place order and track the order placed. 
+Whenever order is placed confirmation code should be sent to its email for verification.
+
+Log in User: login field: 
+User Mobile number and password, login with otp 
+
+Admin User: Can do the crud operation for category, subcategory and product. 
+Product contains multiple image. Product details should be visible to the user.  
+Admin user can change the status of the order whether it is in progress, dispatched, delivered or cancel.

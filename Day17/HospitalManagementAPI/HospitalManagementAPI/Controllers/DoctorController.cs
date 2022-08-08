@@ -12,6 +12,7 @@ namespace HospitalManagementAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class DoctorController : ControllerBase
     {
         public IDoctor doctorservice { get; set; }
@@ -21,7 +22,8 @@ namespace HospitalManagementAPI.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "Admin")]
+
+        
         public IActionResult Get()
         {
             return Ok(doctorservice.Get());
@@ -33,11 +35,14 @@ namespace HospitalManagementAPI.Controllers
             return Ok(doctorservice.Get(id));
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public IActionResult Post(Doctor d)
         {
             return Ok(doctorservice.Post(d));
         }
+
+        [Authorize(Roles = "Admin")]
 
         [HttpPut]
         public IActionResult Put(int id,Doctor dr)
