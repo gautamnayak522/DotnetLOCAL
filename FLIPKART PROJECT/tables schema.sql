@@ -1,4 +1,8 @@
---CREATE DATABASE FlipkartDB
+USE master
+DROP DATABASE FlipkartDB
+GO
+CREATE DATABASE FlipkartDB
+
 GO
 USE FlipkartDB
 
@@ -100,10 +104,11 @@ CREATE TABLE users
 	userID INT PRIMARY KEY IDENTITY(1,1),
 	mobileNo VARCHAR(50) UNIQUE,
 	emailAddress VARCHAR(50) UNIQUE,
+	password VARCHAR(MAX),
 	isAdmin BIT DEFAULT 0,
 	firstName VARCHAR(50),
 	lastName VARCHAR(50),
-	OnetimePassword VARCHAR(10),
+	otp VARCHAR(10),
 	created_at datetime DEFAULT GETDATE(),
 	modified_at datetime
 )
@@ -174,3 +179,9 @@ CREATE TABLE orderitems
 SELECT * FROM users
 
 
+Update users
+SET isAdmin = 'True'
+WHERE userID =1
+
+SELECT * FROM product_category
+SELECT * FROM product_category
