@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using rolebasedLogin.Interfaces;
+using rolebasedLogin.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,6 +25,12 @@ namespace rolebasedLogin.Controllers
         public IActionResult Get()
         {
             return Ok(StudentService.Get());
+        }
+
+        [HttpPost]
+        public IActionResult Post(Student u)
+        {
+            return Ok(StudentService.Post(u));
         }
 
 
