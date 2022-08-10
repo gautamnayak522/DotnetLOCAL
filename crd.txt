@@ -1,0 +1,27 @@
+Your DBName is: flipkart-2469-gautam
+Your HostName is: 43.204.134.14
+Your Username is : flipkart-2469-gautam
+Your new Password is : TEKbfde7TRchm4a
+
+Please note your Api site is deployed url is : flipkart-2469-gautam-Api.radixind.in
+Please note your Portal site is deployed url is : flipkart-2469-gautam-Portal.radixind.in
+
+
+Scaffold-DbContext "Data Source=43.204.134.14;Database=flipkart-2469-gautam;User Id=flipkart-2469-gautam;Password=TEKbfde7TRchm4a;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+product_category
+product_subcategory
+product_brands
+products
+products_inventory
+product_images
+product_colours
+product_sizes
+users
+states
+user_Addresses
+order_statuses
+orders
+orderitems
+shoping_cart
+cartitems

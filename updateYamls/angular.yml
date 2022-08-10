@@ -1,0 +1,76 @@
+name: Angular
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: [self-hosted, Windows]
+
+    steps:
+    - uses: actions/checkout@v3
+    - run: |
+        $rxjson = get-content -raw -path 'TrainingProject\rx.json'| Convertfrom-Json
+        $projectName = $rxjson.title
+        $RepoName = "${{ github.event.repository.name }}"
+        $CharArray =$RepoName.Split("-")
+        $EmpCode = $CharArray[0]
+        $EmpName = $CharArray[1]
+        $EmpName = $EmpName.Split(".")
+        $EmpName = $EmpName[0]
+        $siteName = $projectName + "-" + $EmpCode + "-" + $EmpName
+        $siteName = $siteName.ToLower()
+        $siteName
+
+        $siteNamePortal = "$siteName-Portal"
+        $AppPoolNamePortal = "$siteName-Portal"
+
+        $IISPath = "C:\Sites\$siteNamePortal"
+
+        # stopping the sites
+        if((Get-WebsiteState -Name $siteNamePortal).Value -ne 'Stopped'){
+            Write-Output ('Stopping Website: {0}' -f $siteNamePortal)
+            Stop-Website -Name $siteNamePortal
+        }
+        if((Get-WebAppPoolState -Name $AppPoolNamePortal).Value -ne 'Stopped'){
+            Write-Output ('Stopping Application Pool: {0}' -f $AppPoolNamePortal)
+            Stop-WebAppPool -Name $AppPoolNamePortal
+        } 
+
+        #remove everyting Project
+        Remove-Item "$IISPath/*" -Recurse -Force -ErrorAction Ignore -Confirm:$false
+
+        #building the Angular Project
+        cd TrainingProject\Assignments\FrontEnd\Source
+        npm install 
+        npm run build
+
+        #Copy dist to iis sites
+        if (Test-Path -Path "angular.json") {
+            "angular.json Already exists!"
+            $angularjson = get-content -raw -path 'angular.json' | Convertfrom-Json 
+            $projectsName = $angularjson.projects
+            $angularPath = $projectsName.psobject.properties.name
+            $distPath = $angularjson.projects.$angularPath.architect.build.options.outputPath
+            Write-Host "Dist will generate on $distPath"
+            Copy-Item -Path "$distPath/*" -Destination $IISPath -Recurse -Force
+            #copy web.config folder 
+            Copy-Item -Path "web.config" -Destination $IISPath
+        }
+        else{
+            Write-Host "Not able to find angular.json"
+        }
+
+        # starting the sites
+        if((Get-WebAppPoolState -Name $AppPoolNamePortal).Value -ne 'Started'){
+            Write-Output ('Starting Application Pool: {0}' -f $AppPoolNamePortal)
+            Start-WebAppPool -Name $AppPoolNamePortal
+        }
+        if((Get-WebsiteState -Name $siteNamePortal).Value -ne 'Started'){
+            Write-Output ('Starting Website: {0}' -f $siteNamePortal)
+            Start-Website -Name $siteNamePortal
+        }
+
+
+        ## Removig source folder
+        Remove-Item "C:\actions-runner\_work\$RepoName\$RepoName\*" -Recurse -ErrorAction Ignore -Force -Confirm:$false

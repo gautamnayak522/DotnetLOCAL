@@ -1,0 +1,71 @@
+name: Dotnet Deploymet
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: [self-hosted, Windows]
+
+    steps:
+    - uses: actions/checkout@v3
+    - run: |
+            $rxjson = get-content -raw -path 'TrainingProject\rx.json'| Convertfrom-Json
+            $projectName = $rxjson.title
+            $RepoName = "${{ github.event.repository.name }}"
+            $CharArray =$RepoName.Split("-")
+            $EmpCode = $CharArray[0]
+            $EmpName = $CharArray[1]
+            $EmpName = $EmpName.Split(".")
+            $EmpName = $EmpName[0]
+            $siteName = $projectName + "-" + $EmpCode + "-" + $EmpName
+            $siteName = $siteName.ToLower()
+            $siteName
+
+            $siteNameApi = "$siteName-Api"
+            $AppPoolNameApi = "$siteName-Api"
+            $IISPath = "C:\Sites\$siteNameApi"
+
+            # stopping the site and Application Pool
+            if((Get-WebsiteState -Name $siteNameApi).Value -ne 'Stopped'){
+                Write-Output ('Stopping Website: {0}' -f $siteNameApi)
+                Stop-Website -Name $siteNameApi
+            }
+            if((Get-WebAppPoolState -Name $AppPoolNameApi).Value -ne 'Stopped'){
+                Write-Output ('Stopping Application Pool: {0}' -f $AppPoolNameApi)
+                Stop-WebAppPool -Name $AppPoolNameApi
+            } 
+
+            #remove everyting Project
+            Remove-Item "$IISPath/*" -Recurse -Force -ErrorAction Ignore -Confirm:$false
+
+            #building the Angular Project
+            cd TrainingProject\Assignments\API\Source
+            dotnet restore 
+            dotnet build --configuration Release
+            dotnet publish --configuration Release
+
+            #Copy dist to iis site and Application Pool
+            $folder = $projectName
+            $Dotnet = Get-ChildItem -Recurse "$folder\bin\Release" | Select Name
+            $DotnetVersion = $Dotnet.Name[0]
+            echo "Dotnet Version is:" $DotnetVersion
+            $path = "$folder\bin\Release\$DotnetVersion\publish\*"
+            echo "path is" $path
+            Copy-Item -Path $path -Destination $IISPath -Recurse
+
+            #copy web.config folder 
+            Copy-Item -Path "web.config" -Destination $IISPath
+
+            # starting the sites
+            if((Get-WebAppPoolState -Name $AppPoolNameApi).Value -ne 'Started'){
+                Write-Output ('Starting Application Pool: {0}' -f $AppPoolNameApi)
+                Start-WebAppPool -Name $AppPoolNameApi
+            }
+            if((Get-WebsiteState -Name $siteNameApi).Value -ne 'Started'){
+                Write-Output ('Starting Website: {0}' -f $siteNameApi)
+                Start-Website -Name $siteNameApi
+            }
+
+            # Removing source folder
+            Remove-Item "C:\actions-runner\_work\$RepoName\$RepoName\*" -Recurse -ErrorAction Ignore -Force -Confirm:$false
