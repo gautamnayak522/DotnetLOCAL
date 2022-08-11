@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gautam.nayak\\Desktop\\API\\Flipkart\\Flipkart\\Flipkart.csproj": {}
+    "C:\\Users\\Gautam Nayak\\Desktop\\DotnetLOCAL\\FLIPKART PROJECT\\Flipkart\\Flipkart\\Flipkart.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gautam.nayak\\Desktop\\API\\Flipkart\\Flipkart\\Flipkart.csproj": {
+    "C:\\Users\\Gautam Nayak\\Desktop\\DotnetLOCAL\\FLIPKART PROJECT\\Flipkart\\Flipkart\\Flipkart.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gautam.nayak\\Desktop\\API\\Flipkart\\Flipkart\\Flipkart.csproj",
+        "projectUniqueName": "C:\\Users\\Gautam Nayak\\Desktop\\DotnetLOCAL\\FLIPKART PROJECT\\Flipkart\\Flipkart\\Flipkart.csproj",
         "projectName": "Flipkart",
-        "projectPath": "C:\\Users\\gautam.nayak\\Desktop\\API\\Flipkart\\Flipkart\\Flipkart.csproj",
-        "packagesPath": "C:\\Users\\gautam.nayak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gautam.nayak\\Desktop\\API\\Flipkart\\Flipkart\\obj\\",
+        "projectPath": "C:\\Users\\Gautam Nayak\\Desktop\\DotnetLOCAL\\FLIPKART PROJECT\\Flipkart\\Flipkart\\Flipkart.csproj",
+        "packagesPath": "C:\\Users\\Gautam Nayak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gautam Nayak\\Desktop\\DotnetLOCAL\\FLIPKART PROJECT\\Flipkart\\Flipkart\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\gautam.nayak\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Gautam Nayak\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -101,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
