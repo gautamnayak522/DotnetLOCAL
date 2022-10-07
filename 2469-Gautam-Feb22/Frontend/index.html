@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <style>
+      
+      .navbar { 
+        grid-area: navbar; 
+        height:53px;
+        background-color: darkcyan;
+        font-size: 40px;
+        text-align: center;
+        
+      }
+      .navbar a
+      {
+        color:aliceblue;
+        margin: 10px;
+        padding: 30px 10px;
+      }
+      .sidebar { grid-area: sidebar;
+          height:1200px;
+          background-color: wheat; 
+        }
+      .main { 
+          grid-area: main; 
+          background-color:papayawhip;
+          text-align: center;
+          height: 800px;
+      }
+
+      .container
+      {
+        display: grid;
+        grid-template-areas: 'navbar navbar navbar navbar'
+        'main main main main';
+      }
+    
+  </style>
+
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+    
+ 
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" >HOME</a>
+        <a href="HTML/index.html" >HTML</a>
+        <a href="CSS/index.html" >CSS</a>
+        <a href="BOOTSTRAP/index.html">BOOTSTRAP</a>
+        <a href="tailwind/index.html">TAILWIND</a>
+        <a href="Javascript/index.html">JAVASCRIPT</a>
+        <a href="jQuery/index.html">JQUERY</a>
+      </nav>
+      
+      <div class="main" style="display: flex; flex-direction: column; align-items: center;">
+        <h1><a href="index2.html">Go to Index2</a></h1>
+        <img src="radix_logo.jpeg" alt="radix logo" height="500px" width="600px">
+       
+      
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAILWIND</title>
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <style>
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light py-4 sticky-top bg-dark">
+        <div class="container">
+            <a href="../index.html" class="navbar-brand text-white">
+                <img src="../radix_logo.jpeg" alt="." width="50" height="50">
+                <h3 class="d-inline align-middle">RadixTraining</h3>
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="fa fa-bars text-white" aria-hidden="true"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="../index2.html" class="nav-link text-white">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../HTML/index2.html" class="nav-link text-white">HTML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../CSS/index2.html" class="nav-link text-white">CSS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../BOOTSTRAP/index2.html" class="nav-link text-white">BOOTSTRAP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index2.html" class="nav-link text-white">TAILWIND</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../Javascript/index2.html" class="nav-link text-white">JAVASCRIPT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../jQuery/index2.html" class="nav-link text-white">JQUERY</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3 p-0 bg-secondary position-sticky" id="sticky-sidebar">
+
+                <div class="flex-column flex-nowrap vh-100 overflow-auto text-white p-2">
+                    <a href="javascript:void(0)" class="sticky-top" onclick="closeNav()">
+                        <span class="fa fa-close"></span>
+                    </a>
+                    <h3 class="text-center text-dark"><a href="#head">TAILWIND</a></h3>
+
+                    <ul>
+                        <li>
+                          Day1
+                          <ul>
+                            <li>Practice exercise
+                              <ul>
+                                <li><a href=#practice1>Practice1</a></li>
+                                <li><a href=#practice2>Practice2</a></li>
+                                <li><a href=#practice3>Practice3</a></li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          Day2
+                          <ul>
+                            <li>Practice exercise
+                              <ul>
+                                <li><a href=#day2practice1>Practice1</a></li>
+                                <li><a href=#day2practice2>Practice2</a></li>
+                              </ul>
+                            </li>
+                            <li>Assignment
+                              <ul>
+                                <li><a href=#day2assi1>Assignment1 - ahmedabad blog</a></li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          Day3
+                          <ul>
+                            <li>Assignment
+                              <ul>
+                                <li><a href=#day3assi1>Assignment 1 - personal Portfolio</a></li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          Day4
+                          <ul>
+                            <li>Exercise
+                              <ul>
+                                <li><a href=#day4exercise1>Exercise 1 - FoodNinja project</a></li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          Mini Project
+                          <ul>
+                            <li> <a href="#mp1">Flipkart with Tailwind</a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+            <div class="offset-3 position-fixed p-0" id="main">
+                <div class="vh-100 overflow-auto">
+                    <a href="javascript:void(0)" class="closebtn" onclick="openNav()">
+                        <span class="fa fa-arrow-circle-o-right"></span>
+                    </a>
+
+                    <section id="head" class="vh-100 offset-1">
+                        <h1>TAILWIND</h1>
+                        <img src="tailwind.jpg" alt="" width="500px">
+                    </section>
+                    <section id="practice1" class="vh-100">
+                        <a href="Day1/first.html" target="_blank">Day 1 practice1</a>
+                      </section>
+                      <section id="practice2" class="vh-100">
+                        <a href="Day1/typography.html" target="_blank">Day 1 practice2</a>
+                      </section>
+                      <section id="practice3" class="vh-100">
+                        <a href="Day1/backgrounds.html" target="_blank">Day 1 practice3</a>
+                      </section>
+                
+                      <section id="day2practice1" class="vh-100">
+                        <a href="Day2/flex.html" target="_blank">Day 2 practice1</a>
+                      </section>
+                      <section id="day2practice2" class="vh-100">
+                        <a href="Day2/grid.html" target="_blank">Day 2 practice2</a>
+                      </section>
+                      <section id="day2assi1" class="vh-100">
+                        <a href="Day2/blog.html" target="_blank">Day 2 Assi1</a>
+                      </section>
+                
+                      <section id="day3assi1" class="vh-100">
+                        <a href="Day3/index.html" target="_blank">Day 3 Assi1</a>
+                      </section>
+                
+                      <section id="day4exercise1" class="vh-100">
+                        <a href="Day4/index.html" target="_blank">Day 4 exercise1</a>
+                      </section>
+                
+                      <section id="mp1" class="vh-100">
+                        <a href="mini project/index.html" target="_blank">Flipkart with Tailwind</a>
+                      </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function closeNav() {
+            document.getElementById("sticky-sidebar").style.display = "none";
+        }
+        function openNav() {
+            document.getElementById("sticky-sidebar").style.display = "block"
+        }
+    </script>
+
+</body>
+
+</html>

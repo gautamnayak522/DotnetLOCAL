@@ -1,0 +1,41 @@
+<p>student works!</p>
+<strong>Add Details : </strong> 
+<br>
+Enter Id : <input type="text" [(ngModel)]="Id"> <br>
+Enter Name : <input type="text" [(ngModel)]="Name"> <br>
+Enter Address : <input type="text" [(ngModel)]="Address">
+<br>
+<button (click)="SubmitData()">Submit</button>
+
+<br/><br/>
+<strong>Delete Details : </strong> 
+<select [(ngModel)]="selected">
+    <option value="">Select</option>
+    <option *ngFor="let item of data" [value]="item.Name">
+        {{item.Name}}
+    </option>
+</select>
+<br>
+<button (click)="DeleteStudent()">Delete</button>
+
+<br/><br/>
+<strong>Update Details : </strong> 
+
+
+<select [(ngModel)]="updateName">
+    <option *ngFor="let item of data" [value]="item.Id">
+        {{item.Id}}
+    </option>
+</select>
+
+<p *ngIf="updateName">Updating Details of Id : {{updateName}}</p>
+<div *ngIf="updateName">
+<div *ngFor="let item of data">
+    <ul *ngIf="item.Id==updateName">
+      <li> Id : {{item.Id}}</li>
+      <li> Name : <input type="text" [(ngModel)]="item.Name" (change)="updateDetails(item)"> </li>
+        <li> Address : <input type="text" [(ngModel)]="item.Address" (change)="updateDetails(item)"></li>
+    </ul>
+</div>
+</div>
+

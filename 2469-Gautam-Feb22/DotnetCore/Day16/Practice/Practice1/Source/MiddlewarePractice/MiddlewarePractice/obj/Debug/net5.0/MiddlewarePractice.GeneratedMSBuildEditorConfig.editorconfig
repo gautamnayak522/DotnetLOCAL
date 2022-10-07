@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = MiddlewarePractice
+build_property.ProjectDir = C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\DotnetCore\Day16\Practice\Practice1\Source\MiddlewarePractice\MiddlewarePractice\

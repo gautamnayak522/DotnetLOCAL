@@ -1,0 +1,45 @@
+<div class="container card p-5">
+    <ng-container class="text-center pb-5">
+        <span *ngIf="orderStatus=='Cancelled'" class="text-center text-danger"> This Order is Cancelled </span>
+    </ng-container>
+    <div class="text-center pb-5">
+            <span *ngFor="let item of counts;let i = index" class="pt-5">
+            <span class="circle-desc" [class.circle-desc-active]="orderStatus == item">{{ item }}</span>
+            <span class="circles" [class.active]="orderStatus == item"></span>
+            <span class="bar" *ngIf="(i != counts.length-1)"></span>
+        </span>
+    </div>
+
+    <p class="font-weight-bold">Order No : {{ordermaster.orderNo}}</p>
+    <p class="font-weight-bold">Date : {{ordermaster.orderDate | date}}</p>
+    <p class="font-weight-bold">Amount : {{ordermaster.totalAmount}}</p>
+    <p class="font-weight-bold">Name : {{ordermaster.firstName +' ' + ordermaster.lastName}}</p>
+    <p class="font-weight-bold">Mobile No : {{ordermaster.mobileNo}}</p>
+    <p class="font-weight-bold">Email No : {{ordermaster.emailAddress}}</p>
+    <p class="font-weight-bold">Delivery Address :
+        {{ordermaster.address.addressline1 + ' ' + ordermaster.address.addressline2}}</p>
+
+    <h5 class="pt-3">Order Items</h5>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of ordermaster.orderitems">
+                <td>{{item.productName}}</td>
+                <td>{{item.price}}</td>
+                <td>{{item.qty}}</td>
+                <td>{{item.price*item.qty}}</td>
+            </tr>
+            <tr>
+                <td colspan="4" class="text-right pr-5 font-weight-bold">Total Amount : {{ordermaster.totalAmount}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

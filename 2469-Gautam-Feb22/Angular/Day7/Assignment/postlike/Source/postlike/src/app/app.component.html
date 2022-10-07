@@ -1,0 +1,19 @@
+<app-postlike (getvalue)="display($event)"></app-postlike>
+<p>Parent Component !</p>
+<div>
+
+<h2>Likes : <a href="#" (click)="print()" >{{count}}</a></h2>
+<table class="table w-25 border border-5" *ngIf="test">
+  <caption></caption>
+  <tr>
+    <th>TITLE</th>
+    <th>DATE</th>
+    <th>Like On</th>
+  </tr>
+  <tr *ngFor="let item of data">
+    <td> {{item.title}}</td>
+    <td> {{item.date}}</td>
+    <td> {{item.likeon}}</td>
+  </tr>
+</table>
+</div>

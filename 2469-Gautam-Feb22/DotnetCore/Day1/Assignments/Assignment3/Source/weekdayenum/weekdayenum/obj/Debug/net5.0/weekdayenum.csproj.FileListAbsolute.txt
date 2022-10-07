@@ -1,0 +1,15 @@
+C:\Users\gautam.nayak\Desktop\.NET\weekdayenum\weekdayenum\bin\Debug\net5.0\weekdayenum.exe
+C:\Users\gautam.nayak\Desktop\.NET\weekdayenum\weekdayenum\bin\Debug\net5.0\weekdayenum.deps.json
+C:\Users\gautam.nayak\Desktop\.NET\weekdayenum\weekdayenum\bin\Debug\net5.0\weekdayenum.runtimeconfig.json
+C:\Users\gautam.nayak\Desktop\.NET\weekdayenum\weekdayenum\bin\Debug\net5.0\weekdayenum.runtimeconfig.dev.json
+C:\Users\gautam.nayak\Desktop\.NET\weekdayenum\weekdayenum\bin\Debug\net5.0\weekdayenum.dll
+C:\Users\gautam.nayak\Desktop\.NET\weekdayenum\weekdayenum\bin\Debug\net5.0\ref\weekdayenum.dll
+C:\Users\gautam.nayak\Desktop\.NET\weekdayenum\weekdayenum\bin\Debug\net5.0\weekdayenum.pdb
+C:\Users\gautam.nayak\Desktop\.NET\weekdayenum\weekdayenum\obj\Debug\net5.0\weekdayenum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gautam.nayak\Desktop\.NET\weekdayenum\weekdayenum\obj\Debug\net5.0\weekdayenum.AssemblyInfoInputs.cache
+C:\Users\gautam.nayak\Desktop\.NET\weekdayenum\weekdayenum\obj\Debug\net5.0\weekdayenum.AssemblyInfo.cs
+C:\Users\gautam.nayak\Desktop\.NET\weekdayenum\weekdayenum\obj\Debug\net5.0\weekdayenum.csproj.CoreCompileInputs.cache
+C:\Users\gautam.nayak\Desktop\.NET\weekdayenum\weekdayenum\obj\Debug\net5.0\weekdayenum.dll
+C:\Users\gautam.nayak\Desktop\.NET\weekdayenum\weekdayenum\obj\Debug\net5.0\ref\weekdayenum.dll
+C:\Users\gautam.nayak\Desktop\.NET\weekdayenum\weekdayenum\obj\Debug\net5.0\weekdayenum.pdb
+C:\Users\gautam.nayak\Desktop\.NET\weekdayenum\weekdayenum\obj\Debug\net5.0\weekdayenum.genruntimeconfig.cache

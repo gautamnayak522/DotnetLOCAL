@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tailwind</title>
+</head>
+<style>
+  .navbar {
+    grid-area: navbar;
+    height: 53px;
+    background-color: darkcyan;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .navbar a {
+    color: aliceblue;
+    margin: 10px;
+    padding: 30px 10px;
+  }
+
+  .sidebar {
+    grid-area: sidebar;
+
+    background-color: wheat;
+    font-size: 20px;
+    height: 800px;
+    width: 300px;
+    overflow-y: scroll;
+  }
+
+  .main {
+
+    grid-area: main;
+    background-color: papayawhip;
+    height: 800px;
+    width: 1200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .container {
+    display: grid;
+    grid-template-areas: 'navbar navbar navbar navbar'
+      'sidebar main main main';
+  }
+
+  section {
+    min-height: 100vh;
+  }
+</style>
+
+<body>
+  <div id="app"></div>
+  <script type="module" src="../main.js"></script>
+
+  <div class="container">
+
+    <nav class="navbar" aria-label="">
+      <a href="../index.html">HOME</a>
+      <a href="../HTML/index.html">HTML</a>
+      <a href="../CSS/index.html">CSS</a>
+      <a href="../BOOTSTRAP/index.html">BOOTSTRAP</a>
+      <a href="index.html">TAILWIND</a>
+      <a href="../Javascript/index.html">JAVASCRIPT</a>
+      <a href="../jQuery/index.html">JQUERY</a>
+    </nav>
+
+    <div class="sidebar">
+      <h3>TAILWIND</h3>
+      <ul>
+        <li>
+          Day1
+          <ul>
+            <li>Practice exercise
+              <ul>
+                <li><a href=#practice1>Practice1</a></li>
+                <li><a href=#practice2>Practice2</a></li>
+                <li><a href=#practice3>Practice3</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          Day2
+          <ul>
+            <li>Practice exercise
+              <ul>
+                <li><a href=#day2practice1>Practice1</a></li>
+                <li><a href=#day2practice2>Practice2</a></li>
+              </ul>
+            </li>
+            <li>Assignment
+              <ul>
+                <li><a href=#day2assi1>Assignment1 - ahmedabad blog</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          Day3
+          <ul>
+            <li>Assignment
+              <ul>
+                <li><a href=#day3assi1>Assignment 1 - personal Portfolio</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          Day4
+          <ul>
+            <li>Exercise
+              <ul>
+                <li><a href=#day4exercise1>Exercise 1 - FoodNinja project</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          Mini Project
+          <ul>
+            <li> <a href="#mp1">Flipkart with Tailwind</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="main">
+
+      <h1>TAILWIND </h1>
+      <hr>
+      <section id="practice1">
+        <a href="Day1/first.html" target="_blank">Day 1 practice1</a>
+      </section>
+      <section id="practice2">
+        <a href="Day1/typography.html" target="_blank">Day 1 practice2</a>
+      </section>
+      <section id="practice3">
+        <a href="Day1/backgrounds.html" target="_blank">Day 1 practice3</a>
+      </section>
+
+      <section id="day2practice1">
+        <a href="Day2/flex.html" target="_blank">Day 2 practice1</a>
+      </section>
+      <section id="day2practice2">
+        <a href="Day2/grid.html" target="_blank">Day 2 practice2</a>
+      </section>
+      <section id="day2assi1">
+        <a href="Day2/blog.html" target="_blank">Day 2 Assi1</a>
+      </section>
+
+      <section id="day3assi1">
+        <a href="Day3/index.html" target="_blank">Day 3 Assi1</a>
+      </section>
+
+      <section id="day4exercise1">
+        <a href="Day4/index.html" target="_blank">Day 4 exercise1</a>
+      </section>
+
+      <section id="mp1">
+        <a href="mini project/index.html" target="_blank">Flipkart with Tailwind</a>
+      </section>
+
+    </div>
+  </div>
+</body>
+</html>

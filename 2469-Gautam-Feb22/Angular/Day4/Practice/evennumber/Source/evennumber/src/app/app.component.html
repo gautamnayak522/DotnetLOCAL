@@ -1,0 +1,6 @@
+<h2>Print even number between 1 and 100</h2>
+{{Numberlist}}
+<p>List of EVEN numbers</p>
+<div *ngFor="let i of Numberlist">
+  <p *ngIf="i%2==0"> {{i}}</p>
+</div>

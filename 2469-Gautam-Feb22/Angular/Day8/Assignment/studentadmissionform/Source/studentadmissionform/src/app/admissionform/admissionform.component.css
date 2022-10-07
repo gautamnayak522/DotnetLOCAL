@@ -1,0 +1,20 @@
+textarea {vertical-align:top}
+.admissionform {
+    background:whitesmoke;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.4);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 15px auto;
+    padding: 15px;
+    width: 600px;
+  }
+  .required {
+    color: red;
+  }
+  /* .ng-valid{
+    border-left: 5px solid #42A948; 
+  }
+  
+  .ng-invalid  {
+    border-left: 5px solid #a94442; 
+  } */

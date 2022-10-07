@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <style>
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light py-4 sticky-top bg-dark">
+        <div class="container">
+            <a href="../index.html" class="navbar-brand text-white">
+                <img src="../radix_logo.jpeg" alt="." width="50" height="50">
+                <h3 class="d-inline align-middle">RadixTraining</h3>
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="fa fa-bars text-white" aria-hidden="true"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="../index2.html" class="nav-link text-white">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../HTML/index2.html" class="nav-link text-white">HTML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index2.html" class="nav-link text-white">CSS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../BOOTSTRAP/index2.html" class="nav-link text-white">BOOTSTRAP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../tailwind/index2.html" class="nav-link text-white">TAILWIND</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../Javascript/index2.html" class="nav-link text-white">JAVASCRIPT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../jQuery/index2.html" class="nav-link text-white">JQUERY</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3 p-0 bg-secondary position-sticky" id="sticky-sidebar">
+
+                <div class="flex-column flex-nowrap vh-100 overflow-auto text-white p-2">
+                    <a href="javascript:void(0)" class="sticky-top" onclick="closeNav()">
+                        <span class="fa fa-close"></span>
+                    </a>
+                    <h3 class="text-center text-dark"><a href="#head">CSS</a></h3>
+
+                    <ul>
+                        <li>
+                            Day1
+                            <ul>
+                                <li>Exercise
+                                    <ul>
+                                        <li><a href=#exercise1>exercise1</a></li>
+                                        <li><a href=#exercise2>exercise2</a></li>
+                                        <li><a href=#exercise3>exercise3</a></li>
+                                        <li><a href=#exercise4>exercise4</a></li>
+                                        <li><a href=#exercise5>exercise5</a></li>
+                                    </ul>
+                                </li>
+                                <li>Assignment
+                                    <ul>
+                                        <li><a href=#assi1>Assignment 1</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                          Day2
+                          <ul>
+                              <li>Exercise
+                                  <ul>
+                                      <li><a href=#day2exercise1>exercise1</a></li>
+                                      <li><a href=#day2exercise2>exercise2</a></li>
+                                      <li><a href=#day2exercise3>exercise3</a></li>
+                                    
+                                  </ul>
+                              </li>
+                              <li>Assignment
+                                  <ul>
+                                      <li><a href=#day2assi1>Assignment 1</a></li>
+                                      <li><a href=#day2assi2>Assignment 2</a></li>
+                                  </ul>
+                              </li>
+                          </ul>
+                      </li>
+                      <li>
+                          Day3
+                          <ul>
+                              <li>Exercise
+                                  <ul>
+                                      <li><a href=#day3exercise1>exercise1</a></li>
+                                      <li><a href=#day3exercise2>exercise2</a></li>
+                                      <li><a href=#day3exercise3>exercise3</a></li>
+                                  </ul>
+                              </li>
+                              <li>Assignment
+                                  <ul>
+                                      <li><a href=#day3assi1>Assignment 1</a></li>
+                                  </ul>
+                              </li>
+                          </ul>
+                      </li>
+                      <li>
+                          Day4
+                          <ul>
+                              <li>Exercise
+                                  <ul>
+                                      <li><a href=#day4exercise1>exercise1</a></li>
+                                      <li><a href=#day4exercise2>exercise2</a></li>
+                                      <li><a href=#day4exercise3>exercise3</a></li>
+                                      <li><a href=#day4exercise4>exercise4</a></li>
+                                      
+                                  </ul>
+                              </li>
+                              <li>Assignment
+                                  <ul>
+                                      <li><a href=#day4assi1>Assignment 1</a></li>
+                                      <li><a href=#day4assi2>Assignment 2</a></li>
+                                  </ul>
+                              </li>
+                          </ul>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="offset-3 position-fixed p-0" id="main">
+                <div class="vh-100 overflow-auto">
+                    <a href="javascript:void(0)" class="closebtn" onclick="openNav()">
+                        <span class="fa fa-arrow-circle-o-right"></span>
+                    </a>
+
+                    <section id="head" class="vh-100 offset-1">
+                        <img src="css.png" alt="" height="500px">
+                    </section>
+                    <section id="exercise1"  class="vh-100">
+                        <h1>css/day1/exercise/exercise1</h1>
+                        <div style="text-align: center;">
+                        <table border="1">
+                            <caption>Table for student Report card</caption>
+                            <tr>
+                                <th id="name" rowspan="3"> Name </th>  
+                                <th id="roll_no" rowspan="3"> Roll No. </th>
+                                <th id="yop" rowspan="3"> Year of Passing </th>
+                                <th id="subject" colspan="6"> Subjects </th>
+                            </tr>
+                            <tr>
+                                <th id="maths" colspan="2"> Maths  </th>
+                                <th id="english" colspan="2"> English. </th>
+                                <th id="science" colspan="2"> Science </th>
+                            </tr>
+                            <tr>
+                                <td> Mark </td>
+                                <td> Grade </td>
+                                <td> Mark </td>
+                                <td> Grade </td>
+                                <td> Mark </td>
+                                <td> Grade </td>
+                                
+                            </tr>
+                            <tr>
+                                <td> Gautam Nayak</td>
+                                <td> 711 </td>
+                                <td> 2016 </td>
+                                <td> 70 </td>
+                                <td> A </td>
+                                <td> 90 </td>
+                                <td> A+ </td>
+                                <td> 80 </td>
+                                <td> A </td>
+                            </tr>
+                        </table>
+                    </div>
+                    </section>
+            
+                    <section id="exercise2"  class="vh-100">
+                        <h1>css/day1/exercise/exercise2</h1>
+            
+                        <!DOCTYPE html>
+                        <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>CSS exercise2</title> 
+                            <style>
+                                p {
+                                    border-color: green;
+                                    border-style:solid;
+                                    border-width: 5px;
+                                }
+                                
+                            </style>
+                        </head>
+                        <body>
+                            <p>Why Apple is the best place to buy iPhone.
+                                You can choose a payment option that works for you, pay less with a trade-in, connect your new iPhone to your carrier and get set up quickly.
+                                You can also chat with a Specialist anytime.</p>
+                        </body>
+                        </html>
+            
+                    </section>
+            
+                    <section id="exercise3"  class="vh-100">
+                        <h1>css/day1/exercise/exercise3</h1>
+                        <a href="Day1/Exercise/exercise3.html" target="_blank">Click here</a>
+                                
+                    </section>
+                    <section id="exercise4" class="vh-100">
+                        <h1>css/day1/exercise/exercise4</h1>
+                        <a href="Day1/Exercise/exercise4.html" target="_blank">Click here</a>
+                                
+                    </section>
+                    <section id="exercise5" class="vh-100">
+                        <h1>css/day1/exercise/exercise5</h1>
+                        <a href="Day1/Exercise/exercise5.html" target="_blank">Click here</a>
+                    </section>
+                    <section id="assi1" class="vh-100">
+                        <h1>css/day1/assignment/assignment1</h1>
+                        <a href="Day1/Assignment/assi1.html" target="_blank">Click here</a>
+                    </section>
+            
+                    
+                    <section id="day2exercise1" class="vh-100">
+                        <h1>css/day2/exercise/exercise1</h1>
+                        <a href="Day2/Exercise/exercise1.html" target="_blank">Click here</a>
+                    </section>
+                    <section id="day2exercise2" class="vh-100">
+                        <h1>css/day2/exercise/exercise2</h1>
+                        <a href="Day2/Exercise/exercise2.html" target="_blank">Click here</a>
+                                
+                    </section>
+                    <section id="day2exercise3" class="vh-100">
+                        <h1>css/day2/exercise/exercise3</h1>
+                        <a href="Day2/Exercise/exercise3.html" target="_blank">Click here</a>
+                                
+                    </section>
+                    <section id="day2assi1" class="vh-100">
+                        <h1>css/day2/assignment/assignment1</h1>
+                        <a href="Day2/Assignment/assi1.html" target="_blank">Click here</a>
+                    </section>
+                    <section id="day2assi2" class="vh-100">
+                        <h1>css/day2/assignment/assignment2</h1>
+                        <a href="Day2/Assignment/assi2.html" target="_blank">Click here</a>
+                    </section>
+            
+                    <section id="day3exercise1" class="vh-100">
+                        <h1>css/day3/exercise/exercise1</h1>
+                        <a href="Day3/Exercise/exercise1.html" target="_blank">Click here</a>
+                    </section>
+                    <section id="day3exercise2" class="vh-100">
+                        <h1>css/day3/exercise/exercise2</h1>
+                        <a href="Day3/Exercise/exercise2.html" target="_blank">Click here</a>
+                    </section>
+                    <section id="day3exercise3" class="vh-100">
+                        <h1>css/day3/exercise/exercise3</h1>
+                        <a href="Day3/Exercise/exercise3.html" target="_blank">Click here</a>
+                    </section>
+                    <section id="day3assi1" class="vh-100">
+                        <h1>css/day3/asignment/assi1</h1>
+                        <a href="Day3/Assignment/assi1.html" target="_blank">Click here</a>
+                    </section>
+            
+            
+                    <section id="day4exercise1" class="vh-100">
+                        <h1>css/day4/exercise/exercise1</h1>
+                        <a href="Day4/Exercise/exercise1.html" target="_blank">Click here</a>
+                    </section>
+                    <section id="day4exercise2" class="vh-100">
+                        <h1>css/day2/exercise/exercise2</h1>
+                        <a href="Day4/Exercise/exercise2.html" target="_blank">Click here</a>
+                    </section>
+                    <section id="day4exercise3" class="vh-100">
+                        <h1>css/day4/exercise/exercise3</h1>
+                        <a href="Day4/Exercise/exercise3.html" target="_blank">Click here</a>
+                    </section>
+                    <section id="day4exercise4" class="vh-100">
+                        <h1>css/day4/exercise/exercise4</h1>
+                        <a href="Day4/Exercise/exercise4.html" target="_blank">Click here</a>
+                    </section>
+                    <section id="day4assi1" class="vh-100">
+                        <h1>css/day4/asignment/assi1</h1>
+                        <a href="Day4/Assignment/assi1.html" target="_blank">Click here</a>
+                    </section>
+                    <section id="day4assi2" class="vh-100">
+                        <h1>css/day4/asignment/resume</h1>
+                        <a href="Day4/Assignment/resume.html" target="_blank">Click here</a>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function closeNav() {
+            document.getElementById("sticky-sidebar").style.display = "none";
+        }
+        function openNav() {
+            document.getElementById("sticky-sidebar").style.display = "block"
+        }
+
+    </script>
+
+</body>
+
+</html>

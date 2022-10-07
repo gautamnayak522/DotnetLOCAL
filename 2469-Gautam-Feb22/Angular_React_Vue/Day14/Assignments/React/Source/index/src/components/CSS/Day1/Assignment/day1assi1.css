@@ -1,0 +1,52 @@
+
+h1 {
+    margin: auto;
+    text-align: center;
+    color:rgba(137, 43, 226, 0.61);
+    font-size: 40px;
+
+}
+
+h2 {
+    text-decoration: underline;
+    color:blueviolet;
+}
+
+div.one {
+    float:left;
+    margin: auto;
+    width: 20em;
+}
+div.two {
+   display: inline-block;
+   margin: auto;
+   width: 20em;
+}
+
+
+div.test {
+    border-bottom-style: solid;
+    margin: auto;
+    text-align: center;
+    
+}
+
+h4.post {
+    margin: 10px;
+    text-align: center;
+}
+
+p {
+    display: inline;
+}
+
+p.block {
+    display: block;
+}
+
+section {
+    padding-left: 30%;
+    padding-top: 15px;
+    margin: auto;
+    
+}

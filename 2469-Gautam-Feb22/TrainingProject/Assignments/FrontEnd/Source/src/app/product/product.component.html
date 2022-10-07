@@ -1,0 +1,58 @@
+<div class="card-top container-fluid">
+    <div class="container d-flex">
+        <div class="item p-3">
+            <a (click)="filter('')">
+                <img src="https://th.bing.com/th/id/R.238ebdd12227fee5222ba662fb8926ed?rik=SqHGrsVYzBew2Q&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_548714.png&ehk=8gBf4teB1qLMLk%2fRElzSH3MfaPpsKEUXHO%2bw%2fe%2fRugI%3d&risl=&pid=ImgRaw&r=0" alt="" style="width:60px; height:60px">
+                <h6>All Products</h6>
+            </a>
+        </div>
+
+        <ng-container *ngFor="let item of categories" >
+            <div class="item p-3 dropdown">
+                <a class="dropbtn" (click)="filter(item.catName)">
+                    <img src={{item.thumbnail}} alt="" style="width:60px; height:60px">
+                    <h6 class="text-center">{{item.catName}}</h6>
+                </a>
+                <div class="dropdown-content">
+                    <ng-container *ngFor="let subcat of item.productSubcategories" >
+                        <a (click)="filter2(subcat)">{{subcat}}</a>
+                    </ng-container>
+                </div>
+            </div>
+        </ng-container>
+
+    </div>
+</div>
+
+
+<div class="container pt-3">
+    <div class="row">
+        <ng-container *ngFor="let item of filterCategory | filter:searchKey">
+                    <div class="card col-md-2">
+                        <div (click)="viewdetails(item.productId)">
+                        <img class="text-center" src={{item.productImages[0]}} alt="">
+                        <h6 class="text-primary" style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;"> {{item.catName}}</h6>
+                        <h6 class="text-primary" style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;"> {{item.brandName}}</h6>
+                        <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">
+                            {{item.productName}}</h5>
+                        <p><strong>Price:</strong> Rs.{{item.price}}</p>
+                    </div>
+                        <button type="button" class="btn btn-primary" (click)=addtocart(item)>Add to cart</button>
+                        
+                    </div>
+        </ng-container>
+    </div>
+</div>
+
+
+<!-- <hr>
+<p *ngFor="let obj of products">{{obj | json }}</p> -->
+<!-- 
+<hr>
+<p *ngFor="let obj of subcategories">{{obj | json }}</p>
+
+
+<button (click)=FindMainImage(1)>CLICK</button>
+<hr>
+
+<p>{{productMainImage}}</p> -->

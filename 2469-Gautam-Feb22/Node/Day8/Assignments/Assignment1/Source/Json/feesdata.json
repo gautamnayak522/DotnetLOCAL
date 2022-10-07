@@ -1,0 +1,21 @@
+[{
+    "Id":1,
+    "Name":"ABC",
+    "Total fee":15000,
+    "paid fee":10000,
+    "pending fee":5000
+},
+{
+    "Id":2,
+    "Name":"XYZ",
+    "Total fee":10000,
+    "paid fee":5000,
+    "pending fee":5000
+},
+{
+    "Id":1,
+    "Name":"PQR",
+    "Total fee":20000,
+    "paid fee":10000,
+    "pending fee":10000
+}]

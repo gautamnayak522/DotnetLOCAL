@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>JavaScript</title>
+
+</head>
+<style>
+  .navbar {
+    grid-area: navbar;
+    height: 53px;
+    background-color: darkcyan;
+    font-size: 40px;
+    text-align: center;
+
+  }
+
+  .navbar a {
+    color: aliceblue;
+    margin: 10px;
+    padding: 30px 10px;
+  }
+
+  .sidebar {
+    grid-area: sidebar;
+
+    background-color: wheat;
+    font-size: 20px;
+    height: 800px;
+    width: 300px;
+    overflow-y: scroll;
+
+  }
+
+  .main {
+
+    grid-area: main;
+    background-color: papayawhip;
+    height: 800px;
+    width: 1200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .container {
+    display: grid;
+    grid-template-areas: 'navbar navbar navbar navbar'
+      'sidebar main main main';
+  }
+
+  section {
+    min-height: 100vh;
+  }
+</style>
+
+<body>
+  <div id="app"></div>
+  <script type="module" src="../main.js"></script>
+
+  <div class="container">
+
+    <nav class="navbar" aria-label="">
+      <a href="../index.html">HOME</a>
+      <a href="../HTML/index.html">HTML</a>
+      <a href="../CSS/index.html">CSS</a>
+      <a href="../BOOTSTRAP/index.html">BOOTSTRAP</a>
+      <a href="../tailwind/index.html">TAILWIND</a>
+      <a href="../Javascript/index.html">JAVASCRIPT</a>
+      <a href="index.html">JQUERY</a>
+    </nav>
+
+    <div class="sidebar">
+      <h3>JQUERY</h3>
+      <ul>
+        <li>
+          Day1
+          <ul>
+            <li>Practice exercise
+              <ul>
+                <li><a href=#practice1>Practice1</a></li>
+                <li><a href=#practice2>Practice2</a></li>
+                <li><a href=#practice3>Practice3</a></li>
+              </ul>
+            </li>
+            <li>Assignment
+              <ul>
+                <li><a href=#day1assi1>Assi1</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          Day2
+          <ul>
+            <li>Practice exercise
+              <ul>
+                <li><a href=#day2practice1>Practice1</a></li>
+                <li><a href=#day2practice2>Practice2</a></li>
+                <li><a href=#day2practice3>Practice3</a></li>
+                <li><a href=#day2practice4>Practice4</a></li>
+                <li><a href=#day2practice5>Practice5</a></li>
+              </ul>
+            </li>
+            <li>Assignment
+              <ul>
+                <li><a href=#day2assi1>Assi1</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="main">
+
+      <h1>JQUERY</h1>
+      <hr>
+      <section id="practice1">
+        <a href="Day1/Practice/practice1.html" target="_blank">Day 1 practice1</a>
+      </section>
+      <section id="practice2">
+        <a href="Day1/Practice/practice2.html" target="_blank">Day 1 practice2</a>
+      </section>
+      <section id="practice3">
+        <a href="Day1/Practice/practice3.html" target="_blank">Day 1 practice3</a>
+      </section>
+      <section id="day1assi1">
+        <a href="Day1/Assignment/assi1.html" target="_blank">Day 1 Assi1</a>
+      </section>
+
+      <section id="day2practice1">
+        <a href="Day2/Practice/practice1.html" target="_blank">Day 2 practice1</a>
+      </section>
+      <section id="day2practice2">
+        <a href="Day2/Practice/practice2.html" target="_blank">Day 2 practice2</a>
+      </section>
+      <section id="day2practice3">
+        <a href="Day2/Practice/practice3.html" target="_blank">Day 2 practice3</a>
+      </section>
+      <section id="day2practice4">
+        <a href="Day2/Practice/practice4.html" target="_blank">Day 2 practice4</a>
+      </section>
+      <section id="day2practice5">
+        <a href="Day2/Practice/practice5.html" target="_blank">Day 2 practice5</a>
+      </section>
+
+      <section id="day2assi1">
+        <a href="Day2/Assignment/assi1.html" target="_blank">Day 1 Assi1</a>
+      </section>
+
+
+    </div>
+  </div>
+</body>
+
+</html>

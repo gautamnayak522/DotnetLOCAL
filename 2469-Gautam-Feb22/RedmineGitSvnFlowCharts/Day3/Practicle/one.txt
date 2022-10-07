@@ -1,0 +1,18 @@
+in test branch created this new file
+this is child of development
+
+i am making changes to test branch and req for merge
+from test i dont know change was made at remote lets i m going to mergw
+from devp (adding this line for conflict while merge)
+//conflict occure (accepting both changes and merge files)
+
+
+adding this for merge parent to child (devp to test)
+
+
+//above code i have practiced 
+-creating branch(main to development,development to test)
+-merge branch 
+-reverese merge
+-conflicts resolve while merging
+- creating pull request for merge,revew,compare and merge code.

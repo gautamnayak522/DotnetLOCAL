@@ -1,0 +1,16 @@
+
+<label for="fno">Enter First No.</label>
+<input type="number" [(ngModel)]="num1"><br/><br/>
+<label for="sno">Enter Second No.</label>
+<input type="number" [(ngModel)]="num2"><br/><br/>
+<button (click)="result()">Calculate</button>
+
+<p>Number 1 : {{num1}}</p>
+<p>Number 2 : {{num2}}</p>
+
+<div id="ans">
+<p>{{add}} </p>
+<p>{{sub}} </p>
+<p>{{mul}} </p>
+</div>
+

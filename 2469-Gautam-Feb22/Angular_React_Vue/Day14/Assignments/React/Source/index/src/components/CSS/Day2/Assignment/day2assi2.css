@@ -1,0 +1,54 @@
+.day2assi2-header {
+    background-color: gainsboro;
+    width: 100%;
+    height: 120px;
+    display: block;
+    
+
+}
+
+#sidebar-left {
+    float: left;
+    width: 13%;
+    background-color: yellow;
+}
+
+#day2assi2-main {
+    float: right;
+    width: 87%;
+    background-color: lightsalmon;
+}
+
+
+footer {
+    clear: both;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    background-color: hotpink;
+}
+
+#img-day2assi2 {
+    width: 100px;
+    height: 80px;
+    margin-left: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    display: inline;
+    float: left;
+
+}
+
+#sidebar-left,
+#main,
+#sidebar-right {
+    min-height: 500px
+}
+
+.day2assi2-header ul li {
+
+    padding: 10px 20px;
+    display: inline-block;
+    
+    
+} 

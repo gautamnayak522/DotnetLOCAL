@@ -1,0 +1,21 @@
+<button (click)="viaAtlantic()">Via Atlantic</button>
+<button (click)="viaPacific()">Via Pacific</button>
+<h3>Atlantic Menu</h3>
+
+<!--To display Atlantic Meals-->
+
+<div *ngFor="let i of AtlanticMenu">
+  <span>{{i.item}}</span>
+  <!--Button to book atlantic meals along with id-->
+  <button (click)= "atlanticMenu(i.id)">Book</button>
+</div>
+
+<!--To display Pacific Meals-->
+
+<h3>Pacific Menu</h3>
+<div *ngFor="let i of PacificMenu">
+  <span>{{i.item}}</span>
+   <!--Button to book pacific meals along with id-->
+  <button (click)= "pacificMenu(i.id)">Book</button>
+</div>
+<router-outlet></router-outlet>

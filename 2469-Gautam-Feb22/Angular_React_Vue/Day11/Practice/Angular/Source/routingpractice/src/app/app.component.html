@@ -1,0 +1,10 @@
+<div>
+  <header class="bg-secondary p-3 text-center">
+    <a class="button" [routerLink]="['/home']" routerLinkActive="activebutton">HOME</a>
+    <a class="button" [routerLink]="['/aboutus']" routerLinkActive="activebutton">ABOUT US</a>
+    <a class="button" [routerLink]="['/contactus']" routerLinkActive="activebutton">CONTACT US</a>
+  </header>
+</div>
+<div class="text-center pt-5">
+  <router-outlet></router-outlet>
+</div>

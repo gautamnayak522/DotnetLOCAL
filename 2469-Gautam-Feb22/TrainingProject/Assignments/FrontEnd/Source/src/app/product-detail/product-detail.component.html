@@ -1,0 +1,80 @@
+
+
+
+<section class="bg-light text-muted py-5 pt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col col-1 d-flex flex-column gap-3">
+                <div *ngFor="let item of productdetail.productImages;let i = index" class="card" (click)="setimage(item)">
+                    <img src={{item}} alt="" style="width: 70px; height: 70px;">
+                </div>
+            </div>
+            <div class="col md-6 card" >
+
+                    <div class="img-container">
+                            <lib-ngx-image-zoom 
+                                [thumbImage]=myThumbnail
+                                [fullImage]=myFullresImage
+                                [magnification]="2"
+                                [enableScrollZoom]="true"
+                                [enableLens]="true"
+                                [lensWidth]="500"
+                                [lensHeight]="400"
+                            ></lib-ngx-image-zoom>
+                    </div>
+                    
+            </div>
+            <div class="col md-6">
+
+                <div class="d-flex flex-row">
+                    <div class="p-4 align-self-end">
+                        <h3>{{productdetail.productName}}</h3>
+                        <p>{{productdetail.description}}</p>
+
+                    </div>
+                </div>
+
+                <div class="d-flex flex-row">
+
+                    <div class="p-4 align-self-end">
+                        <h3>Rs. {{productdetail.price}}</h3>
+
+                        <div class="d-flex flex-row gap-2 pt-2">
+                            <ng-container  *ngFor="let item of productdetail.productColours">
+                                <button class="btn card">{{item.color}}</button>
+                            </ng-container>
+                        </div>
+
+                        <div class="d-flex flex-row gap-2 pt-2">
+                            <ng-container  *ngFor="let item of productdetail.productSizes">
+                                <button class="btn card">{{item.size}}</button>
+                            </ng-container>
+                        </div>
+                       
+
+                        <div class="d-flex pt-5 gap-3">
+                            <button type="button" class="btn btn-primary" (click)="addtocart()">Add to Cart</button>
+                            <button type="button" class="btn btn-primary" (click)="makeorder()">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- <ngx-image-zoom
+  [thumbImage]="myThumbnail"
+  [fullImage]="myFullresImage"
+  [magnification]="1"
+  [enableScrollZoom]="true"
+  [enableLens]="true"
+  [lensWidth]="500"
+  lensHeight="400"
+></ngx-image-zoom> -->
+
+<!-- <lib-ngx-image-zoom
+    [thumbImage]=myThumbnail
+    [fullImage]=myFullresImage
+></lib-ngx-image-zoom> -->

@@ -1,0 +1,16 @@
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\asyncawaitpr2\asyncawaitpr2\obj\Debug\net5.0\asyncawaitpr2.csproj.AssemblyReference.cache
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\asyncawaitpr2\asyncawaitpr2\obj\Debug\net5.0\asyncawaitpr2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\asyncawaitpr2\asyncawaitpr2\obj\Debug\net5.0\asyncawaitpr2.AssemblyInfoInputs.cache
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\asyncawaitpr2\asyncawaitpr2\obj\Debug\net5.0\asyncawaitpr2.AssemblyInfo.cs
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\asyncawaitpr2\asyncawaitpr2\obj\Debug\net5.0\asyncawaitpr2.csproj.CoreCompileInputs.cache
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\asyncawaitpr2\asyncawaitpr2\bin\Debug\net5.0\asyncawaitpr2.exe
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\asyncawaitpr2\asyncawaitpr2\bin\Debug\net5.0\asyncawaitpr2.deps.json
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\asyncawaitpr2\asyncawaitpr2\bin\Debug\net5.0\asyncawaitpr2.runtimeconfig.json
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\asyncawaitpr2\asyncawaitpr2\bin\Debug\net5.0\asyncawaitpr2.runtimeconfig.dev.json
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\asyncawaitpr2\asyncawaitpr2\bin\Debug\net5.0\asyncawaitpr2.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\asyncawaitpr2\asyncawaitpr2\bin\Debug\net5.0\ref\asyncawaitpr2.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\asyncawaitpr2\asyncawaitpr2\bin\Debug\net5.0\asyncawaitpr2.pdb
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\asyncawaitpr2\asyncawaitpr2\obj\Debug\net5.0\asyncawaitpr2.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\asyncawaitpr2\asyncawaitpr2\obj\Debug\net5.0\ref\asyncawaitpr2.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\asyncawaitpr2\asyncawaitpr2\obj\Debug\net5.0\asyncawaitpr2.pdb
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\asyncawaitpr2\asyncawaitpr2\obj\Debug\net5.0\asyncawaitpr2.genruntimeconfig.cache

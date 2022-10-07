@@ -1,0 +1,36 @@
+
+
+<div class="pt-5 container col-md-6" *ngIf="!authservice.getUser()">
+  <form [formGroup]="loginform" (ngSubmit)="onSubmit()" *ngIf="!isLoggedIn">
+    
+      <label for="username">MobileNo / Email</label>
+      <input type="text" class="form-control" formControlName="username" />
+      
+      <div>
+
+      <span class="text-danger " *ngIf="getusername?.touched && getusername?.hasError('required')">
+        <small>Mobile/Email is required</small>
+      </span> 
+      <span class="text-danger " *ngIf="getusername?.touched && getusername?.hasError('pattern')">
+        <small>Enter Valid Mobile/Email</small>
+      </span>
+      </div>  
+
+      <label for="password">Password</label>
+      <input type="password" class="form-control" formControlName="password" />
+
+
+    <div class="d-flex pt-3 gap-3">
+      <button type="submit" class="btn btn-success w-50" (click)="login()">
+        Login
+      </button>
+      <button type="submit" class="btn btn-primary w-50" (click)="loginwithotp()">
+        Login with OTP
+      </button>
+    </div>
+    <p class="text-center pt-2">Don't have an account? <a [routerLink]="['/register']"
+        routerLinkActive="router-link-active">Signup</a>
+      </p>
+
+  </form>
+</div>

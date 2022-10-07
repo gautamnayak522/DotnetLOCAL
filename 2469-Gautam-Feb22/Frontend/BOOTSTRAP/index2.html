@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOTSTRAP</title>
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <style>
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light py-4 sticky-top bg-dark">
+        <div class="container">
+            <a href="../index.html" class="navbar-brand text-white">
+                <img src="../radix_logo.jpeg" alt="." width="50" height="50">
+                <h3 class="d-inline align-middle">RadixTraining</h3>
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="fa fa-bars text-white" aria-hidden="true"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="../index2.html" class="nav-link text-white">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../HTML/index2.html" class="nav-link text-white">HTML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../CSS/index2.html" class="nav-link text-white">CSS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index2.html" class="nav-link text-white">BOOTSTRAP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../tailwind/index2.html" class="nav-link text-white">TAILWIND</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../Javascript/index2.html" class="nav-link text-white">JAVASCRIPT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../jQuery/index2.html" class="nav-link text-white">JQUERY</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3 p-0 bg-secondary position-sticky" id="sticky-sidebar">
+
+                <div class="flex-column flex-nowrap vh-100 overflow-auto text-white p-2">
+                    <a href="javascript:void(0)" class="sticky-top" onclick="closeNav()">
+                        <span class="fa fa-close"></span>
+                    </a>
+                    <h3 class="text-center text-dark"><a href="#head">BOOTSTRAP</a></h3>
+
+                    <ul>
+                        <li>
+                            Day1
+                            <ul>
+                                <li>Practice exercise
+                                    <ul>
+                                        <li><a href=#practice1>Practice1</a></li>
+                                        <li><a href=#practice2>Practice2</a></li>
+                                        <li><a href=#practice3>Practice3</a></li>
+                                        <li><a href=#practice4>Practice4</a></li>
+                                        <li><a href=#practice5>Practice5</a></li>
+                                        <li><a href=#practice6>Practice6</a></li>
+                                        <li><a href=#practice7>Practice7</a></li>
+                                        <li><a href=#practice8>Practice8</a></li>
+                                        <li><a href=#practice9>Practice9</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Day2
+                            <ul>
+                                <li>Practice exercise
+                                    <ul>
+                                        <li><a href=#day2practice1>Practice1</a></li>
+                                        <li><a href=#day2practice2>Practice2</a></li>
+                                        <li><a href=#day2practice3>Practice3</a></li>
+                                        <li><a href=#day2practice4>Practice4</a></li>
+                                    </ul>
+                                </li>
+                                <li>Assignment
+                                    <ul>
+                                        <li><a href=#day2assi1>Assi1 (RESUME)</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Day3
+                            <ul>
+                                <li>Practice exercise
+                                    <ul>
+                                        <li><a href=#day3practice1>Practice1</a></li>
+                                        <li><a href=#day3practice2>Practice2</a></li>
+                                    </ul>
+                                </li>
+                                <li>Assignment
+                                    <ul>
+                                        <li><a href=#day3assi1>Assi1 (Looplab project)</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Day4
+                            <ul>
+                                <li>Practice exercise
+                                    <ul>
+                                        <li><a href=#day4practice1>Practice1</a></li>
+                                    </ul>
+                                </li>
+                                <li>Assignment
+                                    <ul>
+                                        <li><a href=#day4assi1>Assi1 (mazuxe project)</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Day5
+                            <ul>
+                                <li>Assignment
+                                    <ul>
+                                        <li><a href=#day5assi1>Assi1 (Blogen Admin UI project)</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Day6
+                            <ul>
+                                <li>Additional task
+                                    <ul>
+                                        <li><a href=#day6assi1>Additional Task : Flipkart</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="offset-3 position-fixed p-0" id="main">
+                <div class="vh-100 overflow-auto">
+                    <a href="javascript:void(0)" class="closebtn" onclick="openNav()">
+                        <span class="fa fa-arrow-circle-o-right"></span>
+                    </a>
+
+                    <section id="head" class="vh-100">
+                        <h1>BOOTSTRAP</h1>
+                        <img src="bootstrap.jpg" alt="">
+                    </section>
+                    <section id="practice1" class="vh-100">
+                        <a href="Day1/alert.html" target="_blank">Day 1 practice1</a>
+                    </section>
+
+                    <section id="practice2" class="vh-100">
+                        <a href="Day1/buttons.html" target="_blank">Day 1 practice2</a>
+                    </section>
+                    <section id="practice3" class="vh-100">
+                        <a href="Day1/card.html" target="_blank">Day 1 practice3</a>
+                    </section>
+                    <section id="practice4" class="vh-100">
+                        <a href="Day1/colors.html" target="_blank">Day 1 practice4</a>
+                    </section>
+                    <section id="practice5" class="vh-100">
+                        <a href="Day1/first.html" target="_blank">Day 1practice5</a>
+                    </section>
+                    <section id="practice6" class="vh-100">
+                        <a href="Day1/form.html" target="_blank">Day 1 practice6</a>
+                    </section>
+                    <section id="practice7" class="vh-100">
+                        <a href="Day1/grid.html" target="_blank">Day 1 practice7</a>
+                    </section>
+                    <section id="practice8" class="vh-100">
+                        <a href="Day1/table.html" target="_blank">Day 1 practice8</a>
+                    </section>
+                    <section id="practice9" class="vh-100">
+                        <a href="Day1/typography.html" target="_blank">Day 1 practice9</a>
+                    </section>
+
+
+                    <section id="day2practice1" class="vh-100">
+                        <a href="Day2/figure.html" target="_blank">Day 2 practice1</a>
+                    </section>
+                    <section id="day2practice2" class="vh-100">
+                        <a href="Day2/image.html" target="_blank">Day 2 practice2</a>
+                    </section>
+                    <section id="day2practice3" class="vh-100">
+                        <a href="Day2/list.html" target="_blank">Day 2 practice3</a>
+                    </section>
+                    <section id="day2practice4" class="vh-100">
+                        <a href="Day2/dropdown.html" target="_blank">Day 2 practice4</a>
+                    </section>
+                    <section id="day2assi1" class="vh-100">
+                        <a href="Day2/Assignment/resume.html" target="_blank">Day 2 Assi1 resume</a>
+                    </section>
+
+                    <section id="day3practice1" class="vh-100">
+                        <a href="Day3/album.html" target="_blank">Day 3 practice1</a>
+                    </section>
+                    <section id="day3practice2" class="vh-100">
+                        <a href="Day3/collapse.html" target="_blank">Day 3 practice2</a>
+                    </section>
+                    <section id="day3assi1" class="vh-100">
+                        <a href="Day3/Assignment/looplab.html" target="_blank">Day 3 Assi1 project1 Looplab</a>
+                    </section>
+
+                    <section id="day4practice1" class="vh-100">
+                        <a href="Day4/carousel.html" target="_blank">Day 4 practice1</a>
+                    </section>
+                    <section id="day4assi1" class="vh-100">
+                        <a href="Day4/Assignment/mizuxe.html" target="_blank">Day 4 assi1 project2 Mazuxe</a>
+                    </section>
+
+                    <section id="day5assi1" class="vh-100">
+                        <a href="Day5/blogen Admin UI/index.html" target="_blank">Day 5 Assi1 project 3 Blogen admin
+                            UI</a>
+                    </section>
+
+                    <section id="day6assi1" class="vh-100">
+                        <a href="Day6/flipkart/index.html" target="_blank">Additional Exercise : Flipkart</a>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function closeNav() {
+            document.getElementById("sticky-sidebar").style.display = "none";
+        }
+        function openNav() {
+            document.getElementById("sticky-sidebar").style.display = "block"
+        }
+    </script>
+
+</body>
+
+</html>

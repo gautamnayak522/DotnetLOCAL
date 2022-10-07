@@ -1,0 +1,332 @@
+<form [formGroup]="admissionForm" (ngSubmit)="onSubmit()" class="admissionform">
+    <h1 class="text-center text-secondary">Student Admission Form</h1>
+    <div formGroupName="Name">
+        <label for="fname">First Name : <span class="required">*</span></label>
+        <input id="fname" class="w-100" type="text" formControlName="firstName" />
+        <span class="text-danger" *ngIf="getfirstname?.touched && getfirstname?.hasError('required')">
+            <small>Name is required</small>
+        </span>
+        <span class="text-danger" *ngIf="getfirstname?.hasError('minlength')">
+            <small>Name must be at least 4 characters long.</small>
+        </span>
+        <br /><br />
+        <label for="mname">Middle Name :<span class="required">*</span></label>
+        <input id="mname" class="w-100" type="text" formControlName="middleName" />
+        <span class="text-danger" *ngIf="getmiddlename?.touched && getmiddlename?.hasError('required')">
+            <small>Name is required</small>
+        </span>
+        <br /><br />
+        <label for="lname">Last Name : <span class="required">*</span></label>
+        <input id="lname" class="w-100" type="text" formControlName="lastName" />
+        <span class="text-danger" *ngIf="getlastname?.touched && getlastname?.hasError('required')">
+            <small>Name is required</small>
+        </span>
+        <br /><br />
+    </div>
+    <label for="dob">Date of Birth : <span class="required">*</span> </label>
+    <input id="dob" class="w-100" type="date" formControlName="DOB" />
+    <span class="text-danger" *ngIf="getdob?.touched && getdob?.hasError('required')">
+        <small>DOB is required</small>
+    </span>
+    <br /><br />
+    <label for="pob">Place of Birth : <span class="required">*</span></label>
+    <input id="pob" class="w-100" type="text" formControlName="place_of_birth" />
+    <span class="text-danger" *ngIf="getpob?.touched && getpob?.hasError('required')">
+        <small>This is required</small>
+    </span>
+    <br /><br />
+    <label for="flang">First Language : <span class="required">*</span></label>
+    <input id="flang" class="w-100" type="text" formControlName="first_language" />
+    <span class="text-danger" *ngIf="getfl?.touched && getfl?.hasError('required')">
+        <small>This is required</small>
+    </span>
+    <br /><br />
+    <div formGroupName="Address">
+        <h4>Address</h4>
+        <label for="city">City : <span class="required">*</span></label>
+        <input id="city" class="w-100" type="text" formControlName="City" />
+        <span class="text-danger" *ngIf="getcity?.touched && getcity?.hasError('required')">
+            <small>This is required</small>
+        </span>
+        <br /><br />
+        <label for="state">State : <span class="required">*</span></label>
+        <input id="state" class="w-100" type="text" formControlName="State" />
+        <span class="text-danger" *ngIf="getstate?.touched && getstate?.hasError('required')">
+            <small>This is required</small>
+        </span>
+        <br /><br />
+        <label for="country">Country : <span class="required">*</span></label>
+        <input id="country" class="w-100" type="text" formControlName="Country" />
+        <span class="text-danger" *ngIf="getcountry?.touched && getcountry?.hasError('required')">
+            <small>This is required</small>
+        </span>
+        <br /><br />
+        <label for="pin">Pin Code: <span class="required">*</span></label>
+        <input id="pin" class="w-100" type="text" formControlName="Pin" /><br />
+        <span class="text-danger" *ngIf="getpin?.touched && getpin?.hasError('required')">
+            <small>This is required</small>
+        </span>
+        <span class="text-danger" *ngIf="getpin?.hasError('pattern')">
+            <small>Enter valid PinCode</small>
+        </span>
+        <br /><br />
+    </div>
+    <div formGroupName="FathersDetails">
+        <div formGroupName="FatherName">
+            <h4>Father's Details</h4>
+            <label for="fname">First Name : <span class="required">*</span></label>
+            <input id="fname" class="w-100" type="text" formControlName="firstName" />
+            <span class="text-danger" *ngIf="fatherfname?.touched && fatherfname?.hasError('required')">
+                <small>This is required</small>
+            </span>
+            <br /><br />
+            <label for="mname">Middle Name : <span class="required">*</span></label>
+            <input id="mname" class="w-100" type="text" formControlName="middleName" />
+            <span class="text-danger" *ngIf="fathermname?.touched && fathermname?.hasError('required')">
+                <small>This is required</small>
+            </span>
+            <br /><br />
+            <label for="lname">Last Name : <span class="required">*</span></label>
+            <input id="lname" class="w-100" type="text" formControlName="lastName" />
+            <span class="text-danger" *ngIf="fatherlname?.touched && fatherlname?.hasError('required')">
+                <small>This is required</small>
+            </span>
+            <br /><br />
+        </div>
+        <label for="email">Email : <span class="required">*</span></label>
+        <input id="email" class="w-100" type="email" formControlName="Email" />
+        <span class="text-danger" *ngIf="femail?.touched && femail?.hasError('required')">
+            <small>This is required</small>
+        </span>
+        <span class="text-danger" *ngIf="femail?.hasError('email')">
+            <small>Enter valid email</small>
+        </span>
+        <br /><br />
+        <label for="eq">Education Qualification : <span class="required">*</span></label>
+        <textarea id="eq" class="w-100" cols="25" rows="3" formControlName="Education_q"></textarea>
+        <span class="text-danger" *ngIf="feq?.touched && feq?.hasError('required')">
+            <small>This is required</small>
+        </span>
+        <br /><br />
+        <label for="profession">Profession: <span class="required">*</span></label>
+        <input id="profession" class="w-100" type="text" formControlName="profession" />
+        <span class="text-danger" *ngIf="fprof?.touched && fprof?.hasError('required')">
+            <small>This is required</small>
+        </span>
+        <br /><br />
+        <label for="designation">Designation: <span class="required">*</span></label>
+        <input id="designation" class="w-100" type="text" formControlName="designation" />
+        <span class="text-danger" *ngIf="fdesg?.touched && fdesg?.hasError('required')">
+            <small>This is required</small>
+        </span>
+        <br /><br />
+        <label for="phone">Phone: <span class="required">*</span></label>
+        <input id="phone" class="w-100" type="text" formControlName="phone" />
+        <span class="text-danger" *ngIf="fphone?.touched && fphone?.hasError('required')">
+            <small>This is required</small>
+        </span>
+        <span class="text-danger" *ngIf="fphone?.hasError('pattern')">
+            <small>Please, Enter 10 digit Mobile Number.</small>
+        </span>
+        <br /><br />
+    </div>
+    <div formGroupName="MothersDetails">
+        <div formGroupName="MotherName">
+            <h4>Mother's Details</h4>
+            <label for="fname">First Name : <span class="required">*</span></label>
+            <input id="fname" class="w-100" type="text" formControlName="firstName" />
+            <span class="text-danger" *ngIf="motherfname?.touched && motherfname?.hasError('required')">
+                <small>This is required</small>
+            </span>
+            <br /><br />
+            <label for="mname">Middle Name : <span class="required">*</span></label>
+            <input id="mname" class="w-100" type="text" formControlName="middleName" />
+            <span class="text-danger" *ngIf="mothermname?.touched && mothermname?.hasError('required')">
+                <small>This is required</small>
+            </span>
+            <br /><br />
+            <label for="lname">Last Name : <span class="required">*</span></label>
+            <input id="lname" class="w-100" type="text" formControlName="lastName" />
+            <span class="text-danger" *ngIf="motherlname?.touched && motherlname?.hasError('required')">
+                <small>This is required</small>
+            </span>
+            <br /><br />
+        </div>
+        <label for="email">Email : <span class="required">*</span></label>
+        <input id="email" class="w-100" type="email" formControlName="Email" />
+        <span class="text-danger" *ngIf="memail?.touched && memail?.hasError('required')">
+            <small>This is required</small>
+        </span>
+        <span class="text-danger" *ngIf="memail?.hasError('email')">
+            <small>Enter valid email</small>
+        </span>
+        <br /><br />
+        <label for="eq">Education Qualification : <span class="required">*</span></label>
+        <textarea id="eq" class="w-100" cols="25" rows="3" formControlName="Education_q"></textarea>
+        <span class="text-danger" *ngIf="meq?.touched && meq?.hasError('required')">
+            <small>This is required</small>
+        </span>
+        <br /><br />
+        <label for="profession">Profession: <span class="required">*</span></label>
+        <input id="profession" class="w-100" type="text" formControlName="profession" />
+        <span class="text-danger" *ngIf="mprof?.touched && mprof?.hasError('required')">
+            <small>This is required</small>
+        </span>
+        <br /><br />
+        <label for="designation">Designation: <span class="required">*</span></label>
+        <input id="designation" class="w-100" type="text" formControlName="designation" />
+        <span class="text-danger" *ngIf="mdesg?.touched && mdesg?.hasError('required')">
+            <small>This is required</small>
+        </span>
+        <br /><br />
+        <label for="phone">Phone: <span class="required">*</span></label>
+        <input id="phone" class="w-100" type="text" formControlName="phone" />
+        <span class="text-danger" *ngIf="mphone?.touched && mphone?.hasError('required')">
+            <small>This is required</small>
+        </span>
+        <span class="text-danger" *ngIf="mphone?.hasError('pattern')">
+            <small>Please, Enter 10 digit Mobile Number.</small>
+        </span>
+        <br /><br />
+    </div>
+
+    <div formArrayName="emergency">
+        <h4>Emergency Contact</h4>
+
+        <div *ngFor="let emr of emergency.controls; let i = index">
+            <label for="emr-{{ i }}">Number {{i+1}} :<span class="required">*</span></label>
+            
+            <input id="emr-{{ i }}" class="w-75" type="text" [formControlName]="i" />
+            <button type="button" [disabled]="emergency.length==1" class="rounded" (click)="removeemr(i)">-</button>
+
+            <br/>
+            <span class="text-danger" *ngIf="emr?.touched && emr?.hasError('required')">
+                <small>This is required</small>
+            </span>
+            <span class="text-danger" *ngIf="emr?.hasError('pattern')">
+                <small>Please, Enter 10 digit Mobile Number.</small>
+            </span>
+        </div>
+        <br/>
+        <button type="button" class="btn-primary rounded" (click)="addemr()">+ Add another Number</button>
+        <br /><br />
+    </div>
+
+    <div formGroupName="Reference">
+        <h4>Reference Details</h4>
+        <label for="rt">Ref Through : <span class="required">*</span></label>
+        <select id="rt" class="w-100" formControlName="ref_through">
+            <option value="">Select</option>
+            <option value="Online">Online</option>
+            <option value="AdmissionCell">Admission Cell</option>
+            <option value="Template">Template</option>
+        </select>
+        <span class="text-danger" *ngIf="getrefthrough?.touched && getrefthrough?.hasError('required')">
+            <small>This is required</small>
+        </span>
+        <br /><br />
+        <label for="add">Address : <span class="required">*</span></label>
+        <textarea cols="15" rows="3" class="w-100" formControlName="address"></textarea>
+        <span class="text-danger" *ngIf="getaddress?.touched && getaddress?.hasError('required')">
+            <small>This is required</small>
+        </span>
+        <br /><br />
+        <label for="contact">Contact : <span class="required">*</span></label>
+        <input id="contact" type="tel" class="w-100" formControlName="contact" />
+        <span class="text-danger" *ngIf="getphone?.touched && getphone?.hasError('required')">
+            <small>This is required</small>
+        </span>
+        <span class="text-danger" *ngIf="getphone?.hasError('pattern')">
+            <small>Please, Enter 10 digit Mobile Number.</small>
+        </span>
+        <br /><br />
+    </div>
+    <div class="text-center">
+        <span class="text-danger" *ngIf="!admissionForm.valid">Please fill all required Details</span><br />
+        <button type="submit" class="[btn-success]=admissionForm.valid"
+            [disabled]="!admissionForm.valid">Submit</button>
+        <button type="reset" class="btn-danger">Reset</button>
+    </div>
+</form>
+<p>Form Status: {{ admissionForm.status }}</p>
+<p>Form Data : </p>
+<p>{{ admissionForm.value | json }}</p>
+
+<table class="table table-responsive table-bordered">
+    <caption></caption>
+    <thead>
+        <tr>
+            <th rowspan="2" scope="">FirstName</th>
+            <th rowspan="2" scope="">MiddleName</th>
+            <th rowspan="2" scope="">LastName</th>
+            <th rowspan="2" scope="">DOB</th>
+            <th rowspan="2" scope="">Place of Birth</th>
+            <th rowspan="2" scope="">First Language</th>
+            <th colspan="4" scope="">Address</th>
+            <th colspan="8" scope="">Fathers Details</th>
+            <th colspan="8" scope="">Mothers Details</th>
+            <th rowspan="2" scope="">Emergency Contact</th>
+            <th rowspan="2" scope="">Reference Through</th>
+            <th rowspan="2" scope="">Address</th>
+            <th rowspan="2" scope="">Contact</th>
+
+        </tr>
+        <tr>
+            <th scope="">City</th>
+            <th scope="">State</th>
+            <th scope="">Country</th>
+            <th scope="">Pin</th>
+            <th scope="">firstName</th>
+            <th scope="">middleName</th>
+            <th scope="">lastName</th>
+            <th scope="">Email</th>
+            <th scope="">Education_q</th>
+            <th scope="">profession</th>
+            <th scope="">designation</th>
+            <th scope="">phone</th>
+            <th scope="">firstName</th>
+            <th scope="">middleName</th>
+            <th scope="">lastName</th>
+            <th scope="">Email</th>
+            <th scope="">Education_q</th>
+            <th scope="">profession</th>
+            <th scope="">designation</th>
+            <th scope="">phone</th>
+        </tr>
+    </thead>
+    <tbody *ngFor="let item of studentList">
+        <tr>
+            <td>{{item.Name.firstName}}</td>
+            <td>{{item.Name.middleName}}</td>
+            <td>{{item.Name.lastName}}</td>
+            <td>{{item.DOB}}</td>
+            <td>{{item.place_of_birth}}</td>
+            <td>{{item.first_language}}</td>
+            <td>{{item.Address.City}}</td>
+            <td>{{item.Address.State}}</td>
+            <td>{{item.Address.Country}}</td>
+            <td>{{item.Address.Pin}}</td>
+            <td>{{item.FathersDetails.FatherName.firstName}}</td>
+            <td>{{item.FathersDetails.FatherName.middleName}}</td>
+            <td>{{item.FathersDetails.FatherName.lastName}}</td>
+            <td>{{item.FathersDetails.Email}}</td>
+            <td>{{item.FathersDetails.Education_q}}</td>
+            <td>{{item.FathersDetails.profession}}</td>
+            <td>{{item.FathersDetails.designation}}</td>
+            <td>{{item.FathersDetails.phone}}</td>
+            <td>{{item.MothersDetails.MotherName.firstName}}</td>
+            <td>{{item.MothersDetails.MotherName.middleName}}</td>
+            <td>{{item.MothersDetails.MotherName.lastName}}</td>
+            <td>{{item.MothersDetails.Email}}</td>
+            <td>{{item.MothersDetails.Education_q}}</td>
+            <td>{{item.MothersDetails.profession}}</td>
+            <td>{{item.MothersDetails.designation}}</td>
+            <td>{{item.MothersDetails.phone}}</td>
+            <td>{{item.emergency}}</td>
+            <td>{{item.Reference.ref_through}}</td>
+            <td>{{item.Reference.address}}</td>
+            <td>{{item.Reference.contact}}</td>
+        </tr>
+    </tbody>
+
+</table>

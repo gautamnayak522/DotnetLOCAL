@@ -1,0 +1,41 @@
+<form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+
+    <label for="first-name">First Name: </label>
+    <input id="first-name" type="text" formControlName="firstName">
+    <span *ngIf="profileForm.invalid" class="text-danger"> *</span>
+    <span *ngIf="profileForm.valid" class="text-success">OK</span>
+    <br /><br />
+    <label for="last-name">Last Name: </label>
+    <input id="last-name" type="text" formControlName="lastName">
+    <br /><br />
+    <div formGroupName="address">
+        <h3>Address</h3>
+        
+        <label for="street">Street: </label>
+        <input id="street" type="text" formControlName="street">
+        <br/><br/>
+        <label for="city">City: </label>
+        <input id="city" type="text" formControlName="city">
+        <br/><br/>
+        <label for="state">State: </label>
+        <input id="state" type="text" formControlName="state">
+        <br/><br/>
+        <label for="zip">Zip Code: </label>
+        <input id="zip" type="text" formControlName="zip"><br/>
+    </div>
+    <div formArrayName="hobbies">
+        <h3>Hobbies</h3>
+   
+        <div *ngFor="let hobby of hobbies.controls; let i=index">
+            <label for="hobby-{{ i }}">Hobby:</label>
+            <input id="hobby-{{ i }}" type="text" [formControlName]="i">
+        </div>
+        
+        <button type="button" (click)="addHobbies()">+ Add another Hobby</button>
+    </div>
+    <br/>
+    <button type="submit" [disabled]="!profileForm.valid">Submit</button>
+    <button type="button" (click)="updateProfile()">Update Profile</button>
+</form>
+<p>Form Status: {{ profileForm.status }}</p>
+<p>{{profileForm.value|json}}</p>

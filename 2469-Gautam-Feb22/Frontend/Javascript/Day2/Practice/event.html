@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENT in JS</title>
+</head>
+<body>
+    <h2 id="p2" onclick="this.innerHTML='Good!'">Click here</h2>
+    <p id="p1">OLD TEXT</p>
+
+    <button onclick="change(p1)">CHANGE</button>
+
+    <button onclick="document.getElementById('p1').innerHTML = Date();">Date</button>
+
+         <div onmouseover="min(this)" onmouseout="mout(this)"
+        style="background-color:beige;width:120px;height:20px;padding:40px;margin: 20px;">
+        Mouse Over Me</div>
+
+        <button id="myBtn">Display Date using EventListener</button>
+        <button id="myBtn2">Try it</button>
+
+    <script>
+        document.getElementById("myBtn").addEventListener("click", displayDate);
+
+        function change(id){
+            id.innerHTML="Changed";
+        }
+        function displayDate() {
+            document.getElementById("p1").innerHTML = Date();
+        }
+        function min(object){
+            object.innerHTML = "Thank You"
+        }
+        function mout(object){
+            object.innerHTML = "Mouse Over Me"
+        }
+
+        document.getElementById("myBtn2").addEventListener("mouseover",check)
+        function check(){
+	    alert("Hello World!");
+        }
+    </script>
+</body>
+</html>

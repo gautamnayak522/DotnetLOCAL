@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+
+  </head>
+  <style>
+      
+      .navbar { 
+        grid-area: navbar; 
+        height:53px;
+        background-color: darkcyan;
+        font-size: 40px;
+        text-align: center;   
+       
+      }
+      .navbar a
+      {
+        color:aliceblue;
+        margin: 10px;
+        padding: 30px 10px;
+      }
+      .sidebar { grid-area: sidebar;
+          
+          background-color: wheat; 
+            font-size: 20px;
+            height: 800px;
+            width:300px;
+            overflow-y: scroll;
+            
+        }
+      .main { 
+          
+          grid-area: main; 
+          background-color:papayawhip;
+          height: 800px;
+          width: 1200px;
+          overflow-y: scroll;
+          overflow-x: hidden;    
+      }
+
+      .container
+      {
+        display: grid;
+        grid-template-areas: 'navbar navbar navbar navbar'
+        'sidebar main main main';
+      }
+      section{
+          min-height: 100vh;
+        }
+
+  </style>
+
+  <body>
+    <div id="app"></div>
+    <script type="module" src="../main.js"></script>
+ 
+    <div class="container">
+      
+      <nav class="navbar" aria-label="">
+        <a href="../index.html" >HOME</a>
+        <a href="../HTML/index.html" >HTML</a>
+        <a href="../CSS/index.html" >CSS</a>
+        <a href="index.html">BOOTSTRAP</a>
+        <a href="../tailwind/index.html">TAILWIND</a>
+        <a href="../Javascript/index.html">JAVASCRIPT</a>
+        <a href="../jQuery/index.html">JQUERY</a>
+      </nav>
+
+      <div class="sidebar">
+        <h3>BOOTSTRAP</h3><a href="index2.html">Index2</a>
+        <ul>
+              <li>
+                  Day1
+                  <ul>
+                      <li>Practice exercise
+                          <ul>
+                          <li><a href=#practice1>Practice1</a></li>
+                          <li><a href=#practice2>Practice2</a></li>
+                          <li><a href=#practice3>Practice3</a></li>
+                          <li><a href=#practice4>Practice4</a></li>
+                          <li><a href=#practice5>Practice5</a></li>
+                          <li><a href=#practice6>Practice6</a></li>
+                          <li><a href=#practice7>Practice7</a></li>
+                          <li><a href=#practice8>Practice8</a></li>
+                          <li><a href=#practice9>Practice9</a></li>
+                          </ul>
+                      </li>
+                  </ul>
+              </li>
+              <li>
+                Day2
+                <ul>
+                    <li>Practice exercise
+                        <ul>
+                        <li><a href=#day2practice1>Practice1</a></li>
+                        <li><a href=#day2practice2>Practice2</a></li>
+                        <li><a href=#day2practice3>Practice3</a></li>
+                        <li><a href=#day2practice4>Practice4</a></li>
+                        </ul>
+                    </li>
+                    <li>Assignment
+                      <ul>
+                      <li><a href=#day2assi1>Assi1 (RESUME)</a></li>
+                      </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+              Day3
+              <ul>
+                  <li>Practice exercise
+                      <ul>
+                      <li><a href=#day3practice1>Practice1</a></li>
+                      <li><a href=#day3practice2>Practice2</a></li>
+                      </ul>
+                  </li>
+                  <li>Assignment
+                    <ul>
+                    <li><a href=#day3assi1>Assi1 (Looplab project)</a></li>
+                    </ul>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            Day4
+            <ul>
+                <li>Practice exercise
+                    <ul>
+                    <li><a href=#day4practice1>Practice1</a></li>
+                    </ul>
+                </li>
+                <li>Assignment
+                  <ul>
+                  <li><a href=#day4assi1>Assi1 (mazuxe project)</a></li>
+                  </ul>
+                </li>
+            </ul>
+          </li>
+          <li>
+            Day5
+            <ul>
+                <li>Assignment
+                  <ul>
+                  <li><a href=#day5assi1>Assi1 (Blogen Admin UI project)</a></li>
+                  </ul>
+                </li>
+            </ul>
+          </li>
+          <li>
+            Day6
+            <ul>
+                <li>Additional task
+                  <ul>
+                  <li><a href=#day6assi1>Additional Task : Flipkart</a></li>
+                  </ul>
+                </li>
+            </ul>
+          </li>
+              
+          </ul>
+      </div>
+
+      <div class="main">
+        
+        <h1>BOOTSTRAP </h1>
+        <hr>
+        <section id="practice1">
+             <a href="Day1/alert.html" target="_blank">Day 1 practice1</a>
+        </section>
+
+        <section id="practice2">
+            <a href="Day1/buttons.html" target="_blank">Day 1 practice2</a>
+        </section>
+        <section id="practice3">
+            <a href="Day1/card.html" target="_blank">Day 1 practice3</a>
+        </section>
+        <section id="practice4">
+            <a href="Day1/colors.html" target="_blank">Day 1 practice4</a>
+        </section>
+        <section id="practice5">
+            <a href="Day1/first.html" target="_blank">Day 1practice5</a>
+        </section>
+        <section id="practice6">
+            <a href="Day1/form.html" target="_blank">Day 1 practice6</a>
+        </section>
+        <section id="practice7">
+            <a href="Day1/grid.html" target="_blank">Day 1 practice7</a>
+        </section>
+        <section id="practice8">
+            <a href="Day1/table.html" target="_blank">Day 1 practice8</a>
+        </section>
+        <section id="practice9">
+            <a href="Day1/typography.html" target="_blank">Day 1 practice9</a>
+        </section>
+
+
+        <section id="day2practice1">
+          <a href="Day2/figure.html" target="_blank">Day 2 practice1</a>
+      </section>
+      <section id="day2practice2">
+          <a href="Day2/image.html" target="_blank">Day 2 practice2</a>
+      </section>
+      <section id="day2practice3">
+          <a href="Day2/list.html" target="_blank">Day 2 practice3</a>
+      </section>
+      <section id="day2practice4">
+        <a href="Day2/dropdown.html" target="_blank">Day 2 practice4</a>
+    </section>
+      <section id="day2assi1">
+          <a href="Day2/Assignment/resume.html" target="_blank">Day 2 Assi1 resume</a>
+      </section>
+
+          <section id="day3practice1">
+            <a href="Day3/album.html" target="_blank">Day 3 practice1</a>
+        </section>
+        <section id="day3practice2">
+            <a href="Day3/collapse.html" target="_blank">Day 3 practice2</a>
+        </section>
+        <section id="day3assi1">
+            <a href="Day3/Assignment/looplab.html" target="_blank">Day 3 Assi1 project1 Looplab</a>
+        </section>
+
+        <section id="day4practice1">
+          <a href="Day4/carousel.html" target="_blank">Day 4 practice1</a>
+       </section>
+        <section id="day4assi1">
+          <a href="Day4/Assignment/mizuxe.html" target="_blank">Day 4 assi1 project2  Mazuxe</a>
+       </section>
+
+       <section id="day5assi1">
+        <a href="Day5/blogen Admin UI/index.html" target="_blank">Day 5 Assi1 project 3 Blogen admin UI</a>
+     </section>
+
+      <section id="day6assi1">
+      <a href="Day6/flipkart/index.html" target="_blank">Additional Exercise : Flipkart</a>
+       </section>
+
+      </div>
+    </div>
+  </body>
+</html>

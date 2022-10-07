@@ -1,0 +1,87 @@
+<h3>Standard : {{ id }}</h3>
+<div>
+  <div *ngFor="let item of finallist" class="container">
+    <label for="select">Select Student : </label>
+    <select [(ngModel)]="item.Name" class="w-25">
+      <option value="">select</option>
+      <option *ngFor="let s of studentlist" value="{{ s.Name }}">
+        {{ s.Name }}
+      </option>
+    </select>
+    <br />
+    <br />
+    <ul *ngFor="let l of item.units; let i = index" class="list-unstyled">
+      <li>
+        <label for="item-{{ i }}"
+          >Unit {{ i + 1 }} :<span class="required">*</span></label
+        >
+        <input
+          id="item-{{ i }}"
+          class="w-50"
+          type="text"
+          [(ngModel)]="l.Unit"
+        />
+      </li>
+    </ul>
+  </div>
+
+  <button type="submit" class="rounded btn-primary" (click)="onSubmit()">
+    Submit
+  </button>
+  <button type="button" class="rounded btn-danger" (click)="onClear()">
+    Reset
+  </button>
+</div>
+<hr />
+
+<table class="w-50 table-bordered" *ngIf="allentries.length">
+  <caption>
+    ALL ENTRIES
+  </caption>
+  <tr>
+    <th>Name</th>
+    <th>Standard</th>
+    <th>Result</th>
+  </tr>
+  <tbody *ngFor="let item of allentries">
+    <tr *ngFor="let entry of item">
+      <td>{{ entry.Name }}</td>
+      <td>{{ entry.Standard }}</td>
+      <td>
+        <button class="btn-primary" (click)="printResult(entry)">Print</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="text-center">
+  <table class="w-50 table table-bordered text-center">
+    <caption>
+      RESULT
+    </caption>
+    <tbody *ngFor="let entry of filterdlist">
+      <tr>
+        <th colspan="2">ABC SCHOOL</th>
+      </tr>
+      <tr>
+        <td>Name : {{ entry.Name }}</td>
+        <td>Standard : {{ entry.Standard }}</td>
+      </tr>
+      <tr>
+        <td colspan="2">{{ currdate }}</td>
+      </tr>
+      <tr *ngFor="let m of entry.units; let i = index">
+        <td>Unit {{ i + 1 }}</td>
+        <td>{{ m.Unit }}</td>
+      </tr>
+      <tr>
+        <td colspan="2">Total Mark : {{ entry.units.length * 100 }}</td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          Obtained Mark : {{ calculateobtained(entry.units) }}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,16 @@
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\ExtensionPractice\ExtensionPractice\bin\Debug\net5.0\ExtensionPractice.exe
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\ExtensionPractice\ExtensionPractice\bin\Debug\net5.0\ExtensionPractice.deps.json
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\ExtensionPractice\ExtensionPractice\bin\Debug\net5.0\ExtensionPractice.runtimeconfig.json
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\ExtensionPractice\ExtensionPractice\bin\Debug\net5.0\ExtensionPractice.runtimeconfig.dev.json
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\ExtensionPractice\ExtensionPractice\bin\Debug\net5.0\ExtensionPractice.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\ExtensionPractice\ExtensionPractice\bin\Debug\net5.0\ref\ExtensionPractice.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\ExtensionPractice\ExtensionPractice\bin\Debug\net5.0\ExtensionPractice.pdb
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\ExtensionPractice\ExtensionPractice\obj\Debug\net5.0\ExtensionPractice.csproj.AssemblyReference.cache
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\ExtensionPractice\ExtensionPractice\obj\Debug\net5.0\ExtensionPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\ExtensionPractice\ExtensionPractice\obj\Debug\net5.0\ExtensionPractice.AssemblyInfoInputs.cache
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\ExtensionPractice\ExtensionPractice\obj\Debug\net5.0\ExtensionPractice.AssemblyInfo.cs
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\ExtensionPractice\ExtensionPractice\obj\Debug\net5.0\ExtensionPractice.csproj.CoreCompileInputs.cache
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\ExtensionPractice\ExtensionPractice\obj\Debug\net5.0\ExtensionPractice.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\ExtensionPractice\ExtensionPractice\obj\Debug\net5.0\ref\ExtensionPractice.dll
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\ExtensionPractice\ExtensionPractice\obj\Debug\net5.0\ExtensionPractice.pdb
+C:\Users\gautam.nayak\Desktop\DotnetLOCAL\Day9\ExtensionPractice\ExtensionPractice\obj\Debug\net5.0\ExtensionPractice.genruntimeconfig.cache

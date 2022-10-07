@@ -1,0 +1,53 @@
+[
+    {
+        "EmpId": 1,
+        "FirstName": "ABC",
+        "LastName": "AAA",
+        "Assignments": [
+            {
+                "AssignmentId": 1,
+                "AssignmentCategory": "HTML",
+                "AssignmentName": "RESUME",
+                "AssignmentStatus": "Completed"
+            },
+            {
+                "AssignmentId": 2,
+                "AssignmentCategory": "JS",
+                "AssignmentName": "Emplyees Rest Api",
+                "AssignmentStatus": "Pending"
+            }
+        ]
+    },
+    {
+        "EmpId": 2,
+        "FirstName": "XYZ",
+        "LastName": "BBB",
+        "Assignments": [
+            {
+                "AssignmentId": 1,
+                "AssignmentCategory": "Node",
+                "AssignmentName": "Dealers Rest Api",
+                "AssignmentStatus": "Completed"
+            }
+        ]
+    },
+    {
+        "EmpId": 3,
+        "FirstName": "PQR",
+        "LastName": "CCC",
+        "Assignments": [
+            {
+                "AssignmentId": 1,
+                "AssignmentName": "Rest Api",
+                "AssignmentStatus": "Completed",
+                "AssignmentCategory": "Java"
+            },
+            {
+                "AssignmentId": 2,
+                "AssignmentName": "Index pages",
+                "AssignmentStatus": "Completed",
+                "AssignmentCategory": "Angular"
+            }
+        ]
+    }
+]

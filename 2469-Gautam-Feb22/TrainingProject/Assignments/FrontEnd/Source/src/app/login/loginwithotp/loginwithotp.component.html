@@ -1,0 +1,12 @@
+<div class="container p-5">
+    <h6>Please enter the OTP sent to Registerd Number </h6>
+    <input type="text" class="form-controller w-100" [(ngModel)]="Otp">
+    <div class="pt-3">
+    <button type="button" class="btn btn-success" (click)="VerifyOtp()">
+        Submit
+      </button>
+      <button class="btn btn-danger" (click)="cancelOtp()" >
+        Cancel
+      </button>
+    </div>
+</div>

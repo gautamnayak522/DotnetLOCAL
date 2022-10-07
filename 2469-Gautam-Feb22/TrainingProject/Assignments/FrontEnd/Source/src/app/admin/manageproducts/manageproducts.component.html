@@ -1,0 +1,540 @@
+<div class="container">
+
+    <div class="" >
+
+        <div class="col-1 p-0 position-fixed">
+
+            <div class="d-flex flex-column">
+                <div class="pb-3">
+                    <a href="admin/manageproducts#" class="text-decoration-none">Manage Products</a>
+                </div>
+                <div class="pb-3">
+                    <a href="admin/manageproducts#products" class="btn btn-success btn-block">Products </a>
+                </div>
+
+                <div class="pb-3">
+                    <a href="admin/manageproducts#category" class="btn btn-success btn-block">Catergory </a>
+                </div>
+                <div class="pb-3">
+                    <a href="admin/manageproducts#subcategory" class="btn btn-success btn-block">SubCategory </a>
+                </div>
+                <div class="pb-3">
+                    <a href="admin/manageproducts#brands" class="btn btn-success btn-block">Brands </a>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="offset-2 col-11  p-0">
+            <div id="category" class="pt-5">
+                <h3>Categories</h3>
+
+                <div class="col-md-6 pb-3">
+                    <a href="" class="btn btn-success btn-block" data-bs-toggle="modal"
+                        data-bs-target="#addCategoryModal"><span class="fa fa-plus"></span> Add Catergory </a>
+                </div>
+
+                <table class="table">
+                    <caption>Categories</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Category Id</th>
+                            <th scope="col">Category Name</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let item of categories">
+                            <td>{{item.catId}}</td>
+                            <td>{{item.catName}}</td>
+                            <td class="d-flex gap-2">
+                                <button class="btn btn-secondary" data-bs-toggle="modal"
+                                    data-bs-target="#updateCategoryModal" (click)="editcategory(item)">Edit</button>
+                                <button class="btn btn-danger" (click)="deletecategory(item.catId)"><span
+                                        class="fa fa-trash"></span></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="subcategory" class="pt-5">
+                <h3>SubCategories</h3>
+
+                <div class="col-md-6 pb-3">
+                    <a href="" class="btn btn-success btn-block" data-bs-toggle="modal"
+                        data-bs-target="#addSubCategoryModal"><span class="fa fa-plus"></span> Add SubCatergory </a>
+                </div>
+
+                <table class="table">
+                    <caption>Sub Categories</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">SubCategory Id</th>
+                            <th scope="col">Category Id</th>
+                            <th scope="col">SubCategory Name</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let item of subcategories">
+                            <td>{{item.subcatId}}</td>
+                            <td>{{item.catId}}</td>
+                            <td>{{item.subcatName}}</td>
+                            <td class="d-flex gap-2">
+                                <button class="btn btn-secondary" (click)="editsubcategory(item)" data-bs-toggle="modal"
+                                    data-bs-target="#updateSubCategoryModal">Edit</button>
+                                <button class="btn btn-danger" (click)="deletesubcategory(item.subcatId)"><span
+                                        class="fa fa-trash"></span></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="brands" class="pt-5">
+                <h3>Brands</h3>
+
+                <div class="col-md-6 pb-3">
+                    <a href="" class="btn btn-success btn-block" data-bs-toggle="modal"
+                        data-bs-target="#addBrandModal"><span class="fa fa-plus"></span> Add Brand </a>
+                </div>
+
+                <table class="table">
+                    <caption>Brands</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Brand Id</th>
+                            <th scope="col">Brand Name</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let item of brands">
+                            <td>{{item.brandId}}</td>
+                            <td>{{item.brandName}}</td>
+                            <td class="d-flex gap-2">
+                                <button class="btn btn-secondary" (click)="editbrand(item)" data-bs-toggle="modal"
+                                    data-bs-target="#updateBrandModal">Edit</button>
+                                <button class="btn btn-danger" (click)="deletebrand(item.brandId)"><span
+                                        class="fa fa-trash"></span></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="products" class="pt-5">
+                <h3>Products</h3>
+
+                <div class="col-md-6 pb-3">
+                    <a href="" class="btn btn-success btn-block" data-bs-toggle="modal"
+                        data-bs-target="#addProductModal"><span class="fa fa-plus"></span> Add Product </a>
+                </div>
+
+                <p> Search :
+                    <input type="text" name="" id="" [(ngModel)]="productSearch" class="form-control d-inline w-50">
+                </p>
+
+                <table class="table">
+                    <caption>Products</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Product Id</th>
+                            <th scope="col">Product Name</th>
+                            <th scope="col">Category Name</th>
+                            <th scope="col">SubCategory Name</th>
+                            <th scope="col">Brand Name</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Available Quantity</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr
+                            *ngFor="let item of products | paginate: { itemsPerPage: 6, currentPage: p } | filter:productSearch">
+                            <td>{{item.productId}}</td>
+                            <td>{{item.productName}}</td>
+                            <td>{{item.catName}}</td>
+                            <td>{{item.subCatName}}</td>
+                            <td>{{item.brandName}}</td>
+                            <td>{{item.price}}</td>
+
+                            <td *ngIf="!item.editmode">
+                                {{item.availableQuantity}} <button class="btn-secondary"><span class="fa fa-pencil"
+                                        (click)="changestatusbutton(item.productId,item.availableQuantity)"></span></button>
+                            </td>
+
+                            <ng-container *ngIf="item.editmode" class="w-100">
+                                <input type="text" [(ngModel)]="newquantity" class="w-25">
+                                <button (click)="savestatus()" class="btn btn-primary text-black"><span class="fa fa-pencil"></span></button>
+                                <button (click)="cancel()" class="btn btn-danger text-black"><span class="fa fa-pencil"></span></button>
+                            </ng-container>
+
+                            <td class="d-flex gap-2">
+                                <button class="btn btn-secondary" (click)="editproduct(item)" data-bs-toggle="modal"
+                                    data-bs-target="#updateProductModal">Edit</button>
+                                <button class="btn btn-danger" (click)="deleteproduct(item.productId)"><span
+                                        class="fa fa-trash"></span></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <pagination-controls (pageChange)="p = $event"></pagination-controls>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Add Category Model -->
+<div class="modal fade" id="addCategoryModal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-success text-white">
+                <h5 class="modal-title">Add Category</h5>
+                <button class="close" data-bs-dismiss="modal"><span>&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <form [formGroup]="categoryform">
+                    <div class="form-group">
+                        <label for="title">Category Name</label>
+                        <input type="text" class="form-control" formControlName="catName">
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Description</label>
+                        <input type="text" class="form-control" formControlName="description">
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Thumbnail</label>
+                        <input type="text" class="form-control" formControlName="thumbnail">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal" (click)="addCategory()">Save
+                    Changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Update Category Model -->
+<div class="modal fade" id="updateCategoryModal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-success text-white">
+                <h5 class="modal-title">Update Category</h5>
+                <button class="close" data-bs-dismiss="modal"><span>&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <form [formGroup]="categoryform">
+                    <div class="form-group">
+                        <label for="title">Category Name</label>
+                        <input type="text" class="form-control" formControlName="catName">
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Description</label>
+                        <input type="text" class="form-control" formControlName="description">
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Thumbnail</label>
+                        <input type="text" class="form-control" formControlName="thumbnail">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal" (click)="updateCategory()">Save
+                    Changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Add SubCategory Model -->
+<div class="modal fade" id="addSubCategoryModal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-success text-white">
+                <h5 class="modal-title">Add SubCategory</h5>
+                <button class="close" data-bs-dismiss="modal"><span>&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <form [formGroup]="subcategoryform">
+                    <div class="form-group">
+                        <label for="title">Select Category</label>
+                        <select name="" id="" class="form-control" formControlName="catID">
+                            <option value="" selected disabled hidden>Select</option>
+                            <option *ngFor="let item of categories" [value]="item.catId">{{item.catName}}</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="title">SubCategory Name</label>
+                        <input type="text" class="form-control" formControlName="subcatName">
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Description</label>
+                        <input type="text" class="form-control" formControlName="description">
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Thumbnail</label>
+                        <input type="text" class="form-control" formControlName="thumbnail">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal" (click)="addsubcategory()">Save
+                    Changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Update SubCategory Model -->
+<div class="modal fade" id="updateSubCategoryModal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-success text-white">
+                <h5 class="modal-title">Update SubCategory</h5>
+                <button class="close" data-bs-dismiss="modal"><span>&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <form [formGroup]="subcategoryform">
+                    <div class="form-group">
+                        <label for="title">Select Category</label>
+                        <select name="" id="" class="form-control" formControlName="catID">
+                            <option value="" selected disabled hidden>Select</option>
+                            <option *ngFor="let item of categories" [value]="item.catId">{{item.catName}}</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="title">SubCategory Name</label>
+                        <input type="text" class="form-control" formControlName="subcatName">
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Description</label>
+                        <input type="text" class="form-control" formControlName="description">
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Thumbnail</label>
+                        <input type="text" class="form-control" formControlName="thumbnail">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal" (click)="updatesubCategory()">Save
+                    Changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Add Brand Model -->
+<div class="modal fade" id="addBrandModal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-success text-white">
+                <h5 class="modal-title">Add Brand</h5>
+                <button class="close" data-bs-dismiss="modal"><span>&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <form [formGroup]="brandform">
+                    <div class="form-group">
+                        <label for="title">Brand Name</label>
+                        <input type="text" class="form-control" formControlName="brandName">
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Description</label>
+                        <input type="text" class="form-control" formControlName="description">
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Thumbnail</label>
+                        <input type="text" class="form-control" formControlName="thumbnail">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal" (click)="addbrand()">Save
+                    Changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Update Brand Model -->
+<div class="modal fade" id="updateBrandModal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-success text-white">
+                <h5 class="modal-title">Update Brand</h5>
+                <button class="close" data-bs-dismiss="modal"><span>&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <form [formGroup]="brandform">
+                    <div class="form-group">
+                        <label for="title">Brand Name</label>
+                        <input type="text" class="form-control" formControlName="brandName">
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Description</label>
+                        <input type="text" class="form-control" formControlName="description">
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Thumbnail</label>
+                        <input type="text" class="form-control" formControlName="thumbnail">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal" (click)="updatebrand()">Save
+                    Changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Add Product Model -->
+
+<div class="modal fade" id="addProductModal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-success text-white">
+                <h5 class="modal-title">Add Product</h5>
+                <button class="close" data-bs-dismiss="modal"><span>&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <form [formGroup]="productform">
+                    <div class="form-group">
+                        <label for="title">Product Name</label>
+                        <input type="text" class="form-control" formControlName="productName">
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Select SubCategory</label>
+                        <select name="" id="" class="form-control" formControlName="catID">
+                            <option value="" selected disabled hidden>Select</option>
+                            <option *ngFor="let item of subcategories" [value]="item.subcatId">{{item.subcatName}}
+                            </option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Select Brand</label>
+                        <select name="" id="" class="form-control" formControlName="brandID">
+                            <option value="" selected disabled hidden>Select</option>
+                            <option *ngFor="let item of brands" [value]="item.brandId">{{item.brandName}}</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Description</label>
+                        <input type="text" class="form-control" formControlName="description">
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Price</label>
+                        <input type="text" class="form-control" formControlName="price">
+                    </div>
+
+                    <div formArrayName="productsInventories" class="form-group">
+                        <h4>Product Quantity</h4>
+
+                        <div *ngFor="let emr of invs.controls; let i = index">
+                            <div [formGroupName]="i">
+                                <input id="invs" class="w-100 form-control" type="text" formControlName="qty" />
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div formArrayName="productImages" class="form-group">
+
+                        <h4>Product Images</h4>
+
+                        <div *ngFor="let emr of images.controls; let i = index">
+                            <div [formGroupName]="i">
+
+                                <label>Image {{ i + 1 }} : </label>
+                                <input id="emr" class="w-75" type="text" formControlName="imageUrl" />
+
+                                <button type="button" [disabled]="images.length == 1" class="rounded"
+                                    (click)="removeimage(i)">
+                                    -
+                                </button>
+                            </div>
+                        </div>
+
+                        <button type="button" class="btn-primary rounded" (click)="addimage()">
+                            + Add another Image
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal" (click)="addproduct()">Save
+                    Changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Update Product Model -->
+
+<div class="modal fade" id="updateProductModal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-success text-white">
+                <h5 class="modal-title">Update Product</h5>
+                <button class="close" data-bs-dismiss="modal"><span>&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <form [formGroup]="productform">
+                    <div class="form-group">
+                        <label for="title">Product Name</label>
+                        <input type="text" class="form-control" formControlName="productName">
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Select SubCategory</label>
+                        <select name="" id="" class="form-control" formControlName="catID">
+                            <option value="" selected disabled hidden>Select</option>
+                            <option *ngFor="let item of subcategories" [value]="item.subcatId">{{item.subcatName}}
+                            </option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Select Brand</label>
+                        <select name="" id="" class="form-control" formControlName="brandID">
+                            <option value="" selected disabled hidden>Select</option>
+                            <option *ngFor="let item of brands" [value]="item.brandId">{{item.brandName}}</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Description</label>
+                        <input type="text" class="form-control" formControlName="description">
+                    </div>
+                    <div class="form-group">
+                        <label for="title">Price</label>
+                        <input type="text" class="form-control" formControlName="price">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal" (click)="updateproduct()">Save
+                    Changes</button>
+            </div>
+        </div>
+    </div>
+</div>

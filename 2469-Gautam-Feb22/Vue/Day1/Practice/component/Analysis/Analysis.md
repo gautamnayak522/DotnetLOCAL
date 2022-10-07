@@ -1,0 +1,1 @@
+Vue Components are one of the important features of VueJS that creates custom elements, which can be reused in HTML.

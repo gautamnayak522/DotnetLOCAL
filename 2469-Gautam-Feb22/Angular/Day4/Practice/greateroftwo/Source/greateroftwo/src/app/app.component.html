@@ -1,0 +1,13 @@
+<h2>Find out greater of two number</h2>
+<button (click)="show = !show">{{show ? 'hide' : 'show'}}</button>
+
+<div *ngIf="show">
+<p>Number 1 : <input type="number" [(ngModel)]="num1"/></p>
+<p>Number 2 : <input type="number" [(ngModel)]="num2"/></p>
+<p>Number 1 : {{num1}}, Number 2 : {{num2}}</p>
+
+<div *ngIf="compare; else elseBlock">
+  <p>Number1 {{num1}} is Large</p>
+</div>
+<ng-template #elseBlock>Number2 {{num2}} is Large</ng-template>
+</div>

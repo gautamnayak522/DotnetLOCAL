@@ -1,0 +1,17 @@
+<h3>User List</h3>
+<ul>
+<li *ngFor="let user of userlist">
+    <a [routerLink]="['userdetails',user.userID]">{{user.userID}}, {{user.userName}}</a>
+</li>
+</ul>
+
+<label for="select">Select User :  </label>
+<select [(ngModel)]="selected">
+    <option value="">select</option>
+    <option *ngFor="let user of userlist" value={{user.userID}}>{{user.userID}}, {{user.userName}}</option>
+</select>
+<button class="btn btn-primary m-2" [routerLink]="['userdetails',selected]">Get Details</button>
+
+<div>
+    <router-outlet></router-outlet>
+</div>

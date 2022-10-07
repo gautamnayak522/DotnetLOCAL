@@ -1,0 +1,62 @@
+<div class="container pt-5">
+<p>Create a Employee Form which contains EmployeeID,Name,Address, Gender, DOJ, Hobbies and on button click it should be stored it in Employee Array. Iterate that list in tabular format. Filter the list who has joined in the current month. and sort the list based on Name.</p>
+<div class="col-6">
+<form class="frm" #empdata="ngForm" (ngSubmit)="onClickSubmit(empdata.value)" >
+  <strong>EMP ID : </strong> 
+  <input type=text name="eid" class="form-control" ngModel><br>
+  <strong>EMP Name :</strong> 
+  <input type=text name="ename" class="form-control" ngModel><br>
+  <strong>Address :</strong> 
+  <input type="text" name="eaddr" class="form-control" ngModel><br>
+  <strong>Gender : </strong>
+  <input name="gender" type="radio" value="male" class="form-check-input" ngModel/> Male   
+  <input name="gender" type="radio" value="female" class="form-check-input" ngModel/> Female <br /><br />   
+  <strong>DOJ :</strong> 
+  <input type="date" name="doj" class="form-control" ngModel><br>
+  <strong>Hobbies :</strong> 
+  <input type="text" name="hobbies" class="form-control" ngModel><br>
+  <input type=submit value=Submit class="btn btn-primary">
+  </form>
+</div>
+  <div class="col-6">
+  <p>SORTED LIST OF EMPLOYEE BASED ON NAME, WHO HAS JOINED IN CURRENT MONTH</p>
+  <p class="green">*Joined in this month </p>
+  <p class="red">*Not Joined in this month </p>
+  <table class="table pt-5">
+    <caption>LIST OF EMPLOYEE </caption>
+    <thead>
+    <tr>
+      <th>EID</th>
+      <th>ENAME</th>
+      <th>ADDRESS</th>
+      <th>GENDER</th>
+      <th>DOJ</th>
+      <th>HOBBIES</th>
+    </tr>
+  </thead>
+  <tbody>
+    <ng-container *ngFor="let item of values">
+    <tr class="green" *ngIf="checkdate(item); else clear" >
+      <td>{{item.eid}}</td>
+      <td>{{item.ename}}</td>
+      <td>{{item.eaddr}}</td>
+      <td>{{item.gender}}</td>
+      <td>{{item.doj}}</td>
+      <td>{{item.hobbies}}</td>
+    </tr>
+    <ng-template #clear>
+      <tr class="red">
+      <td>{{item.eid}}</td>
+      <td>{{item.ename}}</td>
+      <td>{{item.eaddr}}</td>
+      <td>{{item.gender}}</td>
+      <td>{{item.doj}}</td>
+      <td>{{item.hobbies}}</td>
+      </tr>
+    </ng-template>
+  </ng-container>
+  </tbody>
+  </table>
+</div>
+</div>
+

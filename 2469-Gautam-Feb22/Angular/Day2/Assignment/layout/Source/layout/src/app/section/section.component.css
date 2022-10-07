@@ -1,0 +1,13 @@
+section {
+    background-color:azure;
+    height: 529px;
+    overflow-y: scroll;
+   
+}
+section #home{
+  min-height: 100%;
+}
+section #about{
+    min-height: 100%;
+  }
+

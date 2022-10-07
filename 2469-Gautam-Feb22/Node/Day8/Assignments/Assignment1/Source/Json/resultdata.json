@@ -1,0 +1,21 @@
+[{
+    "Id":1,
+    "Name":"ABC",
+    "Total":400,
+    "Obtained":250,
+    "Result":"Pass"
+},
+{
+    "Id":2,
+    "Name":"XYZ",
+    "Total":400,
+    "Obtained":200,
+    "Result":"Pass"
+},
+{
+    "Id":1,
+    "Name":"PQR",
+    "Total":400,
+    "Obtained":100,
+    "Result":"fail"
+}]

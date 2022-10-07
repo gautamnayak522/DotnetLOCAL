@@ -1,0 +1,14 @@
+<div class="container-fluid pt-5">
+    <label for="select">Select Standard : </label>
+    <select [(ngModel)]="selected" [routerLink]="['studentlist', selected]" class="w-25">
+      <option value="">select</option>
+      <option *ngFor="let s of stdlist" value="{{ s.Standard }}">
+        {{ s.Standard }}
+      </option>
+    </select>
+  
+    <div>
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  

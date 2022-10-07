@@ -1,0 +1,106 @@
+<div class="pt-5 container col-md-6" *ngIf="authservice.getUser()">
+    <form [formGroup]="profileform" (ngSubmit)="onSubmit()">
+
+        <label for="mobileNo">Mobile No.</label>
+        <input type="text" class="form-control not-allowed" formControlName="mobileNo" readonly />
+
+        <label for="mobileNo">Email Address</label>
+        <input type="text" class="form-control" formControlName="emailAddress" />
+
+        <div>
+            <span class="text-danger" *ngIf="getemailAddress?.touched && getemailAddress?.hasError('required')">
+                <small>emailAddress is required</small>
+            </span>
+            <span class="text-danger" *ngIf="getemailAddress?.touched && getemailAddress?.hasError('pattern')">
+                <small>Enter Valid emailAddress</small>
+            </span>
+        </div>
+
+        <label for="firstName">First Name</label>
+        <input type="text" class="form-control" formControlName="firstName" />
+
+        <label for="lastName">Last Name</label>
+        <input type="text" class="form-control" formControlName="lastName" />
+        
+        <ng-container *ngIf="!this.fororder">
+            <label for="password">Set Password</label>
+            <input type="password" class="form-control" formControlName="password" />
+
+            <div>
+                <span class="text-danger" *ngIf="getpassword?.touched && getpassword?.hasError('pattern')">
+                    <small>Password must contain minimum eight characters, at least one letter, one number and one special character</small>
+                </span>
+            </div>
+
+        </ng-container>
+        <br />
+        <div formGroupName="userAddresses">
+            <h4>Address</h4>
+
+            <label for="addressline1">Addressline1 : </label>
+            <input id="addressline1" class="form-control" type="text" formControlName="addressline1" />
+            <div>
+                <span class="text-danger" *ngIf="getaddressline1?.touched && getaddressline1?.hasError('required')">
+                    <small>This is required</small>
+                </span>
+            </div>
+            <label for="addressline2">Addressline2 : </label>
+            <input id="addressline2" class="form-control" type="text" formControlName="addressline2" />
+            <div>
+                <span class="text-danger" *ngIf="getaddressline2?.touched && getaddressline2?.hasError('required')">
+                    <small>This is required</small>
+                </span>
+            </div>
+            <label for="landMark">LandMark : </label>
+            <input id="landMark" class="form-control" type="text" formControlName="landMark" />
+            <div>
+                <span class="text-danger" *ngIf="getlandMark?.touched && getlandMark?.hasError('required')">
+                    <small>This is required</small>
+                </span>
+            </div>
+
+            <label for="city">City : </label>
+            <input id="city" class="form-control" type="text" formControlName="city" />
+            <div>
+                <span class="text-danger" *ngIf="getcity?.touched && getcity?.hasError('required')">
+                    <small>This is required</small>
+                </span>
+            </div>
+
+            <label for="pin">Pin Code: </label>
+            <input id="pin" class="form-control" type="text" formControlName="pin" />
+            <div>
+                <span class="text-danger" *ngIf="getpin?.touched && getpin?.hasError('required')">
+                    <small>This is required</small>
+                </span>
+                <span class="text-danger" *ngIf="getpin?.hasError('pattern')">
+                    <small>Enter valid PinCode</small>
+                </span>
+            </div>
+        </div>
+
+        <div class="d-flex pt-3 gap-3">
+            <ng-container *ngIf="!this.fororder">
+            <button type="submit" class="btn btn-success w-50" [disabled]="!profileform.valid">
+                Save Details
+            </button>
+            </ng-container>
+
+            <ng-container *ngIf="this.fororder">
+            <button type="submit" class="btn btn-success w-50" [disabled]="!profileform.valid">
+                Confirm Order
+            </button>
+            </ng-container>
+
+            <button type="button" class="btn btn-danger w-50" [routerLink]="['/']"
+                routerLinkActive="router-link-active">
+                Cancel
+            </button>
+        </div>
+
+    </form>
+</div>
+
+
+
+

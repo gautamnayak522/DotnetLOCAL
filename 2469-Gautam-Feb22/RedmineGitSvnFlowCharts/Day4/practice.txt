@@ -1,0 +1,17 @@
+cherry-pick try
+make change and commit again
+
+
+https://github.com/gautamnayak522/GITexercises.git
+
+Tasks:
+Self learning 
+GIT
+    Cherry Pick
+    Rebase
+SVN
+    Import the repository
+    Checkout the repository
+    Commit/update
+    Resolving conflict(merge)
+    adding to ignore list

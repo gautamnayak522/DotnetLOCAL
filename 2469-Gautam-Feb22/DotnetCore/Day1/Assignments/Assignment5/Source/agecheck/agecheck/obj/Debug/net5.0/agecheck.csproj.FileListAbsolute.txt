@@ -1,0 +1,15 @@
+C:\Users\gautam.nayak\Desktop\.NET\agecheck\agecheck\obj\Debug\net5.0\agecheck.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gautam.nayak\Desktop\.NET\agecheck\agecheck\obj\Debug\net5.0\agecheck.AssemblyInfoInputs.cache
+C:\Users\gautam.nayak\Desktop\.NET\agecheck\agecheck\obj\Debug\net5.0\agecheck.AssemblyInfo.cs
+C:\Users\gautam.nayak\Desktop\.NET\agecheck\agecheck\obj\Debug\net5.0\agecheck.csproj.CoreCompileInputs.cache
+C:\Users\gautam.nayak\Desktop\.NET\agecheck\agecheck\bin\Debug\net5.0\agecheck.exe
+C:\Users\gautam.nayak\Desktop\.NET\agecheck\agecheck\bin\Debug\net5.0\agecheck.deps.json
+C:\Users\gautam.nayak\Desktop\.NET\agecheck\agecheck\bin\Debug\net5.0\agecheck.runtimeconfig.json
+C:\Users\gautam.nayak\Desktop\.NET\agecheck\agecheck\bin\Debug\net5.0\agecheck.runtimeconfig.dev.json
+C:\Users\gautam.nayak\Desktop\.NET\agecheck\agecheck\bin\Debug\net5.0\agecheck.dll
+C:\Users\gautam.nayak\Desktop\.NET\agecheck\agecheck\bin\Debug\net5.0\ref\agecheck.dll
+C:\Users\gautam.nayak\Desktop\.NET\agecheck\agecheck\bin\Debug\net5.0\agecheck.pdb
+C:\Users\gautam.nayak\Desktop\.NET\agecheck\agecheck\obj\Debug\net5.0\agecheck.dll
+C:\Users\gautam.nayak\Desktop\.NET\agecheck\agecheck\obj\Debug\net5.0\ref\agecheck.dll
+C:\Users\gautam.nayak\Desktop\.NET\agecheck\agecheck\obj\Debug\net5.0\agecheck.pdb
+C:\Users\gautam.nayak\Desktop\.NET\agecheck\agecheck\obj\Debug\net5.0\agecheck.genruntimeconfig.cache

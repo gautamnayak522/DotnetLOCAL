@@ -1,0 +1,8 @@
+<p>Welcome Admin</p>
+<div class="d-flex gap-3 pb-5 position-sticky">
+    <button type="button" class="btn btn-primary" [routerLink]="['/admin/']" routerLinkActive="router-link-active" >View Orders</button>
+    <button type="button" class="btn btn-primary" [routerLink]="['/admin/manageproducts']" routerLinkActive="router-link-active" >Manage Products</button>
+    <button type="button" class="btn btn-primary" [routerLink]="['/admin/users']" routerLinkActive="router-link-active" >Users</button>
+</div>
+
+<router-outlet class="position-relative pt-5"></router-outlet>

@@ -1,0 +1,66 @@
+<header class="sticky-top">
+    <div class="header-left">
+        <a [routerLink]="['/']" routerLinkActive="router-link-active">Flipkart</a>
+
+        <div class="header-left-p">
+            <p>Explore <span>Plus <span class="fa fa-plus"></span></span></p>
+        </div>
+    </div>
+
+    <div class="header-center form-group pt-2">
+        <input class="header-center-input form-control" type="text" [(ngModel)]="searchTerm" (keyup)="search($event)"
+            placeholder=" Search for products,Brands and more">
+    </div>
+
+    <div class="header-right">
+
+
+        <!-- <a *ngIf="!authservice.getUser()" [routerLink]="['/login']" routerLinkActive="router-link-active"
+            class="active mx-5 text-decoration-none">Login</a>
+        <a *ngIf="authservice.getUser()" [routerLink]="['/']" routerLinkActive="router-link-active"
+            (click)="logout()" class="active mx-5 text-decoration-none">Logout</a> -->
+
+
+
+        <ng-container>
+            <div class="item dropdown">
+                <a class="dropbtn">
+                    <button class="btn btn-primary">
+                    <span style="font-size:30px;" class="fa fa-user text-white "></span>
+                    <span style="font-size: 20px;" class="fa fa-angle-down"></span>
+                </button>
+                </a>
+                <div class="dropdown-content">
+                    <a *ngIf="authservice.getUser()" [routerLink]="['/userprofile']" routerLinkActive="router-link-active" >
+                        <span>My Profile</span>
+                    </a>
+
+                    <a *ngIf="authservice.getUser()" [routerLink]="['/myorder']" routerLinkActive="router-link-active" >
+                        <span>My Orders</span>
+                    </a>
+
+                    <a *ngIf="userroleservice.isAdmin" [routerLink]="['/admin']" routerLinkActive="router-link-active" >
+                        <span>Admin Dashboard</span>
+                    </a>
+
+                    <ng-container>
+                        <a *ngIf="!authservice.getUser()" [routerLink]="['/login']"
+                         routerLinkActive="router-link-active">Login</a>
+
+                        <a *ngIf="authservice.getUser()" [routerLink]="['/']" 
+                            routerLinkActive="router-link-active" (click)="logout()"
+                            >Logout</a>
+
+                       
+                    </ng-container>
+                </div>
+            </div>
+        </ng-container>
+
+        <button routerLink="cart" class="btn btn-primary">
+            <span style="font-size: 30px;" class="fa fa-shopping-cart"></span>
+            <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div>
+        </button>
+    </div>
+
+</header>

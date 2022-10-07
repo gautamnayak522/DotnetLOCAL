@@ -1,0 +1,7 @@
+practicing commit,push,pull  :    
+url : https://github.com/gautamnayak522/practice.git
+No of commits : 10
+
+practicing fork,pull request   :   
+url : https://github.com/gautamnayak522/practice-1.git
+No of Commits : 6 (forked from another account)

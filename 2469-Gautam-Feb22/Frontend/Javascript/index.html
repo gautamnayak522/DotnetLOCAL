@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>JavaScript</title>
+
+</head>
+<style>
+  .navbar {
+    grid-area: navbar;
+    height: 53px;
+    background-color: darkcyan;
+    font-size: 40px;
+    text-align: center;
+
+  }
+
+  .navbar a {
+    color: aliceblue;
+    margin: 10px;
+    padding: 30px 10px;
+  }
+
+  .sidebar {
+    grid-area: sidebar;
+
+    background-color: wheat;
+    font-size: 20px;
+    height: 800px;
+    width: 300px;
+    overflow-y: scroll;
+
+  }
+
+  .main {
+
+    grid-area: main;
+    background-color: papayawhip;
+    height: 800px;
+    width: 1200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .container {
+    display: grid;
+    grid-template-areas: 'navbar navbar navbar navbar'
+      'sidebar main main main';
+  }
+
+  section {
+    min-height: 100vh;
+  }
+</style>
+
+<body>
+  <div id="app"></div>
+  <script type="module" src="../main.js"></script>
+
+  <div class="container">
+
+    <nav class="navbar" aria-label="">
+      <a href="../index.html">HOME</a>
+      <a href="../HTML/index.html">HTML</a>
+      <a href="../CSS/index.html">CSS</a>
+      <a href="../BOOTSTRAP/index.html">BOOTSTRAP</a>
+      <a href="../tailwind/index.html">TAILWIND</a>
+      <a href="index.html">JAVASCRIPT</a>
+      <a href="../jQuery/index.html">JQUERY</a>
+    </nav>
+
+    <div class="sidebar">
+      <h3>JAVASCRIPT</h3>
+      <ul>
+        <li>
+          Day1
+          <ul>
+            <li>Practice exercise
+              <ul>
+                <li><a href=#practice1>Practice1</a></li>
+                <li><a href=#practice2>Practice2</a></li>
+              </ul>
+            </li>
+            <li>Assignment
+              <ul>
+                <li><a href=#day1assi1>Assi1</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          Day2
+          <ul>
+            <li>Practice exercise
+              <ul>
+                <li><a href=#day2practice1>Practice1</a></li>
+                <li><a href=#day2practice2>Practice2</a></li>
+                <li><a href=#day2practice3>Practice3</a></li>
+                <li><a href=#day2practice4>Practice4</a></li>
+                <li><a href=#day2practice5>Practice5</a></li>
+              </ul>
+            </li>
+            <li>Assignment
+              <ul>
+                <li><a href=#day2assi1>Assi1</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          Day3
+          <ul>
+            <li>Practice exercise
+              <ul>
+                <li><a href=#day3practice1>Practice1</a></li>
+                <li><a href=#day3practice2>Practice2</a></li>
+                <li><a href=#day3practice3>Practice3</a></li>
+                <li><a href=#day3practice4>Practice4</a></li>
+                <li><a href=#day3practice5>Practice5</a></li>
+                <li><a href=#day3practice6>Practice6</a></li>
+                <li><a href=#day3practice7>Practice7</a></li>
+                <li><a href=#day3practice8>Practice8</a></li>
+                <li><a href=#day3practice9>Practice9</a></li>
+              </ul>
+            </li>
+            <li>Assignment
+              <ul>
+                <li><a href=#day3assi1>Assi1</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          Day4
+          <ul>
+            <li>Practice exercise
+              <ul>
+                <li><a href=#day4practice1>Practice1</a></li>
+                <li><a href=#day4practice2>Practice2</a></li>
+                <li><a href=#day4practice3>Practice3</a></li>
+              </ul>
+            </li>
+            <li>Assignment
+              <ul>
+                <li><a href=#day4assi1>Assi1</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          Day5
+          <ul>
+            <li>Practice exercise
+              <ul>
+                <li><a href=#day5practice1>Practice1</a></li>
+                <li><a href=#day5practice2>Practice2</a></li>
+                <li><a href=#day5practice3>Practice3</a></li>
+                <li><a href=#day5practice4>Practice4</a></li>
+                <li><a href=#day5practice5>Practice5</a></li>
+                <li><a href=#day5practice6>Practice6</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          Day6
+          <ul>
+            <li>Practice exercise
+              <ul>
+                <li><a href=#day6practice1>Practice1</a></li>
+                <li><a href=#day6practice2>Practice2</a></li>
+              </ul>
+            </li>
+            <li>Assignment
+              <ul>
+                <li><a href=#day6assi1>Assi1</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="main">
+
+      <h1>JAVASCRIPT </h1>
+      <hr>
+      <section id="practice1">
+        <a href="Day1/Practice/practice1.html" target="_blank">Day 1 practice1</a>
+      </section>
+      <section id="practice2">
+        <a href="Day1/Practice/practice2.html" target="_blank">Day 1 practice2</a>
+      </section>
+      <section id="day1assi1">
+        <a href="Day1/Assignment/calculator.html" target="_blank">Day 1 Assi1</a>
+      </section>
+
+      <section id="day2practice1">
+        <a href="Day2/Practice/practice1.html" target="_blank">Day 2 practice1</a>
+      </section>
+      <section id="day2practice2">
+        <a href="Day2/Practice/practice2.html" target="_blank">Day 2 practice2</a>
+      </section>
+      <section id="day2practice3">
+        <a href="Day2/Practice/practice3.html" target="_blank">Day 2 practice3</a>
+      </section>
+      <section id="day2practice4">
+        <a href="Day2/Practice/practice4.html" target="_blank">Day 2 practice4</a>
+      </section>
+      <section id="day2practice5">
+        <a href="Day2/Practice/practice5.html" target="_blank">Day 2 practice5</a>
+      </section>
+      <section id="day2assi1">
+        <a href="Day2/Assignment/assignment1.html" target="_blank">Day 2 Assi1</a>
+      </section>
+
+      <section id="day3practice1">
+        <a href="Day3/Practice/practice1.html" target="_blank">Day 3 practice1</a>
+      </section>
+      <section id="day3practice2">
+        <a href="Day3/Practice/practice2.html" target="_blank">Day 3 practice2</a>
+      </section>
+      <section id="day3practice3">
+        <a href="Day3/Practice/practice3.html" target="_blank">Day 3 practice3</a>
+      </section>
+      <section id="day3practice4">
+        <a href="Day3/Practice/practice4.html" target="_blank">Day 3 practice4</a>
+      </section>
+      <section id="day3practice5">
+        <a href="Day3/Practice/practice5.html" target="_blank">Day 3 practice5</a>
+      </section>
+      <section id="day3practice6">
+        <a href="Day3/Practice/practice6.html" target="_blank">Day 3 practice6</a>
+      </section>
+      <section id="day3practice7">
+        <a href="Day3/Practice/practice7.html" target="_blank">Day 3 practice7</a>
+      </section>
+      <section id="day3practice8">
+        <a href="Day3/Practice/practice8.html" target="_blank">Day 3 practice8</a>
+      </section>
+      <section id="day3practice9">
+        <a href="Day3/Practice/practice9.html" target="_blank">Day 3 practice9</a>
+      </section>
+      <section id="day3assi1">
+        <a href="Day3/Assignment/assi1.html" target="_blank">Day 3 Assi1</a>
+      </section>
+
+      <section id="day4practice1">
+        <a href="Day4/Practice/practice1.html" target="_blank">Day 4 practice1</a>
+      </section>
+      <section id="day4practice2">
+        <a href="Day4/Practice/practice2.html" target="_blank">Day 4 practice2</a>
+      </section>
+      <section id="day4practice3">
+        <a href="Day4/Practice/practice3.html" target="_blank">Day 4 practice3</a>
+      </section>
+      <section id="day4assi1">
+        <a href="Day4/Assignment/assi1.html" target="_blank">Day 4 Assi1</a>
+      </section>
+
+      <section id="day5practice1">
+        <a href="Day5/Practice/practice1.html" target="_blank">Day 5 practice1</a>
+      </section>
+      <section id="day5practice2">
+        <a href="Day5/Practice/practice2.html" target="_blank">Day 5 practice2</a>
+      </section>
+      <section id="day5practice3">
+        <a href="Day5/Practice/practice3.html" target="_blank">Day 5 practice3</a>
+      </section>
+      <section id="day5practice4">
+        <a href="Day5/Practice/practice4.html" target="_blank">Day 5 practice4</a>
+      </section>
+      <section id="day5practice5">
+        <a href="Day5/Practice/practice5.html" target="_blank">Day 5 practice5</a>
+      </section>
+      <section id="day5practice6">
+        <a href="Day5/Practice/practice6.html" target="_blank">Day 5 practice6</a>
+      </section>
+
+      <section id="day6practice1">
+        <a href="Day6/Practice/practice1.html" target="_blank">Day 6 practice1</a>
+      </section>
+      <section id="day6practice2">
+        <a href="Day6/Practice/practice2.html" target="_blank">Day 6 practice2</a>
+      </section>
+      <section id="day6assi1">
+        <a href="Day6/Assignment/assi1.html" target="_blank">Day 6 Assi1</a>
+      </section>
+
+
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<ng-container *ngIf="products.length !=0">
+    <div class="container pt-5">
+        
+        <div class="card w-100">
+            <h2>Cart</h2>
+            <table class="table table-responsive">
+                <caption>Cart</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Sr.No</th>
+                        <th scope="col">Product Name</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Total</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of products; let i = index">
+                        <td>{{i+1}}</td>
+                        <td style="width:25%" (click)="viewdetails(item.productId)">{{item.productName}}</td>
+                        <td style="width: 25%;">{{item.description}}</td>
+                        <td style="width: 15%;">Rs.{{item.price}}</td>
+                        <td style="width: 15%;"><button (click)="minusquantity(item)"><span
+                                    class="fa fa-minus"></span></button><strong> {{item.quantity}} </strong><button
+                                (click)="addquantity(item)"><span class="fa fa-plus"></span></button></td>
+                        <td style="width: 15%;">Rs.{{item.total*item.quantity}}</td>
+                        <td>
+                            <button (click)="removeItem(item)" class="btn btn-danger"><span
+                                    class="fa fa-trash"></span></button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="d-flex flex-row gap-2 align-self-end">
+                <strong>Grand Total : Rs.{{grandTotal}}</strong>
+            </div>
+
+            <div class="d-flex flex-row gap-2 align-self-end pt-2">
+                <button (click)="emptycart()" class="btn btn-danger">Remove All</button>
+                <button routerLink="/" class="btn btn-primary">Shop More</button>
+                <button (click)="makeorder()" class="btn btn-success">Place Order</button>
+            </div>
+
+        </div>
+    </div>
+</ng-container>
+
+
+<ng-container *ngIf="products.length ==0">
+    <div class="container">
+        <div class="card">
+            <h5 class="card-title">My Cart</h5>
+
+            <div class="center">
+                <img src="https://tse4.mm.bing.net/th/id/OIP.8Zlc0JQP09pe9vJnvDL-nQHaHu?pid=ImgDet&rs=1"
+                    alt="">
+                <h4>Your cart is empty!</h4>
+                <h6>Add item to it now</h6>
+                <button routerLink="/" class="btn btn-primary">Shop Now</button>
+            </div>
+        </div>
+    </div>
+</ng-container>

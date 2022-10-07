@@ -1,0 +1,20 @@
+<div class="container pt-5">
+    <span *ngFor="let item of counts;let i = index">
+      <span class="circle-desc" [class.circle-desc-active]="orderStatus == item">{{ item }}</span>
+      <span class="circles" [class.active]="orderStatus == item"></span>
+      <span class="bar" *ngIf="(i != counts.length-1)"></span>
+    </span>
+    <div class="pt-5"></div>
+    <div>
+        <p>Order No. : {{orderdetails.orderNo}}</p>
+        <p>totalAmount : {{orderdetails.totalAmount}}</p>
+        <p>Email sent to {{orderdetails.user.emailAddress}}</p>
+    </div>
+</div>
+
+<ng-http-loader [backdrop]="false"
+[backgroundColor]="'#ff0000'"
+[debounceDelay]="100"
+[extraDuration]="300"
+[minDuration]="300"
+[backdropBackgroundColor]="'#777777'"></ng-http-loader>

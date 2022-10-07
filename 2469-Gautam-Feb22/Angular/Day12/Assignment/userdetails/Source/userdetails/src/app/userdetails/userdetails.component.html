@@ -1,0 +1,20 @@
+<h3>USER DETAILS</h3>
+<p *ngFor="let obj of finallist">{{obj | json }}</p>
+
+<table class="table w-50">
+    <caption>User Details</caption>
+    <tr>
+        <th>userID</th>
+        <th>userName</th>
+        <th>Gender</th>
+        <th>designation</th>
+        <th>PanNumber</th>
+    </tr>
+    <tr *ngFor="let obj of finallist">
+        <td>{{obj.userID}}</td>
+        <td>{{obj.userName}}</td>
+        <td>{{obj.Gender}}</td>
+        <td>{{obj.designation}}</td>
+        <td>{{obj.PanNumber}}</td>
+    </tr>
+</table>

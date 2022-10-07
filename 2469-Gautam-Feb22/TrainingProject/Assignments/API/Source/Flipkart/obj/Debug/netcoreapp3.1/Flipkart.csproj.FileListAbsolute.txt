@@ -1,0 +1,176 @@
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Flipkart.exe
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Flipkart.deps.json
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Flipkart.runtimeconfig.json
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Flipkart.runtimeconfig.dev.json
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Flipkart.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Flipkart.pdb
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\obj\Debug\netcoreapp3.1\Flipkart.csproj.AssemblyReference.cache
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\obj\Debug\netcoreapp3.1\Flipkart.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\obj\Debug\netcoreapp3.1\Flipkart.AssemblyInfoInputs.cache
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\obj\Debug\netcoreapp3.1\Flipkart.AssemblyInfo.cs
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\obj\Debug\netcoreapp3.1\Flipkart.csproj.CoreCompileInputs.cache
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\obj\Debug\netcoreapp3.1\Flipkart.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\obj\Debug\netcoreapp3.1\staticwebassets\Flipkart.StaticWebAssets.Manifest.cache
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\obj\Debug\netcoreapp3.1\staticwebassets\Flipkart.StaticWebAssets.xml
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\obj\Debug\netcoreapp3.1\scopedcss\bundle\Flipkart.styles.css
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\obj\Debug\netcoreapp3.1\Flipkart.RazorTargetAssemblyInfo.cache
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\obj\Debug\netcoreapp3.1\Flipkart.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\obj\Debug\netcoreapp3.1\Flipkart.pdb
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\obj\Debug\netcoreapp3.1\Flipkart.genruntimeconfig.cache
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\obj\Debug\netcoreapp3.1\Flipkart.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\obj\Debug\netcoreapp3.1\Flipkart.csproj.CopyComplete
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Twilio.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\obj\Debug\netcoreapp3.1\Flipkart.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\obj\Debug\netcoreapp3.1\Flipkart.pdb
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Flipkart.exe
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Flipkart.deps.json
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Flipkart.runtimeconfig.json
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Flipkart.runtimeconfig.dev.json
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Flipkart.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Flipkart.pdb
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\Twilio.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\obj\Debug\netcoreapp3.1\Flipkart.csproj.AssemblyReference.cache
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\obj\Debug\netcoreapp3.1\Flipkart.AssemblyInfoInputs.cache
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\obj\Debug\netcoreapp3.1\Flipkart.AssemblyInfo.cs
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\obj\Debug\netcoreapp3.1\Flipkart.csproj.CoreCompileInputs.cache
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\obj\Debug\netcoreapp3.1\Flipkart.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\obj\Debug\netcoreapp3.1\Flipkart.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\obj\Debug\netcoreapp3.1\staticwebassets\Flipkart.StaticWebAssets.Manifest.cache
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\obj\Debug\netcoreapp3.1\staticwebassets\Flipkart.StaticWebAssets.xml
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\obj\Debug\netcoreapp3.1\scopedcss\bundle\Flipkart.styles.css
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\obj\Debug\netcoreapp3.1\Flipkart.RazorTargetAssemblyInfo.cache
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\obj\Debug\netcoreapp3.1\Flipkart.csproj.CopyComplete
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\obj\Debug\netcoreapp3.1\Flipkart.genruntimeconfig.cache
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Gautam Nayak\Desktop\RADIX\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\gautam.nayak\Desktop\2469\2469-Gautam-Feb22\TrainingProject\Assignments\API\Source\Flipkart\bin\Debug\netcoreapp3.1\BCrypt.Net-Core.dll

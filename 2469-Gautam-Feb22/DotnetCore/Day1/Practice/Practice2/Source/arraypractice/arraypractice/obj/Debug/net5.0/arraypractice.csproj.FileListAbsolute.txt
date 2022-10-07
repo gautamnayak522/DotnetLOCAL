@@ -1,0 +1,15 @@
+C:\Users\gautam.nayak\Desktop\.NET\arraypractice\arraypractice\bin\Debug\net5.0\arraypractice.exe
+C:\Users\gautam.nayak\Desktop\.NET\arraypractice\arraypractice\bin\Debug\net5.0\arraypractice.deps.json
+C:\Users\gautam.nayak\Desktop\.NET\arraypractice\arraypractice\bin\Debug\net5.0\arraypractice.runtimeconfig.json
+C:\Users\gautam.nayak\Desktop\.NET\arraypractice\arraypractice\bin\Debug\net5.0\arraypractice.runtimeconfig.dev.json
+C:\Users\gautam.nayak\Desktop\.NET\arraypractice\arraypractice\bin\Debug\net5.0\arraypractice.dll
+C:\Users\gautam.nayak\Desktop\.NET\arraypractice\arraypractice\bin\Debug\net5.0\ref\arraypractice.dll
+C:\Users\gautam.nayak\Desktop\.NET\arraypractice\arraypractice\bin\Debug\net5.0\arraypractice.pdb
+C:\Users\gautam.nayak\Desktop\.NET\arraypractice\arraypractice\obj\Debug\net5.0\arraypractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gautam.nayak\Desktop\.NET\arraypractice\arraypractice\obj\Debug\net5.0\arraypractice.AssemblyInfoInputs.cache
+C:\Users\gautam.nayak\Desktop\.NET\arraypractice\arraypractice\obj\Debug\net5.0\arraypractice.AssemblyInfo.cs
+C:\Users\gautam.nayak\Desktop\.NET\arraypractice\arraypractice\obj\Debug\net5.0\arraypractice.csproj.CoreCompileInputs.cache
+C:\Users\gautam.nayak\Desktop\.NET\arraypractice\arraypractice\obj\Debug\net5.0\arraypractice.dll
+C:\Users\gautam.nayak\Desktop\.NET\arraypractice\arraypractice\obj\Debug\net5.0\ref\arraypractice.dll
+C:\Users\gautam.nayak\Desktop\.NET\arraypractice\arraypractice\obj\Debug\net5.0\arraypractice.pdb
+C:\Users\gautam.nayak\Desktop\.NET\arraypractice\arraypractice\obj\Debug\net5.0\arraypractice.genruntimeconfig.cache

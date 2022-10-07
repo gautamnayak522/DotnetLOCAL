@@ -1,0 +1,40 @@
+<div *ngIf="authservice.getUser()"><button (click)="logout()">LogOut</button></div>
+
+
+<div class="pt-5 container col-md-6" *ngIf="!authservice.getUser()">
+  <form [formGroup]="registrationform" (ngSubmit)="onSubmit()" *ngIf="!isLoggedIn">
+    
+      <label for="Mobile No. ">Mobile No.</label>
+      <input type="text" class="form-control" formControlName="mobileno" />
+      
+      <div>
+
+      <span class="text-danger" *ngIf="getmobileno?.touched && getmobileno?.hasError('required')">
+        <small>Mobile No. is required</small>
+      </span> 
+      <span class="text-danger" *ngIf="getmobileno?.touched && getmobileno?.hasError('pattern')">
+        <small>Enter Valid Mobile Number</small>
+      </span>
+      
+      </div>  
+
+
+    <div class="d-flex pt-3 gap-3">
+      <button type="submit" class="btn btn-success btn-block" (click)="Signupwithotp()">
+        Send OTP
+      </button>
+    </div>
+    <p class="text-center">Already have an account? <a [routerLink]="['/login']"
+        routerLinkActive="router-link-active">Login</a></p>
+    <!-- <div class="form-group">
+      <div class="alert alert-danger" role="alert" *ngIf="f.submitted && isLoginFailed">
+        Login failed:
+      </div>
+
+      <div class="alert alert-success" *ngIf="isLoggedIn">
+        Logged in as {{ roles }}.
+      </div>
+    </div> -->
+  </form>
+</div>
+
